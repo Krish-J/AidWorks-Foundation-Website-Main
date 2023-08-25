@@ -1,0 +1,100 @@
+.navbar{
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+    justify-content: center;
+    height: 60px;
+}
+
+.navbar-container{
+    background-color: #4169e1;
+    font-size: 25px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.navbar-logo{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    margin: 20px;
+    flex-direction: row;
+    display: flex;
+    margin-left: 5%;
+}
+
+.nav-item{
+    border-top: 4px solid #4169e1;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    border-bottom: 3px solid #4169e1;
+    font-weight: 100;
+}
+
+.nav-item:hover{
+    border-bottom: 3px solid white;
+    transition: all 0.2s ease-out;
+}
+
+.navlink-container{
+    align-items: center;
+    max-width: 1200px;
+    width: fit-content;
+    flex-direction: row;
+    display: flex;
+    margin-right: 2%;
+    margin-left: auto;
+}
+
+#checkbox {
+    display: none;
+}
+
+.hamburger{
+    margin-left: 28px;
+    position: relative;
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    align-items:stretch;
+    justify-content: right;
+    cursor: pointer;
+    width: 21px;
+}
+
+.line{
+    position: absolute;
+    width: 21px;
+    height: 2px;
+    background-color: white;
+    border-radius: 3px;
+    transition: transform .25s, opacity .35s;
+}
+
+.line--top{
+    transform: translateY(-7px);
+}
+.line--bottom{
+    transform: translateY(7px);
+}
+
+#checkbox:checked~.line--top{
+    transform: rotate(45deg);
+}
+
+#checkbox:checked~.line--middle{
+    opacity: 0;
+}
+#checkbox:checked~.line--bottom{
+    transform: rotate(-45deg);
+}
