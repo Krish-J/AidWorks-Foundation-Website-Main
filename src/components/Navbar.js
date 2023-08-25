@@ -1,14 +1,18 @@
 import "./Navbar.css";
 import React from "react";
 import {Link} from "react-router-dom";
+import logo from "./aidworksLogo.png";
 
 function Navbar(){
     return(
         <>
         <nav className="navbar">
             <div className="navbar-container">
+                
                 <Link to="/" className="navbar-logo">
-                    AidWorks Foundation
+                <img className="logoImage" src={logo}/>
+                <p className="logoText">AidWorks Foundation</p>
+                    
                 </Link>
                 <div className="navlink-container">
                     <Link to="/donate" className="nav-item">

@@ -7,7 +7,7 @@
 }
 
 .navbar-container{
-    background-color: #4169e1;
+    background-color:rgba(0, 0, 0, 0);
     font-size: 25px;
     height: 60px;
     display: flex;
@@ -25,19 +25,18 @@
     margin: 20px;
     flex-direction: row;
     display: flex;
-    margin-left: 5%;
 }
 
 .nav-item{
-    border-top: 4px solid #4169e1;
-    padding-top: 4px;
+    border-top: 4px solid rgba(0, 0, 0, 0);
+    padding-top: 25px;
     padding-bottom: 4px; 
     text-decoration: none;
     color: white;
     font-family: "Poppins", sans-serif;
     margin: 20px;
-    font-size: 20px;
-    border-bottom: 3px solid #4169e1;
+    font-size: 25px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
     font-weight: 100;
 }
 
@@ -70,6 +69,7 @@
     justify-content: right;
     cursor: pointer;
     width: 21px;
+    padding-top: 40px;
 }
 
 .line{
@@ -97,4 +97,16 @@
 }
 #checkbox:checked~.line--bottom{
     transform: rotate(-45deg);
+}
+.logoImage {
+    position: relative;
+    width: 50px;
+    border-radius: 100%;
+    height: fit-content;
+    margin-top: 15px;
+    margin-left: 2%;
+}
+.logoText {
+    position: absolute;
+    margin-left: 4%;
 }

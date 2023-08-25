@@ -1,0 +1,22 @@
+.parent {
+    background-image: url(landingPageBg.jpg);
+    width: 100%;
+    height: auto;
+    height: 2000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0px;
+    position: absolute;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.content {
+    position: relative;
+    top: 300px;
+    font-size: 60px;
+    margin-right: 40%;
+    margin-left: 3%;
+    font-family: "Poppins";
+    background-image: linear-gradient(90deg, #e7effb, #00bbff);
+    color: transparent;
+    background-clip: text;
+}

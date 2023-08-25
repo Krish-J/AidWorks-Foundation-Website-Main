@@ -1,10 +1,13 @@
 import "./landingPage.css";
 import {Link} from "react-router-dom";
+import bgImage from "./landingPageBg.jpg";
 
 function LandingPage() {
     return (
-        <div className="background">
-            <img src=""/>
+        <div className="parent">
+            <div className="content">
+                <h1>For The People</h1>
+            </div>
         </div>
     );
 }
