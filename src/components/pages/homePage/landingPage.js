@@ -7,6 +7,11 @@ function LandingPage() {
         <div className="parent">
             <div className="content">
                 <h1>For The People</h1>
+                <button>
+                    <Link to="/donate" className="landingButton">
+                        Donate
+                    </Link>
+                </button>
             </div>
         </div>
     );
