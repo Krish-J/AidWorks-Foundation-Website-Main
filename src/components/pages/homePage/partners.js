@@ -13,7 +13,7 @@ function Partners() {
             <div className="partnerText">
                 <h1 className="partnersTitle">Our Partners and Sponsors</h1>
                 <p className="partnersDescription">
-                Our  partners and sponsors play an instrumental role in facilitating our support to families across Shrewsbury and its neighboring areas. Without the backing of these esteemed institutions, many individuals would grapple with significant integration challenges in the U.S. At Aidworks Foundation, we are profoundly grateful for the opportunity to work alongside our dedicated partners and sponsors, together turning aspirations into realities
+                Our  partners and sponsors play an instrumental role in facilitating our support to families across Shrewsbury and its neighboring areas. Without the backing of these esteemed institutions, many individuals would grapple with significant integration challenges in the U.S. At Aidworks Foundation, we are profoundly grateful for the opportunity to work alongside our dedicated partners and sponsors, together turning aspirations into realities.
                 </p>
             </div>
             <div className="partnerImages">
