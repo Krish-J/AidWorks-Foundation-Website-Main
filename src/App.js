@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/homePage/Home';
 import DonateMain from './components/pages/donatePage/donateMain';
 import Footer from './components/footer';
+import OurTeamMain from './components/pages/ourTeamPage/ourTeamMain';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/donate' element={<DonateMain/>}/>
+          <Route exact path='/ourteam' element={<OurTeamMain/>}/>
         </Routes>
         <Footer/>
       </Router>

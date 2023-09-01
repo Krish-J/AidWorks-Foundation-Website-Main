@@ -4,8 +4,8 @@ import bgImage from "./landingPageBg.jpg";
 
 function LandingPage() {
     return (
-        <div className="parent">
-            <div className="content">
+        <div className="landingParent">
+            <div className="landingContent">
                 <h1>For The People</h1>
                 <button className="landDonate">
                     <Link to="/donate" className="landingButton">

@@ -4,7 +4,7 @@ import bgImage from "./landingPageBg.jpg";
 
 function MissionStatement() {
     return (
-        <div className="container">
+        <div className="missionContainer">
             <div className="missionContent">
                 <h1 className="missionTitle">Our Mission</h1>
                 <p1 className="missionText">
