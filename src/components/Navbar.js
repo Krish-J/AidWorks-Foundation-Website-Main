@@ -11,7 +11,7 @@ function Navbar(){
                 
                 <Link to="/" className="navbar-logo">
                 <img className="logoImage" src={logo}/>
-                <p className="logoText">AidWorks Foundation</p>
+                <p className="logoText">AidWork Foundation</p>
                     
                 </Link>
                 <div className="navlink-container">
