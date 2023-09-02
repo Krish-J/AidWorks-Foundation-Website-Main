@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './components/pages/homePage/Home';
 import DonateMain from './components/pages/donatePage/donateMain';
@@ -10,7 +10,7 @@ import OurTeamMain from './components/pages/ourTeamPage/ourTeamMain';
 function App() {
   return (
     <div>
-      <Router>
+      <Router baseline="/">
         <Navbar/>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
