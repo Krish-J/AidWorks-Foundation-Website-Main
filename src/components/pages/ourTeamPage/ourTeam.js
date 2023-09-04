@@ -65,7 +65,7 @@ function OurTeam(){
                         Logisitics Director
                         </p>
                         <p class="text-blk feature-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        I'm Aadi, an 11th-grade student whose passions include helping others, problem solving, and giving back to my community.
                         </p>
                     </div>
                     </div>
@@ -81,7 +81,7 @@ function OurTeam(){
                         Volunteer Services Director
                         </p>
                         <p class="text-blk feature-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        I'm Madhavan, a 12th grader passionate about helping the community and managing volunteers.
                         </p>
                     </div>
                     </div>
@@ -113,7 +113,7 @@ function OurTeam(){
                         Director of Marketing
                         </p>
                         <p class="text-blk feature-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        I'm Juan, a 12th-grade student who loves reading, gaming and volunteering in my community.
                         </p>
                     </div>
                     </div>
@@ -126,10 +126,10 @@ function OurTeam(){
                         Arnav Sharma
                         </p>
                         <p class="text-blk position">
-                        Developer
+                        Software Developer
                         </p>
                         <p class="text-blk feature-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        I'm Arnav, a 12th-grade student who enjoys coding, tennis and learning how things work.
                         </p>
                     </div>
                     </div>
@@ -145,7 +145,7 @@ function OurTeam(){
                         Executive Assistant
                         </p>
                         <p class="text-blk feature-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        I'm Siddh, a 12th grade student who enjoys outdoor activities, helping, talking, and helping out with my community
                         </p>
                     </div>
                     </div>
