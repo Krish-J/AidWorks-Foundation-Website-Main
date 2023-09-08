@@ -40,22 +40,6 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Krish}/>
-                        </div>
-                        <p class="text-blk name">
-                        Krish Jain
-                        </p>
-                        <p class="text-blk position">
-                        Director of Technology
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Krish, a 12th-grade student who enjoys coding, teaching, and giving back to the community.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Aadi}/>
                         </div>
                         <p class="text-blk name">
@@ -66,6 +50,22 @@ function OurTeam(){
                         </p>
                         <p class="text-blk feature-text">
                         I'm Aadi, an 11th-grade student whose passions include helping others, problem solving, and giving back to my community.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Krish}/>
+                        </div>
+                        <p class="text-blk name">
+                        Krish Jain
+                        </p>
+                        <p class="text-blk position">
+                        Director of Technology
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Krish, a 12th-grade student who enjoys coding, teaching, and giving back to the community.
                         </p>
                     </div>
                     </div>
@@ -145,7 +145,7 @@ function OurTeam(){
                         Executive Assistant
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Siddh, a 12th grade student who enjoys outdoor activities, helping, talking, and helping out with my community
+                        I'm Siddh, a 12th grade student who enjoys outdoor activities, talking, and helping out my community
                         </p>
                     </div>
                     </div>

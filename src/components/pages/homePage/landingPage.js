@@ -6,7 +6,7 @@ function LandingPage() {
     return (
         <div className="landingParent">
             <div className="landingContent">
-                <h1>For The People</h1>
+                <h1 className="landingTitle">For The People</h1>
                 <button className="landDonate">
                     <Link to="/donate" className="landingButton">
                         Donate

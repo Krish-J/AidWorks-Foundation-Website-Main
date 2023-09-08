@@ -6,12 +6,14 @@ import Home from './components/pages/homePage/Home';
 import DonateMain from './components/pages/donatePage/donateMain';
 import Footer from './components/footer';
 import OurTeamMain from './components/pages/ourTeamPage/ourTeamMain';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div>
       <Router baseline="/">
         <Navbar/>
+        <ScrollToTop/>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/donate' element={<DonateMain/>}/>

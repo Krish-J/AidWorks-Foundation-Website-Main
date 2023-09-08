@@ -17,11 +17,11 @@ function Partners() {
                 </p>
             </div>
             <div className="partnerImages">
-            <img className="logoImages" src={massGov}/>
-            <img className="logoImages" src={shrewsburyGov}/>
-            <img className="logoImages" src={smoc}/>
-            <img className="logoImages" src={ymca}/>
-            <img className="logoImages" src={labl}/>
+                <img className="logoImages" src={massGov}/>
+                <img className="logoImages" src={shrewsburyGov}/>
+                <img className="logoImages" src={smoc}/>
+                <img className="logoImages" src={ymca}/>
+                <img className="logoImages" src={labl}/>
             </div>
         </div>
     );
