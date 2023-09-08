@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9846b98.css",
-    "main.js": "/static/js/main.b05c1331.js",
+    "main.css": "/static/css/main.2e14124c.css",
+    "main.js": "/static/js/main.aa06efac.js",
     "static/js/787.3ed3e371.chunk.js": "/static/js/787.3ed3e371.chunk.js",
     "static/media/donateImage.jpg": "/static/media/donateImage.d8f59ad5ac2991f31848.jpg",
     "static/media/teamPhoto.jpg": "/static/media/teamPhoto.fedb5862201ec05169d5.jpg",
@@ -17,16 +17,16 @@
     "static/media/massGov.jpg": "/static/media/massGov.98903714aa7b82c90406.jpg",
     "static/media/landingPageBg.jpg": "/static/media/landingPageBg.b19e6cfbe74966dc75b9.jpg",
     "static/media/shrewsburyGov.jpg": "/static/media/shrewsburyGov.29e18bd6a370522d022e.jpg",
-    "static/media/arnavPhoto.jpg": "/static/media/arnavPhoto.bc6441941a7552175bd5.jpg",
+    "static/media/arnavPhoto.jpg": "/static/media/arnavPhoto.a469f6c76dd67a7aed5f.jpg",
     "static/media/trungPhoto.jpg": "/static/media/trungPhoto.6d8159e93be0ca816082.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.c9846b98.css.map": "/static/css/main.c9846b98.css.map",
-    "main.b05c1331.js.map": "/static/js/main.b05c1331.js.map",
+    "main.2e14124c.css.map": "/static/css/main.2e14124c.css.map",
+    "main.aa06efac.js.map": "/static/js/main.aa06efac.js.map",
     "787.3ed3e371.chunk.js.map": "/static/js/787.3ed3e371.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9846b98.css",
-    "static/js/main.b05c1331.js"
+    "static/css/main.2e14124c.css",
+    "static/js/main.aa06efac.js"
   ]
 }
