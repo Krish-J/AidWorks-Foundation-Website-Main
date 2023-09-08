@@ -56,3 +56,19 @@
     color: black;
     transition: all 0.2s ease-out;
 }
+@media (max-width: 600px) {
+    .landDonate {
+        margin: 0px;
+        padding: 0px;
+        margin-left: -50%;
+    }
+    .landingContent {
+        margin: 0px;
+        padding: 0px;
+        font-size: 40px;
+        width: 100%;
+    }
+    .landingTitle {
+        text-align: center;
+    }
+}

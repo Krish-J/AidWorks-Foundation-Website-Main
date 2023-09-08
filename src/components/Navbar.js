@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import logo from "./aidworksLogo.png";
 
 function Navbar(){
+    
     return(
         <>
         <nav className="navbar">
@@ -24,17 +25,35 @@ function Navbar(){
                     <Link to="/contactus" className="nav-item">
                         Contact Us
                     </Link>
-                    <label for="checkbox" className="hamburger">
-                        <input type="checkbox" id="checkbox"></input>
-                        <span className="line line--top"></span>
-                        <span className="line line--middle"></span>
-                        <span className="line line--bottom"></span>
-                    </label> 
+                    
+            </div>
+            <div className="dropdown">
+                <label for="checkbox" className="hamburger">
+                    <input type="checkbox" id="checkbox"></input>
+                    <span className="line line--top"></span>
+                    <span className="line line--middle"></span>
+                    <span className="line line--bottom"></span>
+                    <div className="dropdownMenu" onClick={hideMobileMenu}> 
+                        <Link to="/donate" className="nav-itemDrop">
+                            Donate
+                        </Link>
+                        <Link to="/ourteam" className="nav-itemDrop">
+                            Our Team
+                        </Link>
+                        <Link to="/contactus" className="nav-itemDrop">
+                            Contact Us
+                        </Link>
+                    </div>
+                </label> 
+                
             </div>
             </div>
         </nav>
         </>
     );
+}
+function hideMobileMenu() {
+    document.getElementById("checkbox").checked = false;
 }
 
 export default Navbar;

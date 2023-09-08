@@ -106,3 +106,18 @@ i {
     font-size: 20px;
     font-family: Poppins, sans-serif;
 }
+
+@media (max-width: 600px) {
+  .iconWrapper {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7%;
+  }
+  .wrapper .icon {
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+  }
+}

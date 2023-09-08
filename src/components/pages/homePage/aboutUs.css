@@ -10,6 +10,10 @@
     height: fit-content;
     float: left;
 }
+.teamImageMobile {
+    display: none;
+    visibility: hidden;
+}
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 .aboutTitle {
     font-family: 'Titillium Web', sans-serif;
@@ -44,4 +48,45 @@
     width: 80%;
     justify-content: center;
     text-align: center;
+}
+@media (max-width: 600px) {
+    .aboutParent {
+        display: flex;
+        flex-flow: column;
+    }
+    .aboutTitle {
+        font-size: 35px;
+        letter-spacing: normal;
+        order: 1;
+    }
+    .aboutImage {
+        display: none;
+        visibility: none;
+    }
+    .aboutText {
+        font-size: 20px;
+    }
+    .aboutContent {
+        width: 100%;
+        height: fit-content;
+        float: left;
+        order: 3;
+    }
+    .aboutImageMobile {
+        display: flex;
+        visibility: visible;
+        height: fit-content;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .teamImageMobile {
+        display: flex;
+        visibility: visible;
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
 }

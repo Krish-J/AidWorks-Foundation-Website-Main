@@ -30,3 +30,18 @@
     font-size: 25px;
     line-height: 2.5em;
 }
+@media (max-width: 600px) {
+    .missionTitle {
+        font-size: 50px;
+    }
+    .missionText {
+        font-size: 20px;
+        text-align: left;
+    }
+    .missionContent {
+        width: 90%;
+    }
+    .missionContainer {
+        padding-bottom: 0px;
+    }
+}
