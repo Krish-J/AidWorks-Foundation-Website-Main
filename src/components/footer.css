@@ -109,10 +109,9 @@ i {
 
 @media (max-width: 1000px) {
   .iconWrapper {
-    width: 100%;
+    width: fit-content;
     justify-content: center;
     align-items: center;
-    padding-left: 7%;
   }
   .wrapper .icon {
     align-items: center;
