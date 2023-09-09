@@ -60,13 +60,21 @@
     .landDonate {
         margin: 0px;
         padding: 0px;
-        margin-left: -50%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .landingButton{
+        margin: 0px;
+        padding: 0px;
     }
     .landingContent {
         margin: 0px;
         padding: 0px;
         font-size: 40px;
         width: 100%;
+        overflow-x: hidden;
     }
     .landingTitle {
         text-align: center;
