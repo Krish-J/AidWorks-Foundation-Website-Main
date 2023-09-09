@@ -107,7 +107,7 @@ i {
     font-family: Poppins, sans-serif;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .iconWrapper {
     width: 100%;
     justify-content: center;
