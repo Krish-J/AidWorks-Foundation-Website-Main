@@ -45,7 +45,7 @@
     font-style: italic;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .partnersContainer {
         height: fit-content;
         display: flex;
