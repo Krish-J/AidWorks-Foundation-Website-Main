@@ -48,9 +48,11 @@ function Donate() {
             <div className="donateImgParent">
                 <img className="donateImg" src={donateImage}/>
             </div>
-            <button className="donateButtonParent">
-                <a target="_blank" rel="noopener" href="https://www.gofundme.com/" className="donateButton"> GoFundMe</a>
-            </button>
+            <div className="donateButtonParentParent">
+                <button className="donateButtonParent">
+                    <a target="_blank" rel="noopener" href="https://www.gofundme.com/" className="donateButton"> GoFundMe</a>
+                </button>
+            </div>
             {/* <a href="https://www.freepik.com/free-vector/tiny-people-standing-near-box-donation-food-delivery-volunteers-giving-healthy-grocery-goods-charity-flat-vector-illustration-social-support-humanitarian-help-community-sharing-concept_21683580.htm#query=food%20donations&position=0&from_view=keyword&track=ais">Image by pch.vector</a> on Freepik */}
         </div>
     );
