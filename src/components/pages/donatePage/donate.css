@@ -2,17 +2,17 @@
     height: fit-content;
     width: 100%;
     background-color: #ffffff;
-    padding-bottom: 200px;
-    overflow: hidden
+    background-image: url("donateImage2.png");
+    background-size: 2000px;
+    padding-bottom: 100px;
+
 }
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 .donateTitle {
     height: 100px;
-    margin-top: 150px;
     margin-left: 2%;
     font-family: 'Titillium Web', sans-serif;
     font-size: 55px;
-    width: 100%;
     margin-bottom: 50px;
 }
 .donateButtonParent{
@@ -47,9 +47,10 @@
     transition: all 0.2s ease-out;
 }
 .donateDescription {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     width: 60%;
     margin-left: 2%;
+    margin-top: 30;
     font-size: 18px;
     z-index: 2;
     float: left;
@@ -89,3 +90,13 @@
         margin-bottom: 0px;
     }
 }
+
+.wavy {
+    text-decoration-style: wavy;
+    text-decoration-thickness:4px;
+    text-shadow: 5px 5px 10px hsl(222, 100%, 61%);
+    text-align:center;
+    width: 60%;
+    margin-left: 17%;
+  }
+  
