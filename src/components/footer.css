@@ -108,10 +108,17 @@ i {
 }
 
 @media (max-width: 1000px) {
+  .wrapper {
+    align-items: center;
+    justify-content: center;
+  }
   .iconWrapper {
     width: fit-content;
     justify-content: center;
     align-items: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    min-width: 330px
   }
   .wrapper .icon {
     align-items: center;
