@@ -3,14 +3,12 @@
     width: 100%;
     background-color: #ffffff;
     background-image: url("donateImage2.png");
-    background-size: 2000px;
     padding-bottom: 100px;
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 .donateTitle {
     height: 100px;
-    margin-left: 2%;
     font-family: 'Titillium Web', sans-serif;
     font-size: 55px;
     margin-bottom: 50px;
@@ -89,14 +87,17 @@
     .donateTitle {
         margin-bottom: 0px;
     }
+    .wavy {
+        font-size: 55px;
+    }
 }
 
 .wavy {
+    padding-top: 40px;
     text-decoration-style: wavy;
     text-decoration-thickness:4px;
     text-shadow: 5px 5px 10px hsl(222, 100%, 61%);
     text-align:center;
-    width: 60%;
-    margin-left: 17%;
+    width: 100%;
   }
   
