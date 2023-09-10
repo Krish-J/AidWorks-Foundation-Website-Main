@@ -39,6 +39,7 @@
     font-size: 25px;
     border-bottom: 3px solid rgba(0, 0, 0, 0);
     font-weight: 100;
+    
 }
 
 .nav-item:hover{
@@ -160,7 +161,7 @@
         left: 0px;
         background-color: #0b42c1;
         z-index: 998;
-        border-radius: 0.25rem;
+        border-radius: 30px;
         box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
         opacity: 0;
         top: 40px;
