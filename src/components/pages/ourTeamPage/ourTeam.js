@@ -113,7 +113,7 @@ function OurTeam(){
                         Director of Marketing
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Juan, a 12th-grade student who loves reading, gaming and volunteering in my community.
+                        I'm Juan, a 12th-grade student who loves reading, working out and volunteering in my community.
                         </p>
                     </div>
                     </div>

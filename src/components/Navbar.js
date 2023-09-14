@@ -22,7 +22,7 @@ function Navbar(){
                     <Link to="/ourteam" className="nav-item">
                         Our Team
                     </Link>
-                    <Link to="/contactus" className="nav-item">
+                    <Link to="/contact" className="nav-item">
                         Contact Us
                     </Link>
                     
@@ -40,7 +40,7 @@ function Navbar(){
                         <Link to="/ourteam" className="nav-itemDrop">
                             Our Team
                         </Link>
-                        <Link to="/contactus" className="nav-itemDrop">
+                        <Link to="/contact" className="nav-itemDrop">
                             Contact Us
                         </Link>
                     </div>
