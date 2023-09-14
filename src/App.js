@@ -6,6 +6,7 @@ import Home from './components/pages/homePage/Home';
 import DonateMain from './components/pages/donatePage/donateMain';
 import Footer from './components/footer';
 import OurTeamMain from './components/pages/ourTeamPage/ourTeamMain';
+import ContactMain from './components/pages/contactPage/contactMain';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/donate' element={<DonateMain/>}/>
           <Route exact path='/ourteam' element={<OurTeamMain/>}/>
+          <Route exact path='/contact' element={<ContactMain/>}/>
         </Routes>
         <Footer/>
       </Router>
