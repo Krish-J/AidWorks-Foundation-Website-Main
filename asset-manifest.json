@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.64a65e23.css",
-    "main.js": "/static/js/main.3bbd6407.js",
+    "main.css": "/static/css/main.20a70905.css",
+    "main.js": "/static/js/main.8849415f.js",
     "static/js/787.3ed3e371.chunk.js": "/static/js/787.3ed3e371.chunk.js",
     "static/media/teamPhoto.jpg": "/static/media/teamPhoto.fedb5862201ec05169d5.jpg",
     "static/media/jaiPhoto.jpg": "/static/media/jaiPhoto.3cef72a598a857fa601d.jpg",
     "static/media/siddhPhoto.jpg": "/static/media/siddhPhoto.e4c0fbe7f701dec862d3.jpg",
+    "static/media/contactImage.jpg": "/static/media/contactImage.0bfac0fc87fd6c350c73.jpg",
     "static/media/juanPhoto.jpg": "/static/media/juanPhoto.82933611c35da05603c3.jpg",
     "static/media/madhavanPhoto.jpg": "/static/media/madhavanPhoto.ddf19478070481a19f9d.jpg",
     "static/media/aadiPhoto.jpg": "/static/media/aadiPhoto.88299260b66e6734ce05.jpg",
@@ -15,6 +16,7 @@
     "static/media/donateImage2.png": "/static/media/donateImage2.60772471ef8148d4622c.png",
     "static/media/krishPhoto.jpg": "/static/media/krishPhoto.6c3c113ec25c0f7bad5b.jpg",
     "static/media/massGov.jpg": "/static/media/massGov.98903714aa7b82c90406.jpg",
+    "static/media/contactBg.png": "/static/media/contactBg.6f663b049f246850ce82.png",
     "static/media/landingPageBg.jpg": "/static/media/landingPageBg.b19e6cfbe74966dc75b9.jpg",
     "static/media/donateImage.png": "/static/media/donateImage.24f2c9bb39bc73e45966.png",
     "static/media/shrewsburyGov.jpg": "/static/media/shrewsburyGov.29e18bd6a370522d022e.jpg",
@@ -22,12 +24,12 @@
     "static/media/trungPhoto.jpg": "/static/media/trungPhoto.6d8159e93be0ca816082.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.64a65e23.css.map": "/static/css/main.64a65e23.css.map",
-    "main.3bbd6407.js.map": "/static/js/main.3bbd6407.js.map",
+    "main.20a70905.css.map": "/static/css/main.20a70905.css.map",
+    "main.8849415f.js.map": "/static/js/main.8849415f.js.map",
     "787.3ed3e371.chunk.js.map": "/static/js/787.3ed3e371.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64a65e23.css",
-    "static/js/main.3bbd6407.js"
+    "static/css/main.20a70905.css",
+    "static/js/main.8849415f.js"
   ]
 }
