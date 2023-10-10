@@ -1,11 +1,11 @@
 .contactParent {
     height: fit-content;
-
-
+    background-image: url("contactBg.png");
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: "Poppins";
 
-        
+
 }
 
 .navBarBg {
@@ -22,8 +22,8 @@
     font-family: 'Titillium Web', sans-serif;
     font-size: 55px;
     text-align: right;
-    color: rgb(0, 0, 0);
-    text-shadow: 5px 5px rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: -7px 5px #3772ff;
 }
 
 .titleParent {
@@ -54,11 +54,11 @@
 }
 .contactImg {
     width: 1000px;
-    height: 350px;
-    object-fit: cover;
+    height:350px;
+    object-fit:fill;
     opacity: 0.6;
     border-radius: 30px;
-    border: 10px solid rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
 
 }
 
@@ -67,23 +67,24 @@
     column-gap: 10%;
     column-rule-style:solid;  
     margin-top:50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .box{
     width:70%;
-    border-style:solid;
+    border-style:ridge;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 5px 10px rgb(106, 106, 106);  
-    background-color:rgb(86, 135, 251);
-    margin-top: 200px;
+    background-color:#cef4ff;
+    margin-top: 300px;
 }
 
 .label{
-    font-size: large;
+    font-size: larger;
+    font-family: "Poppins";
     display: block;
     margin-top: 20px;
+    
 }
 
 .input {
@@ -94,10 +95,10 @@
 
 .input:focus {
     background-color: #e0f7ff;
-    border: 3px solid #555;
 }
 
 .textarea{
+    font-family: "Poppins";
     width: 100%;
     padding: 12px 20px;
     border: 2px solid #ccc;
@@ -120,25 +121,25 @@
 
 
 .mail{
-    padding: 3px 10px;  
-    border-radius: 20px;
-    word-wrap: normal;
-    width: 300px;
-    resize: both;
-    overflow: auto;
-
+    font-size:larger;
+    display: block;
+    margin-top: 20px;
 }
 
 .mail:focus {
     background-color: #e0f7ff;
-    border: 3px solid #555;
-    word-wrap: normal;  
+    width:30px;
 }
 
+.textarea {
+    resize: none;  
+}
 
 .submit{
     padding: 5px 10px; 
     font-size: 15px; 
-    margin-top: 15px;
+    background-color:rgb(210, 234, 255);
+    border-radius: 10px;
+    margin-top: 10px;
     margin-bottom: 15px;
 }

@@ -37,7 +37,7 @@ function Contact() {
                         <label className="label">Last Name</label>
                         <input className="input"  placeholder=""/>
 
-                        <label className="label">Your Email</label>
+                        <label className="mail">Your Email</label>
                         <input className="input" placeholder=""/>
 
 
@@ -50,8 +50,7 @@ function Contact() {
                             <option>Website Malfunction/Feedback</option>
                         </select>
 
-                        <textarea className="textarea" rows={4} maxlength="200" placeholder="Type here.." />
-                        <span id="char_count">100/100</span>
+                        <textarea className="textarea" rows={4} maxlength="300" placeholder="Type here. . ."></textarea>
                         <button className="submit">SUBMIT</button>
 
                     </form></b>
