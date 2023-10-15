@@ -21,10 +21,10 @@ function Contact() {
                 </div>
 
 
-            <div className="container">       
-                <p className="contactDescription">      
-                    <h2>Need to get in touch with us?</h2> 
-                    <h2>Fill out the form!</h2>
+            <div className="container">      
+                <p className="contactDescription">    
+                    <h2>Have any questions?</h2> 
+                    <h2>We'd love to hear from you!</h2>
                 </p>
 
 
@@ -37,7 +37,7 @@ function Contact() {
                         <label className="label">Last Name</label>
                         <input className="input"  placeholder=""/>
 
-                        <label className="mail">Your Email</label>
+                        <label className="label">Your Email</label>
                         <input className="input" placeholder=""/>
 
 

@@ -21,11 +21,11 @@
 .contactTitle {
     font-family: 'Titillium Web', sans-serif;
     font-size: 55px;
-    text-align: right;
     color: rgb(255, 255, 255);
     text-shadow: -7px 5px #3772ff;
+    white-space: nowrap;
+    overflow:hidden;
 }
-
 .titleParent {
     position: relative;
     text-align: center;
@@ -42,9 +42,9 @@
 
 .centered {
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 35%;
+    right: 35%;
   }
   
 
@@ -53,7 +53,7 @@
 
 }
 .contactImg {
-    width: 1000px;
+    width: 60%;
     height:350px;
     object-fit:fill;
     opacity: 0.6;
@@ -120,17 +120,6 @@
 }
 
 
-.mail{
-    font-size:larger;
-    display: block;
-    margin-top: 20px;
-}
-
-.mail:focus {
-    background-color: #e0f7ff;
-    width:30px;
-}
-
 .textarea {
     resize: none;  
 }
@@ -142,4 +131,64 @@
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+.line{
+    border-bottom: 0px; 
+}
+
+@media (max-width: 1000px) {
+    .contactTitle{
+        white-space:pre-wrap;
+    }
+    .centered {
+        font-size: 50px;
+        left: 30%;
+        right: 30%;
+    }
+    .contactImg {
+        margin-top:15px;
+        height: 180px;
+    }
+    .container{
+        column-count: 1;
+    }
+    .line{
+        border-top: 2px solid #000000; 
+    }
+    .contactDescription {
+        font-size: 12px;
+        margin-top: 0%;
+        text-align: center;
+    }
+    .box{
+        width:70%;
+        border-style:ridge;
+        border-radius: 10px;
+        padding: 20px;
+        background-color:#cef4ff;
+        margin-top: 10%;
+        margin-left: 15%;
+    }    
+    .label{
+        font-size:medium;
+    }    
+    .input{
+        height:25px;
+    }
+}
+  
+
+@media (min-width: 1000px) and (max-width: 1787px){
+    .contactImg{
+        height:350px;
+    }
+    .centered {
+        font-size: 70px;
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        right: 35%;
+    
+    }
 }
