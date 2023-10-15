@@ -4,7 +4,7 @@ import "./ourTeam.css"
 import Jai from "./jaiPhoto.jpg";
 import Siddh from "./siddhPhoto.jpg";
 import Madhavan from "./madhavanPhoto.jpg";
-import Krish from "./krishPhoto.jpg";
+import Krish from "./krishPhoto(2).jpg";
 import Juan from "./juanPhoto.jpg";
 import Trung from "./trungPhoto.jpg";
 import Aadi from "./aadiPhoto.jpg";
@@ -40,32 +40,32 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Aadi}/>
-                        </div>
-                        <p class="text-blk name">
-                        Aadi Dixit
-                        </p>
-                        <p class="text-blk position">
-                        Logisitics Director
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Aadi, an 11th-grade student whose passions include helping others, problem solving, and giving back to my community.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Krish}/>
                         </div>
                         <p class="text-blk name">
                         Krish Jain
                         </p>
                         <p class="text-blk position">
-                        Director of Technology
+                        Head of Technology
                         </p>
                         <p class="text-blk feature-text">
                         I'm Krish, a 12th-grade student who enjoys coding, teaching, and giving back to the community.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Aadi}/>
+                        </div>
+                        <p class="text-blk name">
+                        Aadi Dixit
+                        </p>
+                        <p class="text-blk position">
+                        Director of Logisitics
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Aadi, an 11th-grade student whose passions include helping others, problem solving, and giving back to my community.
                         </p>
                     </div>
                     </div>
@@ -78,7 +78,7 @@ function OurTeam(){
                         Madhavan Rajagopalan
                         </p>
                         <p class="text-blk position">
-                        Volunteer Services Director
+                        Head of Volunteer Services
                         </p>
                         <p class="text-blk feature-text">
                         I'm Madhavan, a 12th grader passionate about helping the community and managing volunteers.
@@ -94,7 +94,7 @@ function OurTeam(){
                         Jaisuria Satish Babu
                         </p>
                         <p class="text-blk position">
-                        Public Health Coordinator
+                        Head of Public Health
                         </p>
                         <p class="text-blk feature-text">
                         I'm Jaisuria, a 12th-grade student passionate about medicine, badminton, and community health.
@@ -110,7 +110,7 @@ function OurTeam(){
                         Juan Leon
                         </p>
                         <p class="text-blk position">
-                        Director of Marketing
+                        Executive Assistant
                         </p>
                         <p class="text-blk feature-text">
                         I'm Juan, a 12th-grade student who loves reading, working out and volunteering in my community.
@@ -126,7 +126,7 @@ function OurTeam(){
                         Arnav Sharma
                         </p>
                         <p class="text-blk position">
-                        Software Developer
+                        Deputy Director of Technology
                         </p>
                         <p class="text-blk feature-text">
                         I'm Arnav, a 12th-grade student who enjoys coding, tennis and learning how things work.
@@ -142,7 +142,7 @@ function OurTeam(){
                         Siddh Patel
                         </p>
                         <p class="text-blk position">
-                        Executive Assistant
+                        Director of Public Affairs
                         </p>
                         <p class="text-blk feature-text">
                         I'm Siddh, a 12th grade student who enjoys outdoor activities, talking, and helping out my community
