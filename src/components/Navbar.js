@@ -1,14 +1,24 @@
 import "./Navbar.css";
-import React from "react";
 import {Link} from "react-router-dom";
 import logo from "./aidworksLogo.png";
-
+import React, {useState} from "react";
 function Navbar(){
     
+
+    const [color, setColor] = useState(false)
+    const changeColor = () => {
+        if (window.scrollY >= 90) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeColor)
     return(
         <>
         <nav className="navbar">
-            <div className="navbar-container">
+            <div className={color ? "navbar-container navbar-container-bg" : "navbar-container"}>
                 
                 <Link to="/" className="navbar-logo">
                 <img className="logoImage" src={logo}/>

@@ -16,10 +16,10 @@ function Donate() {
                 <h2>Nutrition and Dietary Needs:</h2>
                 <ul>
                     <li>
-                        <strong>Diversified Meal Options:</strong> Introduce a diverse menu for the 83 families at Day Inn that recieve the same lunch and dinner everyday.
+                        <strong>Diversified Meal Options:</strong> Introduce a diverse menu for the 83 families at Days Inn that recieve the same lunch and dinner everyday.
                     </li>
                     <li>
-                        <strong>Promote Healthier Snacks:</strong> Enhance the quality and variety of nutritional snacks for the many Day Inn K-12 students that don't have access to nutritious snacks. 
+                        <strong>Promote Healthier Snacks:</strong> Enhance the quality and variety of nutritional snacks for the many Days Inn K-12 students that don't have access to nutritious snacks. 
                     </li>
                 </ul>
 
@@ -50,7 +50,7 @@ function Donate() {
             </div>
             <div className="donateButtonParentParent">
                 <button className="donateButtonParent">
-                    <a target="_blank" rel="noopener" href="https://www.gofundme.com/" className="donateButton"> GoFundMe</a>
+                    <a target="_blank" rel="noopener" href="https://gofund.me/d5f96728" className="donateButton"> GoFundMe</a>
                 </button>
             </div>
             {/* <a href="https://www.freepik.com/free-vector/tiny-people-standing-near-box-donation-food-delivery-volunteers-giving-healthy-grocery-goods-charity-flat-vector-illustration-social-support-humanitarian-help-community-sharing-concept_21683580.htm#query=food%20donations&position=0&from_view=keyword&track=ais">Image by pch.vector</a> on Freepik */}
