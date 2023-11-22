@@ -17,6 +17,15 @@
     font-weight: 100;
 }
 
+.navbar-container-bg {
+    background-color: #0b42c1;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    padding-bottom: 20px;
+    height: 80px
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 .navbar-logo{
     text-decoration: none;
@@ -99,6 +108,7 @@
         background-color: white;
         border-radius: 3px;
         transition: transform .25s, opacity .35s;
+        
     }
     
     .line--top{
@@ -161,7 +171,7 @@
         left: 0px;
         background-color: #0b42c1;
         z-index: 998;
-        border-radius: 30px;
+        border-radius: 15px;
         box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
         opacity: 0;
         top: 40px;

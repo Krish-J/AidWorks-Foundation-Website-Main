@@ -5,6 +5,7 @@ import massGov from "../../companyLogos/massGov.jpg";
 import shrewsburyGov from "../../companyLogos/shrewsburyGov.jpg";
 import smoc from "../../companyLogos/smoc.png";
 import ymca from "../../companyLogos/ymca.png";
+import unitedWay from "../../companyLogos/unitedWay.png";
 
 function Partners() {
     return (
@@ -20,7 +21,7 @@ function Partners() {
                 <img className="logoImages" src={massGov}/>
                 <img className="logoImages" src={shrewsburyGov}/>
                 <img className="logoImages" src={smoc}/>
-                <img className="logoImages" src={ymca}/>
+                <img className="logoImages" src={unitedWay}/>
                 <img className="logoImages" src={labl}/>
             </div>
         </div>

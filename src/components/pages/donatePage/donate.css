@@ -2,7 +2,6 @@
     height: fit-content;
     width: 100%;
     background-color: #ffffff;
-    background-image: url("donateImage2.png");
     padding-bottom: 100px;
 
 }
@@ -68,7 +67,7 @@
 }
 .navBarBg {
     height: 80px;
-    background-color: #3772ff;
+    background-color: #0b42c1;
     width: 100%;
     position: fixed;
     top: 0;
