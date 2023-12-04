@@ -13,6 +13,7 @@ import Advith from "./advithPhoto.jpg";
 import Pranay from "./pranayImage.png";
 import Shivam from "./shivamPhoto.jpg";
 import Ansh from "./anshPhoto.jpg";
+import Sree from "./sreePhoto.jpg";
 
 function OurTeam(){
     return(
@@ -134,7 +135,7 @@ function OurTeam(){
                         Siddh Patel
                         </p>
                         <p class="text-blk position">
-                        Director of Internal Affairs
+                        Executive Assistant
                         </p>
                         <p class="text-blk feature-text">
                         I'm Siddh, a 12th grade student who enjoys outdoor activities, talking, and helping out my community.
@@ -150,7 +151,7 @@ function OurTeam(){
                         Pranay Pandey
                         </p>
                         <p class="text-blk position">
-                        Director of Public Affairs
+                        Public Affairs Officer
                         </p>
                         <p class="text-blk feature-text">
                         I'm Pranay, a high school junior passionate about helping my community and making a big impact!
@@ -166,7 +167,7 @@ function OurTeam(){
                         Juan Leon
                         </p>
                         <p class="text-blk position">
-                        Executive Assistant
+                        Social Media Relations Officer
                         </p>
                         <p class="text-blk feature-text">
                         I'm Juan, a 12th-grade student who loves reading, working out and volunteering in my community.
@@ -192,16 +193,16 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        {/* <img class="team-member-image" src={Advith}/> */}
+                        <img class="team-member-image" src={Sree}/>
                         </div>
                         <p class="text-blk name">
                         Sreevatsen Kumar
                         </p>
                         <p class="text-blk position">
-                        Director of Volunteer Services
+                        Volunteers Coordinator
                         </p>
                         <p class="text-blk feature-text">
-                        
+                        I'm Sree, a high school junior that loves playing video games, going for runs to stay active as well as building things using CAD.
                         </p>
                     </div>
                     </div>
