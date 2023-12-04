@@ -7,6 +7,7 @@ import DonateMain from './components/pages/donatePage/donateMain';
 import Footer from './components/footer';
 import OurTeamMain from './components/pages/ourTeamPage/ourTeamMain';
 import ContactMain from './components/pages/contactPage/contactMain';
+import BlogMain from './components/pages/blogPage/blogMain';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route exact path='/donate' element={<DonateMain/>}/>
           <Route exact path='/ourteam' element={<OurTeamMain/>}/>
           <Route exact path='/contact' element={<ContactMain/>}/>
+          <Route exact path='/blog' element={<BlogMain/>}/>
         </Routes>
         <Footer/>
       </Router>
