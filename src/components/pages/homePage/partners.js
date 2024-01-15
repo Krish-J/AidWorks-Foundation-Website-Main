@@ -6,6 +6,7 @@ import shrewsburyGov from "../../companyLogos/shrewsburyGov.jpg";
 import smoc from "../../companyLogos/smoc.png";
 import ymca from "../../companyLogos/ymca.png";
 import unitedWay from "../../companyLogos/unitedWay.png";
+import wegmans from "../../companyLogos/wegmans.png";
 
 function Partners() {
     return (
@@ -23,6 +24,7 @@ function Partners() {
                 <img className="logoImages" src={smoc}/>
                 <img className="logoImages" src={unitedWay}/>
                 <img className="logoImages" src={labl}/>
+                <img className="logoImages" src={wegmans}/>
             </div>
         </div>
     );

@@ -35,9 +35,9 @@ function Navbar(){
                     <Link to="/contact" className="nav-item">
                         Contact Us
                     </Link>
-                    <Link to="/blog" className="nav-item">
+                    {/* <Link to="/blog" className="nav-item">
                         Our Blog
-                    </Link>
+                    </Link> */}
                     
             </div>
             <div className="dropdown">
