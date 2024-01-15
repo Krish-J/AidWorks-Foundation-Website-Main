@@ -14,6 +14,7 @@ import Pranay from "./pranayImage.png";
 import Shivam from "./shivamPhoto.jpg";
 import Ansh from "./anshPhoto.jpg";
 import Sree from "./sreePhoto.jpg";
+import Tyler from "./tylerPhoto.jpg";
 
 function OurTeam(){
     return(
@@ -73,11 +74,6 @@ function OurTeam(){
                         </p>
                     </div>
                     </div>
-                    </div>
-                <p class="text-blk team-head-text">
-                    Our Team
-                </p>
-                <div class="responsive-container-block">
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
@@ -94,6 +90,11 @@ function OurTeam(){
                         </p>
                     </div>
                     </div>
+                    </div>
+                <p class="text-blk team-head-text">
+                    Our Team
+                </p>
+                <div class="responsive-container-block">
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
@@ -171,6 +172,22 @@ function OurTeam(){
                         </p>
                         <p class="text-blk feature-text">
                         I'm Juan, a 12th-grade student who loves reading, working out and volunteering in my community.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Tyler}/>
+                        </div>
+                        <p class="text-blk name">
+                        Tyler Fontenez
+                        </p>
+                        <p class="text-blk position">
+                        Public Policies Officer
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Tyler, a highschool senior who is zealous when reading, learning new things, and using my ability to help others.
                         </p>
                     </div>
                     </div>

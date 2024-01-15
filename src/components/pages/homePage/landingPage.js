@@ -8,9 +8,7 @@ function LandingPage() {
             <div className="landingContent">
                 <h1 className="landingTitle">For The People</h1>
                 <button className="landDonate">
-                    <Link to="/donate" className="landingButton">
-                        Donate
-                    </Link>
+                <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSc9_Qu3yH-YX5PXIsMJIWdHeNLmLZBP6v7hZmFe2ypopmPG0Q/viewform" className="landingButton"> Volunteer Now!</a>
                 </button>
             </div>
         </div>
