@@ -25,6 +25,7 @@ function Contact() {
                 <p className="contactDescription">    
                     <h2>Have any questions?</h2> 
                     <h2>We'd love to hear from you!</h2>
+                    <h4>(Note: you may also message us through one of the social medias at the bottom of the page)</h4>
                 </p>
 
 

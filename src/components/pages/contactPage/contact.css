@@ -37,7 +37,7 @@
     font-size: 18px;
     text-align: end;
     height:10%;
-    margin-top: 20%;
+    margin-top: 60%;
 }
 
 
@@ -70,12 +70,12 @@
     column-rule-style:solid;  
     margin-top:100px;
     margin-bottom: 100px;
-    margin-left: 50%;
+    margin-left: 45%;
     transform: translateX(-50%);
 }
 
 .box{
-    width:80%;
+    width:150%;
     border-style:ridge;
     border-radius: 10px;
     padding: 20px;
@@ -88,7 +88,7 @@
     font-family: "Poppins";
     display: block;
     margin-top: 20px;
-    
+
 }
 
 .input {
@@ -151,17 +151,20 @@
     .container{
         column-count: 1;
         justify-content: center;
+        margin-left: 50%;
     }
     .line{
         border-top: 2px solid #000000; 
     }
     .contactDescription {
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 0%;
         text-align: center;
+        width: 120%;
+        margin-left:-10%;
     }
     .box{
-        width:90%;
+        width:150%;
         border-style:ridge;
         border-radius: 10px;
         background-color:#cef4ff;
