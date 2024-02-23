@@ -14,7 +14,8 @@ import Pranay from "./pranayImage.png";
 import Shivam from "./shivamPhoto.jpg";
 import Ansh from "./anshPhoto.jpg";
 import Sree from "./sreePhoto.jpg";
-import Tyler from "./tylerPhoto.jpg";
+import Vedanth from "./vedanthPhoto.jpg";
+
 
 function OurTeam(){
     return(
@@ -178,16 +179,16 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Tyler}/>
+                        <img class="team-member-image" src={Vedanth}/>
                         </div>
                         <p class="text-blk name">
-                        Tyler Fontenez
+                        Vedanth Saranath
                         </p>
                         <p class="text-blk position">
-                        Public Policies Officer
+                        Cross-Departmental Specialist
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Tyler, a highschool senior who is zealous when reading, learning new things, and using my ability to help others.
+                        I'm Vedanth, a 11th-grader who is passionate about coding and photography and is always open to learn more.
                         </p>
                     </div>
                     </div>
