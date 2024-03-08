@@ -30,7 +30,7 @@ function Footer() {
                 </a> */}
             </div>
             <p className="copyRightText">
-                &copy; AidWorks Foundation 2023
+                &copy; AidWorks Foundation 2024
             </p>
             </div>
             </>
