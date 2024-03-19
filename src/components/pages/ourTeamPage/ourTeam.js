@@ -68,7 +68,7 @@ function OurTeam(){
                         Aadi Dixit
                         </p>
                         <p class="text-blk position">
-                        Head of Finance
+                        Chief Compliance Officer
                         </p>
                         <p class="text-blk feature-text">
                         I'm Aadi, an 11th-grade student whose passions include helping others, problem solving, and giving back to my community.
@@ -131,6 +131,22 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Ansh}/>
+                        </div>
+                        <p class="text-blk name">
+                        Ansh Nandurbarkar
+                        </p>
+                        <p class="text-blk position">
+                        Head of Finance
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Ansh, a high school junior passionate about chess, business, and communicating with others.
+                        </p>
+                    </div>
+                    </div>       
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Siddh}/>
                         </div>
                         <p class="text-blk name">
@@ -153,7 +169,7 @@ function OurTeam(){
                         Pranay Pandey
                         </p>
                         <p class="text-blk position">
-                        Public Affairs Officer
+                        Volunteers Coordinator
                         </p>
                         <p class="text-blk feature-text">
                         I'm Pranay, a high school junior passionate about helping my community and making a big impact!
@@ -201,7 +217,7 @@ function OurTeam(){
                         Arnav Sharma
                         </p>
                         <p class="text-blk position">
-                        Manager of Tech Education
+                        Infrastructure Specialist
                         </p>
                         <p class="text-blk feature-text">
                         I'm Arnav, a 12th-grade student who enjoys coding, tennis and learning how things work.
@@ -236,26 +252,11 @@ function OurTeam(){
                         Public Health Coordinator
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Shivam, a 12th grader passionate about giving back to my community, helping others, and medicine.
+                        I'm Shivam, a 12th-grader passionate about giving back to my community, helping others, and medicine.
                         </p>
                     </div>
                     </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Ansh}/>
-                        </div>
-                        <p class="text-blk name">
-                        Ansh Nandurbarkar
-                        </p>
-                        <p class="text-blk position">
-                        Logistics Coordinator
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Ansh, a high school junior passionate about chess, business, and communicating with others.
-                        </p>
-                    </div>
-                    </div>             
+                         
                 </div>
             
             </div>
