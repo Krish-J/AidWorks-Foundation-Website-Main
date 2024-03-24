@@ -38,7 +38,7 @@ function OurTeam(){
                         Trung Nguyen
                         </p>
                         <p class="text-blk position">
-                        Executive Director
+                        Chief Executive Officer
                         </p>
                         <p class="text-blk feature-text">
                         I'm Trung, a 12th-grader passionate about managing non-profits, finances, and benefiting society.
@@ -54,7 +54,7 @@ function OurTeam(){
                         Krish Jain
                         </p>
                         <p class="text-blk position">
-                        Head of Technology
+                        Chief Information Officer
                         </p>
                         <p class="text-blk feature-text">
                         I'm Krish, a 12th-grade student who enjoys coding, teaching, and giving back to the community.
@@ -86,7 +86,7 @@ function OurTeam(){
                         Madhavan Rajagopalan
                         </p>
                         <p class="text-blk position">
-                        Chief of Staff & Volunteers
+                        Chief Human Resources Officer
                         </p>
                         <p class="text-blk feature-text">
                         I'm Madhavan, a 12th grader passionate about helping the community and managing volunteers.
