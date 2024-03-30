@@ -1,0 +1,96 @@
+.aidWorks5kParent {
+    width: 100%;
+    height: 900px;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    top: 0px;
+    background-image: linear-gradient(180deg, #0b42c1, #f9c6b4);
+}
+.aidWorks5kContent {
+    position: relative;
+    top: 50px;
+    width: 100%;    
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.aidWorks5kRunBox {
+    background-image: linear-gradient(180deg, #cd6596, #5b3568);
+    height: 675px;
+    float: right;
+    margin-left: 55%;
+    width: 35%;
+    overflow-wrap: normal;
+    padding-top: 50px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.aidWorks5kRunTitle {
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.aidWorks5kRunLine {
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.aidWorks5kExplain {
+    margin-top: 50px;
+    font-family: "Poppins";
+    color: #fff;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    
+}
+
+.registrationButtonParent{
+    text-decoration: none;
+    width: 90%;
+    height: 90px;
+    margin-top: 40px;
+    background-color: #ff8800;
+    border: none;
+    border-radius: 15px;
+    animation: right-slide 0.7s ease-out 0.1s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 0px 40px 0px #ff8800;
+    transition: all 0.2s ease-out;
+    margin-left: 5%;
+}
+
+.registrationButton{
+    width: 300px;
+    height: 75px;
+    margin-top: 40px;
+    border: none;
+    background-color: #ff8800;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    transition: all 0.2s ease-out;
+    padding: 15px 10px 15px 10px;
+}
+.landingButton:hover{
+    color: black;
+    transition: all 0.2s ease-out;
+}
+.aidWorks5kRunPhoto {
+    width: 35%;
+    margin-left: 10%;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}

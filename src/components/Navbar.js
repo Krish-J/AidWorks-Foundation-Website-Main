@@ -26,6 +26,9 @@ function Navbar(){
                     
                 </Link>
                 <div className="navlink-container">
+                    <Link to="/home" className="nav-item">
+                        Home
+                    </Link>
                     <Link to="/donate" className="nav-item">
                         Donate
                     </Link>
@@ -47,6 +50,9 @@ function Navbar(){
                     <span className="line line--middle"></span>
                     <span className="line line--bottom"></span>
                     <div className="dropdownMenu" onClick={hideMobileMenu}> 
+                        <Link to="/home" className="nav-itemDrop">
+                            Home
+                        </Link>
                         <Link to="/donate" className="nav-itemDrop">
                             Donate
                         </Link>
@@ -56,9 +62,9 @@ function Navbar(){
                         <Link to="/contact" className="nav-itemDrop">
                             Contact Us
                         </Link>
-                        <Link to="/blog" className="nav-item">
+                        {/* <Link to="/blog" className="nav-itemDrop">
                             Our Blog
-                        </Link>
+                        </Link> */}
                     </div>
                 </label> 
                 
