@@ -106,7 +106,9 @@
     margin-left: 0px;
     color: rgb(122, 122, 122);
     line-height: 30px;
+    
   }  
+
   .team-image-wrapper {
     clip-path: circle(50% at 50% 50%);
     width: 130px;

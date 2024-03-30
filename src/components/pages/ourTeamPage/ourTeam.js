@@ -17,6 +17,8 @@ import Sree from "./sreePhoto.jpg";
 import Vedanth from "./vedanthPhoto.jpg";
 import Ishan from "./ishanPhoto.jpg";
 import Harshith from "./harshithPhoto.jpg";
+import Abby from "./abby.png";
+import Tej from "./tej.png";
 
 
 function OurTeam(){
@@ -287,6 +289,38 @@ function OurTeam(){
                         </p>
                         <p class="text-blk feature-text">
                         I'm Harshith, A highschool junior who enjoys communcating with people as well as helping our community and people.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Tej}/>
+                        </div>
+                        <p class="text-blk name">
+                        Tejpravin Ravikumar
+                        </p>
+                        <p class="text-blk position">
+                        Volunteers Coordinator
+                        </p >
+                        <p class="text-blk feature-text">
+                        Hi! My name is Tejpravin Ravikumar, and I am an enthusiastic, determined high school student who wishes to promote the goodwill in all of us through AidWorks
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Abby}/>
+                        </div>
+                        <p class="text-blk name">
+                        Abby Pacy
+                        </p>
+                        <p class="text-blk position">
+                        
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Abby, an 11th-grade student who loves helping others, making the community a better place, and giving back to those in need!
                         </p>
                     </div>
                     </div>
