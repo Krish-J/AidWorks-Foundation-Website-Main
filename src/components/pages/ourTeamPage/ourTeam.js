@@ -17,8 +17,8 @@ import Sree from "./sreePhoto.jpg";
 import Vedanth from "./vedanthPhoto.jpg";
 import Ishan from "./ishanPhoto.jpg";
 import Harshith from "./harshithPhoto.jpg";
-import Abby from "./abby.png";
-import Tej from "./tej.png";
+import Abby from "./abbyPhoto.png";
+import Tej from "./tejPhoto.png";
 
 
 function OurTeam(){
