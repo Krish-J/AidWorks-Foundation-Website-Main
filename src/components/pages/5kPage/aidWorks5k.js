@@ -15,7 +15,7 @@ function AidWorks5k() {
                     </h1>
                     <hr className="aidWorks5kRunLine"></hr>
                     <p className="aidWorks5kExplain">
-                    Our annual 5k run is our flagship event. Each run is dedicated to raising money for a specific charitable organization or cause. Whether you are an avid runner or just starting out, our run is the perfect opportunity to get involved and make a difference. Join us in supporting our mission to help those in need.
+                    Aliqua velit laborum aute nisi adipisicing ad proident. Veniam aliquip ut quis deserunt culpa irure exercitation exercitation ad ad eu labore. Enim minim Lorem duis duis quis. Aute qui mollit nisi non consectetur est sint incididunt enim culpa ex. Qui minim minim excepteur irure occaecat elit laborum deserunt. Laboris dolor ea laborum nostrud elit nisi excepteur. Laboris do commodo sit laborum commodo fugiat enim sint sit.
                     </p>
                     <button className="registrationButtonParent">
                         <a target="_blank" rel="noopener" href="https://www.zeffy.com/en-US/ticketing/5f8ad0da-6279-403e-afc5-1d5550ca477f" className="registrationButton"> Register Here </a>
