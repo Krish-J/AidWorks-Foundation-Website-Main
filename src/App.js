@@ -9,6 +9,7 @@ import OurTeamMain from './components/pages/ourTeamPage/ourTeamMain';
 import ContactMain from './components/pages/contactPage/contactMain';
 import BlogMain from './components/pages/blogPage/blogMain';
 import ScrollToTop from './components/ScrollToTop';
+import AidWorks5k from './components/pages/5kPage/aidWorks5kMain';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Navbar/>
         <ScrollToTop/>
         <Routes>
-          <Route exact path='/' element={<Home/>}/>
+          <Route exact path='/' element={<AidWorks5k/>}/>
+          <Route exact path='/home' element={<Home/>}/>
           <Route exact path='/donate' element={<DonateMain/>}/>
           <Route exact path='/ourteam' element={<OurTeamMain/>}/>
           <Route exact path='/contact' element={<ContactMain/>}/>
