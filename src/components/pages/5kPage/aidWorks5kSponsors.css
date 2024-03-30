@@ -32,9 +32,9 @@
 .logos {
     width: 400px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 30px;
     padding: 10px;
-    border-style: ridge double double;
+    border-style: double;
     border-width: 6px;
     border-color:gold;
     margin-right: 30px;
