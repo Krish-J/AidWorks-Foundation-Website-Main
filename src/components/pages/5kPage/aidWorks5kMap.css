@@ -6,6 +6,7 @@
     text-align: center;
     font-family: "Poppins";
     position: relative;
+    background-image: linear-gradient(180deg, #FFFFFF, #f9c6b4);
 }
 .mapContent {
     width: 40%;

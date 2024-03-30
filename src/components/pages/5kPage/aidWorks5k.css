@@ -1,11 +1,12 @@
 .aidWorks5kParent {
     width: 100%;
-    height: 900px;
+    height: 800px;
     padding: 0;
     margin: 0;
     display:flex;
     top: 0px;
     background-image: linear-gradient(180deg, #0b42c1, #f9c6b4);
+
 }
 .aidWorks5kContent {
     position: relative;
