@@ -164,22 +164,7 @@ function OurTeam(){
                         </p>
                     </div>
                     </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Pranay}/>
-                        </div>
-                        <p class="text-blk name">
-                        Pranay Pandey
-                        </p>
-                        <p class="text-blk position">
-                        Volunteers Coordinator
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Pranay, a high school junior passionate about helping my community and making a big impact!
-                        </p>
-                    </div>
-                    </div>
+                   
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
