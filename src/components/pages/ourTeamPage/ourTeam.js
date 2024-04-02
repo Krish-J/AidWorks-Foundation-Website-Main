@@ -304,7 +304,7 @@ function OurTeam(){
                         Volunteers Coordinator
                         </p >
                         <p class="text-blk feature-text">
-                        Hi! My name is Tejpravin Ravikumar, and I am an enthusiastic, determined high school student who wishes to promote the goodwill in all of us through AidWorks
+                        I'm Tejpravin Ravikumar, and I am an enthusiastic, determined high school student who wishes to promote goodwill.
                         </p>
                     </div>
                     </div>
