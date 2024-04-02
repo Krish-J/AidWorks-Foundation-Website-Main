@@ -1,0 +1,44 @@
+.aidWorks5kRegistrationParent {
+    width: 100%;
+    height: 1200px;
+    background-image: linear-gradient(180deg, #3772ff,  #fff);
+    display: flex;
+}
+.registrationTitleParent {
+    width: 100%;
+}
+.registrationTitle {
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 65px;
+    text-align: center;
+    height: fit-content;
+}
+.registrationParent {
+    margin-top: 200px;
+    position: absolute;
+    overflow:hidden;
+    width:50%;
+    height: 500px;
+    padding-top: 900px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-style: double;
+    border-radius: 30px;
+    border-width: 10px;
+    border-color: gold;
+    
+}
+.donationForm {
+    padding: 10px;
+    position: absolute;
+    border: 0;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    height:100%;
+    border-radius: 30px;
+    border-width: 10px;
+}

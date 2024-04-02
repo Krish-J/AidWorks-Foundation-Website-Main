@@ -6,7 +6,7 @@
     display:flex;
     top: 0px;
     background-image: linear-gradient(180deg, #0b42c1, #f9c6b4);
-
+    position: relative;
 }
 .aidWorks5kContent {
     position: relative;
@@ -66,6 +66,7 @@
     box-shadow: 0px 0px 40px 0px #ff8800;
     transition: all 0.2s ease-out;
     margin-left: 5%;
+    cursor: pointer;
 }
 
 .registrationButton{
