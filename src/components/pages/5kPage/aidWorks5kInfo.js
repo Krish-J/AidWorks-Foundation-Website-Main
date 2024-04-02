@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 import RunMap from "./5kRunMap.png";
 import Prizes from "./prizes.jpg";
 import Benefits from "./benefits.jpg";
+import Countdown from "./countdown.js"
 
 function AidWorks5kInfo(){
     return(
@@ -39,9 +40,22 @@ function AidWorks5kInfo(){
                         </p>
                     </div>
                 </div>
+                <Countdown/>
                 <div className="countdownParent">
-                    {/*ADD COUNTDOWN HERE*/}
                     
+                    <div className="countdown-container">
+                    <h1 className="columnTitles">Countdown:</h1>
+                    <div className="countdown-item" id="days">00</div>
+                    <div className="countdown-item" id="hours">00</div>
+                    <div className="countdown-item" id="minutes">00</div>
+                    <div className="countdown-item" id="seconds">00</div>
+                    <div className="countlabel">
+                    <p className="label1">Days</p>
+                    <p className="label2">Hours</p>
+                    <p className="label3">Mins</p>
+                    <p className="label4">Sec</p> 
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
