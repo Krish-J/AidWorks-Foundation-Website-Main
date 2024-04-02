@@ -42,19 +42,18 @@ function AidWorks5kInfo(){
                 </div>
                 <Countdown/>
                 <div className="countdownParent">
-                    
                     <div className="countdown-container">
-                    <h1 className="columnTitles">Countdown</h1>
-                    <div className="countdown-item" id="days">00</div>
-                    <div className="countdown-item" id="hours">00</div>
-                    <div className="countdown-item" id="minutes">00</div>
-                    <div className="countdown-item" id="seconds">00</div>
-                    <div className="countlabel">
-                        <p className="label1">Days</p>
-                        <p className="label2">Hours</p>
-                        <p className="label3">Mins</p>
-                        <p className="label4">Sec</p> 
-                    </div>
+                        <h1 className="columnTitles">Countdown</h1>
+                        <div className="countdown-item" id="days">00</div>
+                        <div className="countdown-item" id="hours">00</div>
+                        <div className="countdown-item" id="minutes">00</div>
+                        <div className="countdown-item" id="seconds">00</div>
+                        <div className="countlabel">
+                            <p className="label1">Days</p>
+                            <p className="label2">Hours</p>
+                            <p className="label3">Mins</p>
+                            <p className="label4">Sec</p> 
+                        </div>
                     </div>
                 </div>
             </div>
