@@ -17,7 +17,7 @@ function AidWorks5k() {
                     <p className="aidWorks5kExplain">
                     Aliqua velit laborum aute nisi adipisicing ad proident. Veniam aliquip ut quis deserunt culpa irure exercitation exercitation ad ad eu labore. Enim minim Lorem duis duis quis. Aute qui mollit nisi non consectetur est sint incididunt enim culpa ex. Qui minim minim excepteur irure occaecat elit laborum deserunt. Laboris dolor ea laborum nostrud elit nisi excepteur. Laboris do commodo sit laborum commodo fugiat enim sint sit.
                     </p>
-                    <button className="registrationButtonParent" onClick={() => window.scrollTo({ top: 3550, behavior: "smooth" })}>
+                    <button className="registrationButtonParent" onClick={() => window.scrollTo({ top: 3650, behavior: "smooth" })}>
                         {/* <a target="_blank" rel="noopener" href="https://www.zeffy.com/en-US/ticketing/5f8ad0da-6279-403e-afc5-1d5550ca477f" className="registrationButton"> Register Here </a> */}
                         <a className="registrationButton"> Register Here </a>
                     </button>
