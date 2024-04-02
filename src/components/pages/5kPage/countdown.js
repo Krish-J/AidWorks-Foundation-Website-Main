@@ -1,61 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="countdown.css">
-<title>Countdown Timer</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
-  .countdown-container {
-    text-align: center;
-  }
-
-  .countdown-item {
-    display: inline-block;
-    margin: 10px;
-    font-size: 24px;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  .countdown {
-    display: inline-block;
-    margin: 10px;
-    font-size: 24px;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-
-  }
-  .labels{
-    
-  }
-</style>
-</head>
-<body>
-
-<div class="countdown-container">
-  <div><div class="countdown-item" id="days">00</div><p class="labels">Days</p></div> 
-  <div class="countdown-item" id="hours">00</div>
-  <div class="countdown-item" id="minutes">00</div>
-  <div class="countdown-item" id="seconds">00</div>
-  <br> 
-  <div class="countdown" id="countdown"></div>
-</div>
-
-<script>
-  // Set the date we're counting down to
+const Countdown = () => {
+     // Set the date we're counting down to
   const countDownDate = new Date("April 30, 2024 00:00:00").getTime();
 
   
@@ -66,7 +13,7 @@
     // Get the current date and time
     const now = new Date().getTime();
 
-    countdown.style.visibility = 'hidden';
+    //*Countdown.style.visibility = 'hidden';
     // Calculate the distance between now and the countdown date
     const distance = countDownDate - now;
 
@@ -90,11 +37,9 @@
       document.getElementById("minutes").innerHTML = "00".padStart(2, '0');
       document.getElementById("seconds").innerHTML = "00".padStart(2, '0');
       document.getElementById("countdown").innerHTML = "EXPIRED";
-      countdown.style.visibility = 'visible';
+      //*Countdown.style.visibility = 'visible';
     }
   }, 1000);
-</script>
-
-
-</body>
-</html>
+  }
+  
+  export default Countdown;
