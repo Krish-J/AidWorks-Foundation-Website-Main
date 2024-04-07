@@ -38,7 +38,7 @@ const Countdown = () => {
       document.getElementById("seconds").innerHTML = "00".padStart(2, '0');
       document.getElementById("countdown").innerHTML = "EXPIRED";
       //*Countdown.style.visibility = 'visible';
-    }
+    } 
   }, 1000);
   }
   
