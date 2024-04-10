@@ -28,8 +28,7 @@ function AidWorks5kInfo(){
                         <h1 className="columnTitles">Benefits</h1>
                         <hr className="columnTextBreak"></hr>
                         <p className="columnText">
-                        Aliqua quis elit mollit id aliqua nostrud occaecat. Elit laborum commodo adipisicing ad. Laboris fugiat labore ea laborum officia nulla. Minim dolor amet sint esse nulla occaecat sint id incididunt nostrud dolore. Esse voluptate amet nulla aliqua. Cupidatat ea dolore amet amet consequat nostrud.
-                        </p>
+                        All proceeds from the event will directly contribute to alleviating medical expenses for cancer patients in need within our community. We will work closely with local healthcare providers to identify and support those facing financial challenges due to medical treatments.                        </p>
                     </div>
                     <div className="prizes">
                         <img className="columnPhotos" src={Prizes}/>

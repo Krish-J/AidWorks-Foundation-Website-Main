@@ -41,7 +41,7 @@
     margin-bottom: 30px;
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .SponsorsContainer {
         height: fit-content;
         display: flex;
@@ -77,4 +77,4 @@
         margin-left: 5%;
         float: none;
     }
-}} */
+}

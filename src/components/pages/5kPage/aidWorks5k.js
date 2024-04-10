@@ -15,7 +15,7 @@ function AidWorks5k() {
                     </h1>
                     <hr className="aidWorks5kRunLine"></hr>
                     <p className="aidWorks5kExplain">
-                    Aliqua velit laborum aute nisi adipisicing ad proident. Veniam aliquip ut quis deserunt culpa irure exercitation exercitation ad ad eu labore. Enim minim Lorem duis duis quis. Aute qui mollit nisi non consectetur est sint incididunt enim culpa ex. Qui minim minim excepteur irure occaecat elit laborum deserunt. Laboris dolor ea laborum nostrud elit nisi excepteur. Laboris do commodo sit laborum commodo fugiat enim sint sit.
+                    We are thrilled to present the Shrewsbury 5K Run for Medical Relief, a community-driven event aimed at raising funds for families/individuals struggling with medical bills. This event will take place on June 22, 2024, at the Shrewsbury Common. Our 5K Run is designed to be a fun and engaging 5K run or walk, promoting health and wellness while contributing to a noble cause.
                     </p>
                     <button className="registrationButtonParent" onClick={() => window.scrollTo({ top: 3650, behavior: "smooth" })}>
                         {/* <a target="_blank" rel="noopener" href="https://www.zeffy.com/en-US/ticketing/5f8ad0da-6279-403e-afc5-1d5550ca477f" className="registrationButton"> Register Here </a> */}
