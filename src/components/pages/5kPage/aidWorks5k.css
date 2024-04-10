@@ -96,3 +96,72 @@
     transform: translateY(-50%);
     
 }
+
+@media (max-width: 600px) {
+    .aidWorks5kContent {
+        top:-15%;
+    }
+    .aidWorks5kRunPhoto {
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 30px;
+    }
+    .aidWorks5kRunBox {
+        height: fit-content;
+        width: 70%;     
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 30px;
+        top: 130%;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+        position:relative;     
+    }
+    .aidWorks5kRunTitle {
+        font-size: 30px;
+    }
+    .aidWorks5kExplain {
+        font-size: 15px;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    .registrationButtonParent{
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20%;
+    }
+    
+    .registrationButton{
+        width: 50px;
+        height: 10px;
+        font-size: 20px;
+        padding: 15px 10px 15px 10px;
+    }
+    }
+    @media (max-width: 1000px) {
+        .aidWorks5kContent {
+            top:-15%;
+        }
+        .aidWorks5kRunPhoto {
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 10%;
+            border-radius: 30px;
+            position: absolute;
+        }
+        .aidWorks5kRunBox {
+            height: fit-content;
+            width: 70%; 
+            padding-top: 60px;
+            padding-bottom: 50px;
+            border-radius: 30px;
+            top: 110%;
+            margin-top: 30%;
+            margin-left: 15%;
+            margin-right: 15%;
+            position:relative;     
+        }
+    }
