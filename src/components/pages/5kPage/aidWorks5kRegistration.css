@@ -42,3 +42,22 @@
     border-radius: 30px;
     border-width: 10px;
 }
+@media (max-width: 1000px) {
+    .aidWorks5kRegistrationParent {
+        position: relative;
+        top: -5px;
+        height: 1100px;
+    }
+    .registrationTitle {
+        width: 100%;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 35px;
+        text-align: center;
+        height: fit-content;
+    }
+    .registrationParent {
+        width: 90%;
+        margin-top: 100px;
+
+    }
+}
