@@ -48,7 +48,6 @@
     font-size: 25px;
     border-bottom: 3px solid rgba(0, 0, 0, 0);
     font-weight: 100;
-    
 }
 
 .nav-item:hover{
@@ -64,10 +63,13 @@
     display: flex;
     margin-right: 2%;
     margin-left: auto;
+    pointer-events: none;
 }
 
 #checkbox {
     display: none;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 
@@ -136,6 +138,8 @@
     .nav-item {
         visibility: hidden;
         display: none;
+        pointer-events: none;
+       
     }
     .logoText {
         font-size: 20px;
@@ -181,20 +185,22 @@
         justify-content: center;
         align-items: center;
         padding-bottom: 5px;
+        pointer-events: none;
     }
 
 
     #checkbox:checked~.dropdownMenu {
         opacity: 1;
         transform: translateY(0px);
+        pointer-events: all;
     }
     .nav-itemDrop{
-        border-top: 4px solid rgb(255, 255, 255);
+
         text-decoration: none;
         color: white;
         font-family: "Poppins", sans-serif;
         font-size: 25px;
-        border-bottom: 3px solid rgb(255, 255, 255);
+        
         font-weight: 100;
         display: block;
         text-align: center;
