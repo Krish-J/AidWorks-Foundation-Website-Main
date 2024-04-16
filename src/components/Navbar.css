@@ -63,7 +63,6 @@
     display: flex;
     margin-right: 2%;
     margin-left: auto;
-    pointer-events: none;
 }
 
 #checkbox {
