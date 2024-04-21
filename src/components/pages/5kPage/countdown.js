@@ -24,10 +24,12 @@ const Countdown = () => {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the countdown
-    document.getElementById("days").innerHTML = days.toString().padStart(2, '0');
-    document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
-    document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
-    document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+    if(document.getElementById("days")) {
+      document.getElementById("days").innerHTML = days.toString().padStart(2, '0')
+      document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+      document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+      document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+      }
 
     // If the countdown is over, display a message
     if (distance < 0) {
