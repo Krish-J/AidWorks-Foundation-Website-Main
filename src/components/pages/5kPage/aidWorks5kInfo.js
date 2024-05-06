@@ -20,7 +20,7 @@ function AidWorks5kInfo(){
                         <h1 className="columnTitles">Location</h1>
                         <hr className="columnTextBreak"></hr>
                         <p className="columnText">
-                        Aliqua quis elit mollit id aliqua nostrud occaecat. Elit laborum commodo adipisicing ad. Laboris fugiat labore ea laborum officia nulla. Minim dolor amet sint esse nulla occaecat sint id incididunt nostrud dolore. Esse voluptate amet nulla aliqua. Cupidatat ea dolore amet amet consequat nostrud.
+                        Shrewsbury High School Trails behind Shrewbsury High School
                         </p>
                     </div>
                     <div className="benefits">
