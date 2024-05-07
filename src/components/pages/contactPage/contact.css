@@ -1,7 +1,7 @@
 .contactParent {
     height: fit-content;
     background-image: url("contactBg.png");
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 10px;
     font-family: "Poppins";
 
@@ -42,7 +42,7 @@
 
 
 .centered {
-    position: absolute;
+    position: relative;
     top: 0%;
     left: 35%;
     right: 35%;
@@ -75,7 +75,7 @@
 }
 
 .box{
-    width:100%;
+    width:120%;
     border-style:ridge;
     border-radius: 10px;
     padding: 20px;
@@ -95,10 +95,12 @@
     padding: 3px 10px;  
     border-radius: 20px;
     width: 150px;
+    border: 2px solid #ccc;
 }
 
 .input:focus {
     background-color: #e0f7ff;
+    border: 2px solid #000000;
 }
 
 .textarea{
@@ -114,13 +116,13 @@
 
 .textarea:focus {
     background-color: #e0f7ff;
-    border: 3px solid #555;
+    border: 2px solid #555;
 }
 
 .select {
     padding: 3px 10px;  
     border-radius: 5px;
-    width: 130px;
+    width: 150px;
 }
 
 
@@ -133,13 +135,140 @@
     font-size: 15px; 
     background-color:rgb(210, 234, 255);
     border-radius: 10px;
-    margin-top: 10px;
+    margin-right: 30px;
     margin-bottom: 15px;
 }
+
+.submit:hover {
+    border-width: 3px;
+}
+
+.loader {
+    position: fixed;
+    margin-left: 43%;
+    margin-top: 14%;
+    width: 4%;
+    aspect-ratio: 1;
+    display: grid;
+    border-radius: 50%;
+    background:
+      linear-gradient(0deg ,rgb(0 0 0/50%) 30%,#0000 0 70%,rgb(0 0 0/100%) 0) 50%/8% 100%,
+      linear-gradient(90deg,rgb(0 0 0/25%) 30%,#0000 0 70%,rgb(0 0 0/75% ) 0) 50%/100% 8%;
+    background-repeat: no-repeat;
+    animation: l23 1s infinite steps(12);
+  }
+  
+  .loader::before,
+  .loader::after {
+     content: "";
+     grid-area: 1/1;
+     border-radius: 50%;
+     background: inherit;
+     opacity: 0.915;
+     transform: rotate(30deg);
+  }
+  .loader::after {
+     opacity: 0.83;
+     transform: rotate(60deg);
+  }
+
+  @keyframes l23 {
+    100% {transform: rotate(1turn)}
+  } */
+
 
 .line{
     border-bottom: 0px; 
 }
+
+.err{
+    color: red;
+    position:relative;
+    margin-left: 10%;
+    white-space: nowrap;
+}
+
+.descErr{
+    color: red;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.thanksBox{
+    height: fit-content;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:5%;
+    margin-bottom:25%;
+
+    padding:30px;
+    border-radius: 10px;
+    border-style:solid dashed solid dashed;
+}
+
+.thanksTitle{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: #3772ff;
+    border-radius: 10px;
+}
+
+.thanksText{
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    margin-top:5%;
+    margin-left: 10%;
+}
+
+.linkButton {
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    padding-left: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    border-style:outset;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: blue;
+}
+
+.linkButton:hover {
+    border-width: 4px;
+}
+
+.thanksButton {
+    background-color: white;
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: blue;
+}
+
+.thanksButton:hover {
+    border-width: 4px;
+}
+
+.receipt {
+    position: fixed;
+    margin-left: 40px;
+}
+
+.emailConf {
+    text-align: center;
+}
+
 
 @media (max-width: 1000px) {
     .contactTitle{
