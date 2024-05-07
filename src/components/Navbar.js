@@ -21,7 +21,7 @@ function Navbar(){
             <div className={color ? "navbar-container navbar-container-bg" : "navbar-container"}>
                 
                 <Link to="/" className="navbar-logo">
-                <img className="logoImage" src={logo}/>
+                <img className="logoImage" title="logo" src={logo}/>
                 <p className="logoText">AidWorks Foundation</p>
                     
                 </Link>
