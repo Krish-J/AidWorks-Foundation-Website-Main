@@ -19,6 +19,7 @@ import Ishan from "./ishanPhoto.jpg";
 import Harshith from "./harshithPhoto.jpg";
 import Abby from "./abbyPhoto.png";
 import Tej from "./tejPhoto.png";
+import Kevin from "./kevinPhoto.png"
 
 
 function OurTeam(){
@@ -174,7 +175,7 @@ function OurTeam(){
                         Juan Leon
                         </p>
                         <p class="text-blk position">
-                        Social Media Relations Officer
+                        Co-Founder
                         </p>
                         <p class="text-blk feature-text">
                         I'm Juan, a 12th-grade student who loves reading, working out and volunteering in my community.
@@ -302,10 +303,26 @@ function OurTeam(){
                         Abby Pacy
                         </p>
                         <p class="text-blk position">
-                        
+                        Marketing Department
                         </p>
                         <p class="text-blk feature-text">
                         I'm Abby, an 11th-grade student who loves helping others, making the community a better place, and giving back to those in need!
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Kevin}/>
+                        </div>
+                        <p class="text-blk name">
+                        Kevin Cao
+                        </p>
+                        <p class="text-blk position">
+                        Volunteers Coordinator
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Kevin, and I'm passionate about psychology, problem-solving, and fostering an even more well-connected community.
                         </p>
                     </div>
                     </div>
