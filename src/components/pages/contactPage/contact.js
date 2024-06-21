@@ -157,7 +157,7 @@ function Contact() {
                         <label id="descErrHidden" className="descErr" hidden={true}>Description Required</label>
 
                         <ReCAPTCHA sitekey="6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03" onChange={onChange}/>
-                        <label id="captchaErr" className="captchaErr" hidden={true} value="">Please Finish The reCAPTCHA</label>
+                        <label id="captchaErr" className="err" hidden={true} value="">Please Finish The reCAPTCHA</label>
                         
                         <button type="submit" onClick={onclickSubmit} className="submit">SUBMIT</button>
 
