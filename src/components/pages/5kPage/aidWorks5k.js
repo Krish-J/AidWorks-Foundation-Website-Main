@@ -15,9 +15,9 @@ function AidWorks5k() {
                     </h1>
                     <hr className="aidWorks5kRunLine"></hr>
                     <p className="aidWorks5kExplain">
-                    Mark your calendars for June 22, 2024 (estimated date), and join us at the Shrewsbury High School Trails for a day of fun and compassion. Whether you're a seasoned runner, a casual jogger, or simply want to show your support, everyone is welcome at the Shrewsbury 5K Run for Medical Relief. Together, we can make a positive impact and help ensure that medical care remains accessible to all in our community.
+                    Mark your calendars for July 27, 2024 at 9:30 am, and join us at Saint Anne's for a day of fun and compassion. Whether you're a seasoned runner, a casual jogger, or simply want to show your support, everyone is welcome at the Shrewsbury 5K Run for Medical Relief. Together, we can make a positive impact and help ensure that medical care remains accessible to all in our community.
                     </p>
-                    <button className="registrationButtonParent" onClick={() => window.scrollTo({ top: 3650, behavior: "smooth" })}>
+                    <button className="registrationButtonParent" onClick={() => window.scrollTo({ top: 2650, behavior: "smooth" })}>
                         {/* <a target="_blank" rel="noopener" href="https://www.zeffy.com/en-US/ticketing/5f8ad0da-6279-403e-afc5-1d5550ca477f" className="registrationButton"> Register Here </a> */}
                         <a className="registrationButton"> Register Here </a>
                     </button>

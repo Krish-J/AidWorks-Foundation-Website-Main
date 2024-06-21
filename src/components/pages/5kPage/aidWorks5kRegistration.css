@@ -1,7 +1,8 @@
 .aidWorks5kRegistrationParent {
     width: 100%;
-    height: 1200px;
-    background-image: linear-gradient(180deg, #3772ff,  #fff);
+    height: 1100px;
+    /* background-image: linear-gradient(180deg, #3772ff,  #fff); */
+    background-image: linear-gradient(180deg, #f9c6b4,  #3772ff);
     display: flex;
 }
 .registrationTitleParent {
