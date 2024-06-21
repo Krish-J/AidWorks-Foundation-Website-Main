@@ -3,8 +3,10 @@ import "../../../App.css";
 import { Link } from 'react-router-dom';
 import "./contact.css";
 import contactImage from "./contactImage.jpg"
+import ReCAPTCHA from "react-google-recaptcha";
 
 function Contact() {
+    let captchaValue = false
     function receipt() {
         document.getElementById("receipt").hidden=false
         document.getElementById("thanksButton").hidden=true
@@ -13,6 +15,9 @@ function Contact() {
         window.location.reload();
         
     }
+    function onChange(value) {
+        captchaValue = true
+      }
     async function onclickSubmit(e) {
 
         e.preventDefault() 
@@ -64,6 +69,9 @@ function Contact() {
             desc.style.borderColor = "red";
             desc.style.borderWidth = "3px";
             return
+        } else{document.getElementById("descErrHidden").hidden = true;}
+        if (captchaValue !== true){
+            document.getElementById("captchaErr").hidden = false;
         } else{
             document.getElementById("emailConf").innerHTML = email.value;
             document.getElementById("nameConf").innerHTML = fname.value;
@@ -147,6 +155,10 @@ function Contact() {
 
                         <textarea id="desc" className="textarea" rows={4} maxlength="300" placeholder="Type here. . ."></textarea>
                         <label id="descErrHidden" className="descErr" hidden={true}>Description Required</label>
+
+                        <ReCAPTCHA sitekey="6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03" onChange={onChange}/>
+                        <label id="captchaErr" className="captchaErr" hidden={true} value="">Please Finish The reCAPTCHA</label>
+                        
                         <button type="submit" onClick={onclickSubmit} className="submit">SUBMIT</button>
 
                     </form></b>
