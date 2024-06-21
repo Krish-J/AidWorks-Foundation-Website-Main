@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 
 const Countdown = () => {
      // Set the date we're counting down to
-  const countDownDate = new Date("July 27, 2024 00:00:00").getTime();
+  const countDownDate = new Date("July 27, 2024 09:30:00").getTime();
 
   
   // Update the countdown every 1 second

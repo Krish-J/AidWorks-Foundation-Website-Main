@@ -15,12 +15,18 @@ function AidWorks5kInfo(){
                     Information
                 </h1>
                 <div className="aidWorks5kColumns">
-                    <div className="location">
+                    <div className="cost">
                         <img class="columnPhotos" src={RunMap}/>
-                        <h1 className="columnTitles">Location</h1>
+                        <h1 className="columnTitles">Cost</h1>
                         <hr className="columnTextBreak"></hr>
                         <p className="columnText">
-                        Shrewsbury High School Trails behind Shrewbsury High School
+                        First 50: $25
+                        <br/>
+                        <br/>
+                        Regular Cost: $35
+                        <br/>
+                        <br/>
+                        Cost from July 20th Onwards: $45
                         </p>
                     </div>
                     <div className="benefits">
@@ -37,7 +43,7 @@ function AidWorks5kInfo(){
                         <p className="columnText">
                         Aliqua quis elit mollit id aliqua nostrud occaecat. Elit laborum commodo adipisicing ad. Laboris fugiat labore ea laborum officia nulla. Minim dolor amet sint esse nulla occaecat sint id incididunt nostrud dolore. Esse voluptate amet nulla aliqua. Cupidatat ea dolore amet amet consequat nostrud.
                         </p>
-                    </div>
+                    </div> 
                 </div>
                 <Countdown/>
                 <div className="countdownParent">

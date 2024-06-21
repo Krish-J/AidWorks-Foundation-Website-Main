@@ -13,7 +13,7 @@ function AidWorks5kMain(){
         <AidWorks5k/>
         <AidWorks5kInfo/>
         <AidWorks5kMap/>
-        <AidWorks5kSponsors/>
+        {/* <AidWorks5kSponsors/> */}
         <AidWorks5kRegistration/>
         </>
     );

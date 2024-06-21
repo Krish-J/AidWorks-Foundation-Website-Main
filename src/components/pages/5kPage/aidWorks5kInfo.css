@@ -20,7 +20,7 @@
   text-align: center;
 
 }
-.location {
+.cost {
   width: 30%;
   margin-left: 3%;
   border-style: double;
@@ -147,7 +147,7 @@
       width: 95%;
       text-align: top;
   }
-  .location {
+  .cost {
     width: 95%;
     margin-left: 2.5%;
     margin-bottom: 10px;
