@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import "../../../App.css";
 import { Link } from 'react-router-dom';
 import "./contact.css";
@@ -7,6 +7,9 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 function Contact() {
     let captchaValue = false
+    const captchaRef = useRef(null)
+    
+
     function receipt() {
         document.getElementById("receipt").hidden=false
         document.getElementById("thanksButton").hidden=true
@@ -15,12 +18,12 @@ function Contact() {
         window.location.reload();
         
     }
-    function onChange(value) {
-        captchaValue = true
-      }
     async function onclickSubmit(e) {
 
         e.preventDefault() 
+        const token = captchaRef.current.getValue();
+        captchaRef.current.reset();
+
         var fname = document.getElementById("fname");
         var lname = document.getElementById("lname");
         var email = document.getElementById("email");
@@ -78,8 +81,7 @@ function Contact() {
             document.getElementById("thanksBox").hidden = false;
             document.getElementById("formParent").hidden = true;  
             try {        
-                document.getElementById("contactParent").style.opacity = "0.5";
-                const response = await fetch("https://script.google.com/macros/s/AKfycbybzOoymiKW8UwmaTDDVlaUHFWHK_Uz8pMd43UAHeChXv02dsr_SmkKJ--mV-mtJulY/exec", { 
+                const response = await fetch(process.env.REACT_APP_MACROS_LINK, { 
                     mode: "no-cors",
                     method: "POST",
                     headers: {  
@@ -109,7 +111,7 @@ function Contact() {
                 <div className="thanksText">Thank you <b><span id="nameConf"></span></b> for filling out our form! Your input is valuable and will help us serve you better!</div>
                                 
                 <button id="thanksButton" className="thanksButton" type="submit" onClick={receipt} hidden={false}>Email me my receipt</button>
-                <strong><div id="receipt" className="emailConf" hidden={true}>Sent an email to <span id="emailConf">check this</span></div></strong>
+                <strong><div id="receipt" className="emailConf" hidden={true}>Sent an email to <span id="emailConf"></span></div></strong>
                 <button className="thanksButton" onClick={reload}>Submit Another Response</button>
                 <Link to="/home" className="linkButton" >Return to Homepage</Link>
 
@@ -155,12 +157,18 @@ function Contact() {
 
                         <textarea id="desc" className="textarea" rows={4} maxlength="300" placeholder="Type here. . ."></textarea>
                         <label id="descErrHidden" className="descErr" hidden={true}>Description Required</label>
-
-                        <ReCAPTCHA sitekey="6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03" onChange={onChange}/>
-                        <label id="captchaErr" className="err" hidden={true} value="">Please Finish The reCAPTCHA</label>
                         
                         <button type="submit" onClick={onclickSubmit} className="submit">SUBMIT</button>
+                        
+                        <ReCAPTCHA
+                            sitekey={"6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03"}
+                            class="g-recaptcha"
+                            ref={captchaRef}
+                        />
 
+                        {/* <ReCAPTCHA sitekey="6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03" onChange={onChange}/> 
+                        <label id="captchaErr" className="err" hidden={true} value="">Please Finish The reCAPTCHA</label> */}
+                    
                     </form></b>
                 </div>
             </div>
