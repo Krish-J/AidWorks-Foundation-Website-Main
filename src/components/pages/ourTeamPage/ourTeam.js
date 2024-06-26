@@ -19,8 +19,9 @@ import Ishan from "./ishanPhoto.jpg";
 import Harshith from "./harshithPhoto.jpg";
 import Abby from "./abbyPhoto.png";
 import Tej from "./tejPhoto.png";
-import Kevin from "./kevinPhoto.png"
-import Milind from "./milindPhoto.png"
+import Kevin from "./kevinPhoto.png";
+import Milind from "./milindPhoto.png";
+import Connor from "./connorPhoto.jpg";
 
 
 function OurTeam(){
@@ -149,7 +150,23 @@ function OurTeam(){
                         I'm Ansh, a high school junior passionate about chess, business, and communicating with others.
                         </p>
                     </div>
-                    </div>       
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Ishan}/>
+                        </div>
+                        <p class="text-blk name">
+                        Ishan Jain
+                        </p>
+                        <p class="text-blk position">
+                        Co-Head of Finance
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Ishan, a 10th-grader passionate about giving back to communities, having fun, and designing my own CAD projects.
+                        </p>
+                    </div>
+                    </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
@@ -250,22 +267,6 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Ishan}/>
-                        </div>
-                        <p class="text-blk name">
-                        Ishan Jain
-                        </p>
-                        <p class="text-blk position">
-                        Data Analyst
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Ishan, a 10th-grader passionate about giving back to communities, having fun, and designing my own CAD projects.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Harshith}/>
                         </div>
                         <p class="text-blk name">
@@ -275,7 +276,7 @@ function OurTeam(){
                         Logistics Coordinator
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Harshith, A highschool junior who enjoys communcating with people as well as helping our community and people.
+                        I'm Harshith, a highschool junior who enjoys communcating with people as well as helping our community and people.
                         </p>
                     </div>
                     </div>
@@ -292,6 +293,22 @@ function OurTeam(){
                         </p>
                         <p class="text-blk feature-text">
                         I'm Abby, an 11th-grade student who loves helping others, making the community a better place, and giving back to those in need!
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Connor}/>
+                        </div>
+                        <p class="text-blk name">
+                        Connor Duffy
+                        </p>
+                        <p class="text-blk position">
+                        Marketing Department
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Connor, an 11th-grade student who is passionate about fostering positivity and hope through community service and outreach
                         </p>
                     </div>
                     </div>

@@ -1,6 +1,6 @@
 .aidWorks5kInfoParent {
   width: 100%;
-  height: 1100px;
+  height: 1225px;
   padding: 0;
   margin: 0;
   display:flex;
@@ -64,8 +64,8 @@
 }
 .columnText {
   font-family: "Poppins";
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
 }
 .countdown-container {
   text-align: center;
@@ -127,10 +127,11 @@
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .aidWorks5kInfoParent {
-    height: 2300px;
+    height: 2600px;
     overflow: hidden;
+    overflow-y: visible;
   }
   .aidWorks5kInfoContent {
       width: 95%;
@@ -204,5 +205,10 @@
     font-family: "Poppins";
     float:left;
     margin-right: 10%;
+  }
+}
+@media (max-width: 650px) {
+  .aidWorks5kInfoParent {
+    height: 2200px;
   }
 }
