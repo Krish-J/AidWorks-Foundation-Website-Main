@@ -13,7 +13,7 @@ function AidWorks5kMap(){
                 </h1>
                 <hr className="mapTextBreak"></hr>
                 <p className="mapDescription">
-                    Reprehenderit ut deserunt culpa nisi. Laborum sint quis ullamco voluptate anim eu eiusmod eu anim quis sint mollit. Enim deserunt elit id aute est excepteur dolore duis aute pariatur. Mollit ex fugiat sit in incididunt do excepteur non. Occaecat proident nostrud consectetur aliquip anim exercitation nulla consectetur nostrud in irure ex.
+                Starting at Plainfield Avenue near White City, runners will proceed onto Villa Road and then Vancroft Avenue before turning left on to the scenic South Quinsigamond Road. Runners will then exit the beautiful road and turn left onto Grace Avenue. Then, they will turn onto Dorianna Avenue before taking a quick turn to Kenda Road. The final stretch of the run consists of a long run through Worthington Avenue, quick turns at Power Avenue, Svenson Road, and Naples Street before finally ending the run at the start point on Plainfield Avenue.
                 </p>
             </div>
             <div className="mapParent">

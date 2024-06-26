@@ -46,8 +46,8 @@
 @media (max-width: 1000px) {
     .aidWorks5kRegistrationParent {
         position: relative;
-        top: -5px;
-        height: 1100px;
+        top: 1px;
+        height: 1075px;
     }
     .registrationTitle {
         width: 100%;

@@ -1,8 +1,7 @@
 .aidWorks5kMapParent {
     width: 100%;
-    height: 800px;
+    height: 700px;
     display: flex;
-    padding: 10px;
     text-align: center;
     font-family: "Poppins";
     position: relative;
@@ -58,26 +57,42 @@
 }
 @media (max-width: 1000px) {
     .aidWorks5kMapParent {
-        height: 1300px;
-        padding-bottom: 0;
+        height: 1050px;
         overflow: hidden;
+        bottom: -5px;
     }
     .mapContent {
-        width: 95%;
-        margin-left: 0%;
+        width: 90%;
+        margin-left: 2.5%;
         position: absolute;
-        top: 0%;
+        top: 0;
         transform: translateY(0%);
         border-style: double;
+        
     }
     .mapTitle {
         width: 100%;
         font-size: 40px;
     }
     .mapParent {
-        width: 95%;
+        width: 90%;
         margin: 0;
+        margin-left: 2.5%;
         transform: translateY(0%);
-        top: 625px;
+        top: 425px;
+    }
+}
+@media (max-width: 650px) {
+    .aidWorks5kMapParent {
+        height: 1350px;
+        overflow: hidden;
+        bottom: -5px;
+    }
+    .mapParent {
+        width: 90%;
+        margin: 0;
+        margin-left: 2.5%;
+        transform: translateY(0%);
+        top: 750px;
     }
 }
