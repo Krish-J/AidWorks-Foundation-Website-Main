@@ -63,7 +63,7 @@
     }
     .mapContent {
         width: 90%;
-        margin-left: 2.5%;
+        margin-left: 5%;
         position: absolute;
         top: 0;
         transform: translateY(0%);
@@ -91,8 +91,8 @@
     .mapParent {
         width: 90%;
         margin: 0;
-        margin-left: 2.5%;
+        margin-left: 5%;
         transform: translateY(0%);
-        top: 750px;
+        top: 780px;
     }
 }
