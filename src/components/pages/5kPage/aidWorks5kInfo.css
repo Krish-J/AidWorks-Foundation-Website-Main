@@ -129,7 +129,7 @@
 
 @media (max-width: 900px) {
   .aidWorks5kInfoParent {
-    height: 2600px;
+    height: 2500px;
     overflow: hidden;
     overflow-y: visible;
   }
@@ -205,10 +205,5 @@
     font-family: "Poppins";
     float:left;
     margin-right: 10%;
-  }
-}
-@media (max-width: 650px) {
-  .aidWorks5kInfoParent {
-    height: 2200px;
   }
 }
