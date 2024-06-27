@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.751ff2c4.css",
+    "main.css": "/static/css/main.c39c3d00.css",
     "main.js": "/static/js/main.b9d72cdc.js",
     "static/js/787.95f4ab80.chunk.js": "/static/js/787.95f4ab80.chunk.js",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
@@ -42,12 +42,12 @@
     "static/media/cost.png": "/static/media/cost.c8f6a98da39d41b37a79.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.751ff2c4.css.map": "/static/css/main.751ff2c4.css.map",
+    "main.c39c3d00.css.map": "/static/css/main.c39c3d00.css.map",
     "main.b9d72cdc.js.map": "/static/js/main.b9d72cdc.js.map",
     "787.95f4ab80.chunk.js.map": "/static/js/787.95f4ab80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.751ff2c4.css",
+    "static/css/main.c39c3d00.css",
     "static/js/main.b9d72cdc.js"
   ]
 }
