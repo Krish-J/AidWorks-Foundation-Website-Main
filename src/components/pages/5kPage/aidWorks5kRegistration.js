@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 function AidWorks5kRegistration(){
     return(
         <div className="aidWorks5kRegistrationParent">
-            <div className="registrationTitleParent">
+            <div className="registrationTitleParent" id="registrationTitle">
                 <h1 className="registrationTitle">Register Here</h1>
             </div>
             

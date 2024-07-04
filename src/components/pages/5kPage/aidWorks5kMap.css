@@ -84,7 +84,7 @@
 }
 @media (max-width: 650px) {
     .aidWorks5kMapParent {
-        height: 1350px;
+        height: 1560px;
         overflow: hidden;
         bottom: -5px;
     }
@@ -93,6 +93,6 @@
         margin: 0;
         margin-left: 5%;
         transform: translateY(0%);
-        top: 780px;
+        top: 950px;
     }
 }
