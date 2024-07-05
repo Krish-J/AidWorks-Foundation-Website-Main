@@ -22,6 +22,7 @@ import Tej from "./tejPhoto.png";
 import Kevin from "./kevinPhoto.png";
 import Milind from "./milindPhoto.png";
 import Connor from "./connorPhoto.jpg";
+import Emily from "./emilyphoto.jpg";
 
 
 function OurTeam(){
@@ -179,11 +180,26 @@ function OurTeam(){
                         Executive Assistant
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Siddh, a 12th grade student who enjoys outdoor activities, talking, and helping out my community.
+                        I'm Siddh, a 12th-grade student who enjoys outdoor activities, talking, and helping out my community.
                         </p>
                     </div>
                     </div>
-                   
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Emily}/>
+                        </div>
+                        <p class="text-blk name">
+                        Emily Chow
+                        </p>
+                        <p class="text-blk position">
+                        Pulblic Affairs Officer
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Emily, a 10th-grade student, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!
+                        </p>
+                    </div>
+                    </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
