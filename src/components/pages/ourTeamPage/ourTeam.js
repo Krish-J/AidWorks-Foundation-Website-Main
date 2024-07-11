@@ -22,8 +22,8 @@ import Tej from "./tejPhoto.png";
 import Kevin from "./kevinPhoto.png";
 import Milind from "./milindPhoto.png";
 import Connor from "./connorPhoto.jpg";
-import Emily from "./emilyphoto.jpg";
-
+import Emily from "./emilyPhoto.jpg";
+import Ayur from "./ayurPhoto.jpg";
 
 function OurTeam(){
     return(
@@ -283,22 +283,6 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Harshith}/>
-                        </div>
-                        <p class="text-blk name">
-                        Harshith Mothkuri
-                        </p>
-                        <p class="text-blk position">
-                        Logistics Coordinator
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Harshith, a highschool junior who enjoys communcating with people as well as helping our community and people.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Abby}/>
                         </div>
                         <p class="text-blk name">
@@ -376,7 +360,38 @@ function OurTeam(){
                         </p>
                     </div>
                     </div>
-                    
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Harshith}/>
+                        </div>
+                        <p class="text-blk name">
+                        Harshith Mothkuri
+                        </p>
+                        <p class="text-blk position">
+                        Logistics Coordinator
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Harshith, a highschool junior who enjoys communcating with people as well as helping our community and people.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Ayur}/>
+                        </div>
+                        <p class="text-blk name">
+                        Ayur Nikhade
+                        </p>
+                        <p class="text-blk position">
+                        Logistics Coordinator
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Ayur, a student passionate about the humanities. My goal is to bring a change in the community and make the world a better place.
+                        </p>
+                    </div>
+                    </div>
                     
                 </div>
             
