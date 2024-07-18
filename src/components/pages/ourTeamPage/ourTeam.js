@@ -22,7 +22,7 @@ import Tej from "./tejPhoto.png";
 import Kevin from "./kevinPhoto.png";
 import Milind from "./milindPhoto.png";
 import Connor from "./connorPhoto.jpg";
-import Emily from "./emilyPhoto.jpg";
+import Emily from "./emilyphoto.jpg";
 import Ayur from "./ayurPhoto.jpg";
 
 function OurTeam(){
