@@ -34,7 +34,7 @@ function AidWorks5kInfo(){
                         Regular Cost: $35
                         <br/>
                         <br/>
-                        Cost from July 20th Onwards: $45
+                        Cost from August 10th Onwards: $45
                         </p>
                     </div>
                     <div className="prizes">
@@ -60,6 +60,8 @@ function AidWorks5kInfo(){
                             <p className="label3">Mins</p>
                             <p className="label4">Sec</p> 
                         </div>
+                        <br></br>
+                        <center><div>The 5K has been pushed back to August 17th, we apologize for the inconvenience.</div></center>
                     </div>
                 </div>
             </div>
