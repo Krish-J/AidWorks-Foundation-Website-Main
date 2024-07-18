@@ -61,7 +61,7 @@ function AidWorks5kInfo(){
                             <p className="label4">Sec</p> 
                         </div>
                         <br></br>
-                        <center><div>The 5K has been pushed back to August 17th, we apologize fr the inconvenience.</div></center>
+                        <center><div>The 5K has been pushed back to August 17th, we apologize or the inconvenience.</div></center>
                     </div>
                 </div>
             </div>
