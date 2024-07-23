@@ -321,7 +321,7 @@ function OurTeam(){
                         Tejpravin Ravikumar
                         </p>
                         <p class="text-blk position">
-                        Volunteers Coordinator
+                        Outreach Coordinator
                         </p >
                         <p class="text-blk feature-text">
                         I'm Tejpravin Ravikumar, and I am an enthusiastic, determined high school student who wishes to promote goodwill.
