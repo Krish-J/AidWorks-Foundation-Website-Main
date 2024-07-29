@@ -38,9 +38,12 @@ function Navbar(){
                     <Link to="/contact" className="nav-item">
                         Contact Us
                     </Link>
-                    {/* <Link to="/blog" className="nav-item">
+                    <a target="_blank" rel="noopener" href="https://aidworksdailyorg.wordpress.com/" class="nav-item">
                         Our Blog
-                    </Link> */}
+                        </a>
+                    {/*<Link to="/blog" className="nav-item">
+                        Our Blog
+                    </Link>*/}
                     
             </div>
             <div className="dropdown">
