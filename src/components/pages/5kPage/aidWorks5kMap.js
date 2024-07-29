@@ -18,7 +18,7 @@ function AidWorks5kMap(){
             </div>
             <div className="mapParent">
                 <div className="map"/>
-                <iframe className="plotaroute_map_2626350" src="https://www.plotaroute.com/embedmap/2626350?units=miles" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
+                <iframe className="plotaroute_map_2626350" src="https://www.plotaroute.com/embedmap/2678296?units=km" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
                 </iframe>
             </div>
         </div>
