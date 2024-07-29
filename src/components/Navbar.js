@@ -65,7 +65,7 @@ function Navbar(){
                         <Link to="/contact" className="nav-itemDrop">
                             Contact Us
                         </Link>
-                        <a target="_blank" rel="noopener" href="https://aidworksdailyorg.wordpress.com/" class="nav-item">
+                        <a target="_blank" rel="noopener" href="https://aidworksdailyorg.wordpress.com/" class="nav-itemDrop">
                         Our Blog
                         </a>
                         {/* <Link to="/blog" className="nav-itemDrop">
