@@ -26,9 +26,9 @@ function Navbar(){
                     
                 </Link>
                 <div className="navlink-container">
-                    <Link to="/home" className="nav-item">
+                    {/* <Link to="/home" className="nav-item">
                         Home
-                    </Link>
+                    </Link> */}
                     <Link to="/donate" className="nav-item">
                         Donate
                     </Link>
@@ -41,9 +41,6 @@ function Navbar(){
                     <a target="_blank" rel="noopener" href="https://aidworksdailyorg.wordpress.com/" class="nav-item">
                         Our Blog
                         </a>
-                    {/*<Link to="/blog" className="nav-item">
-                        Our Blog
-                    </Link>*/}
                     
             </div>
             <div className="dropdown">
@@ -53,9 +50,9 @@ function Navbar(){
                     <span className="line line--middle"></span>
                     <span className="line line--bottom"></span>
                     <div className="dropdownMenu" onClick={hideMobileMenu}> 
-                        <Link to="/home" className="nav-itemDrop">
+                        {/* <Link to="/home" className="nav-itemDrop">
                             Home
-                        </Link>
+                        </Link> */}
                         <Link to="/donate" className="nav-itemDrop">
                             Donate
                         </Link>
@@ -68,9 +65,6 @@ function Navbar(){
                         <a target="_blank" rel="noopener" href="https://aidworksdailyorg.wordpress.com/" class="nav-itemDrop">
                         Our Blog
                         </a>
-                        {/* <Link to="/blog" className="nav-itemDrop">
-                            Our Blog
-                        </Link> */}
                     </div>
                 </label> 
                 
