@@ -38,7 +38,7 @@ function Navbar(){
                     <Link to="/contact" className="nav-item">
                         Contact Us
                     </Link>
-                    <a target="_blank" rel="noopener" href="https://aidworksdailyorg.wordpress.com/" class="nav-item">
+                    <a href="https://aidworksdailyorg.wordpress.com/" class="nav-item">
                         Our Blog
                         </a>
                     
