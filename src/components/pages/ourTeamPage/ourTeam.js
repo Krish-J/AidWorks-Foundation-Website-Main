@@ -35,6 +35,7 @@ function OurTeam(){
                     Board of Directors
                 </p>
                 <div class="responsive-container-block">
+                    
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
@@ -92,7 +93,7 @@ function OurTeam(){
                         Madhavan Rajagopalan
                         </p>
                         <p class="text-blk position">
-                        Chief Human Resources Officer
+                        Chief Operating Officer
                         </p>
                         <p class="text-blk feature-text">
                         I'm Madhavan, a 12th grader passionate about helping the community and managing volunteers.
@@ -104,71 +105,7 @@ function OurTeam(){
                     Our Team
                 </p>
                 <div class="responsive-container-block">
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Jai}/>
-                        </div>
-                        <p class="text-blk name">
-                        Jaisuria Satish Babu
-                        </p>
-                        <p class="text-blk position">
-                        Head of Public Health
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Jaisuria, a 12th-grade student passionate about medicine, badminton, and community health.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Advith}/>
-                        </div>
-                        <p class="text-blk name">
-                        Advith Velamakanni
-                        </p>
-                        <p class="text-blk position">
-                        Head of Marketing
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Advith, a high school junior passionate about filmmaking, fencing, and supporting our community.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Ansh}/>
-                        </div>
-                        <p class="text-blk name">
-                        Ansh Nandurbarkar
-                        </p>
-                        <p class="text-blk position">
-                        Head of Finance
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Ansh, a high school junior passionate about chess, business, and communicating with others.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Ishan}/>
-                        </div>
-                        <p class="text-blk name">
-                        Ishan Jain
-                        </p>
-                        <p class="text-blk position">
-                        Co-Head of Finance
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Ishan, a 10th-grader passionate about giving back to communities, having fun, and designing my own CAD projects.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Siddh}/>
@@ -184,39 +121,7 @@ function OurTeam(){
                         </p>
                     </div>
                     </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Emily}/>
-                        </div>
-                        <p class="text-blk name">
-                        Emily Chow
-                        </p>
-                        <p class="text-blk position">
-                        Pulblic Affairs Officer
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Emily, a 10th-grade student, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Juan}/>
-                        </div>
-                        <p class="text-blk name">
-                        Juan Leon
-                        </p>
-                        <p class="text-blk position">
-                        Co-Founder
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Juan, a 12th-grade student who loves reading, working out and volunteering in my community.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Vedanth}/>
@@ -225,42 +130,10 @@ function OurTeam(){
                         Vedanth Saranath
                         </p>
                         <p class="text-blk position">
-                        Cross-Departmental Specialist
+                        Head of Technology
                         </p>
                         <p class="text-blk feature-text">
                         I'm Vedanth, a 11th-grader who is passionate about coding and photography and is always open to learn more.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Arnav}/>
-                        </div>
-                        <p class="text-blk name">
-                        Arnav Sharma
-                        </p>
-                        <p class="text-blk position">
-                        Infrastructure Specialist
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Arnav, a 12th-grade student who enjoys coding, tennis and learning how things work.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Sree}/>
-                        </div>
-                        <p class="text-blk name">
-                        Sreevatsen Kumar
-                        </p>
-                        <p class="text-blk position">
-                        Volunteers Coordinator
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Sree, a high school junior that loves playing video games, going for runs to stay active as well as building things using CAD.
                         </p>
                     </div>
                     </div>
@@ -273,42 +146,10 @@ function OurTeam(){
                         Shivam Goel
                         </p>
                         <p class="text-blk position">
-                        Public Health Coordinator
+                        Head of Public Health
                         </p>
                         <p class="text-blk feature-text">
                         I'm Shivam, a 12th-grader passionate about giving back to my community, helping others, and medicine.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Abby}/>
-                        </div>
-                        <p class="text-blk name">
-                        Abby Pacy
-                        </p>
-                        <p class="text-blk position">
-                        Marketing Department
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Abby, an 11th-grade student who loves helping others, making the community a better place, and giving back to those in need!
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Connor}/>
-                        </div>
-                        <p class="text-blk name">
-                        Connor Duffy
-                        </p>
-                        <p class="text-blk position">
-                        Marketing Department
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Connor, an 11th-grade student who is passionate about fostering positivity and hope through community service and outreach
                         </p>
                     </div>
                     </div>
@@ -321,7 +162,7 @@ function OurTeam(){
                         Tejpravin Ravikumar
                         </p>
                         <p class="text-blk position">
-                        Outreach Coordinator
+                        Co-Head of Public Health
                         </p >
                         <p class="text-blk feature-text">
                         I'm Tejpravin Ravikumar, and I am an enthusiastic, determined high school student who wishes to promote goodwill.
@@ -331,32 +172,81 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Kevin}/>
+                        <img class="team-member-image" src={Ishan}/>
                         </div>
                         <p class="text-blk name">
-                        Kevin Cao
+                        Ishan Jain
                         </p>
                         <p class="text-blk position">
-                        Volunteers Coordinator
+                        Head of Finance
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Kevin, and I'm passionate about psychology, problem-solving, and fostering an even more well-connected community.
+                        I'm Ishan, a 10th-grader passionate about giving back to communities, having fun, and designing my own CAD projects.
                         </p>
                     </div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Milind}/>
+                        <img class="team-member-image" src={Sree}/>
                         </div>
                         <p class="text-blk name">
-                        Milind Gupta
+                        Sreevatsen Kumar
                         </p>
                         <p class="text-blk position">
-                        Volunteers Coordinator
+                        Head of Volunteering
                         </p>
                         <p class="text-blk feature-text">
-                        Hey I'm Milind, and I love volunteering to give back to my community, experience new things, and inspire others to share this passion.
+                        I'm Sree, a high school junior that loves playing video games, going for runs to stay active as well as building things using CAD.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Emily}/>
+                        </div>
+                        <p class="text-blk name">
+                        Emily Chow
+                        </p>
+                        <p class="text-blk position">
+                        Marketing Manager
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Emily, a 10th-grade student, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Arnav}/>
+                        </div>
+                        <p class="text-blk name">
+                        Arnav Sharma
+                        </p>
+                        <p class="text-blk position">
+                        Technology Manager
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Arnav, a 12th-grade student who enjoys coding, tennis and learning how things work.
+                        </p>
+                    </div>
+                    </div>
+
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Jai}/>
+                        </div>
+                        <p class="text-blk name">
+                        Jaisuria Satish Babu
+                        </p>
+                        <p class="text-blk position">
+                        Public Health Coordinator
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Jaisuria, a 12th-grade student passionate about medicine, badminton, and community health.
                         </p>
                     </div>
                     </div>
@@ -392,6 +282,119 @@ function OurTeam(){
                         </p>
                     </div>
                     </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Milind}/>
+                        </div>
+                        <p class="text-blk name">
+                        Milind Gupta
+                        </p>
+                        <p class="text-blk position">
+                        Director of Food Access and Security
+                        </p>
+                        <p class="text-blk feature-text">
+                        Hey I'm Milind, and I love volunteering to give back to my community, experience new things, and inspire others to share this passion.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Advith}/>
+                        </div>
+                        <p class="text-blk name">
+                        Advith Velamakanni
+                        </p>
+                        <p class="text-blk position">
+                        Social Media Realtions
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Advith, a high school junior passionate about filmmaking, fencing, and supporting our community.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Abby}/>
+                        </div>
+                        <p class="text-blk name">
+                        Abby Pacy
+                        </p>
+                        <p class="text-blk position">
+                        Social Media Realtions
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Abby, an 11th-grade student who loves helping others, making the community a better place, and giving back to those in need!
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Connor}/>
+                        </div>
+                        <p class="text-blk name">
+                        Connor Duffy
+                        </p>
+                        <p class="text-blk position">
+                        Social Media Realtions
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Connor, an 11th-grade student who is passionate about fostering positivity and hope through community service and outreach
+                        </p>
+                    </div>
+                    </div>
+                    
+                    {/*<div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Kevin}/>
+                        </div>
+                        <p class="text-blk name">
+                        Kevin Cao
+                        </p>
+                        <p class="text-blk position">
+                        Volunteers Coordinator
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Kevin, and I'm passionate about psychology, problem-solving, and fostering an even more well-connected community.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Ansh}/>
+                        </div>
+                        <p class="text-blk name">
+                        Ansh Nandurbarkar
+                        </p>
+                        <p class="text-blk position">
+                        Head of Finance
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Ansh, a high school junior passionate about chess, business, and communicating with others.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Juan}/>
+                        </div>
+                        <p class="text-blk name">
+                        Juan Leon
+                        </p>
+                        <p class="text-blk position">
+                        Co-Founder
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Juan, a 12th-grade student who loves reading, working out and volunteering in my community.
+                        </p>
+                    </div>
+                    </div>*/}
                     
                 </div>
             
