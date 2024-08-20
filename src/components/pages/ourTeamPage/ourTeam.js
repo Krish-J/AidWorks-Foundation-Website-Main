@@ -48,7 +48,7 @@ function OurTeam(){
                         Chief Executive Officer
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Trung, a 12th-grader passionate about managing non-profits, finances, and benefiting society.
+                        I'm Trung, a freshman in college who is passionate about managing non-profits, finances, and benefiting society.
                         </p>
                     </div>
                     </div>
@@ -64,7 +64,7 @@ function OurTeam(){
                         Chief Information Officer
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Krish, a 12th-grade student who enjoys coding, teaching, and giving back to the community.
+                        I'm Krish, a freshman in college who enjoys coding, teaching, and giving back to the community.
                         </p>
                     </div>
                     </div>
@@ -80,7 +80,7 @@ function OurTeam(){
                         Chief Compliance Officer
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Aadi, an 11th-grade student whose passions include helping others, problem solving, and giving back to my community.
+                        I'm Aadi, an 12th-grade student whose passions include helping others, problem solving, and giving back to my community.
                         </p>
                     </div>
                     </div>
@@ -96,7 +96,7 @@ function OurTeam(){
                         Chief Operating Officer
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Madhavan, a 12th grader passionate about helping the community and managing volunteers.
+                        I'm Madhavan, a freshman in college who is passionate about helping the community and managing volunteers.
                         </p>
                     </div>
                     </div>
@@ -117,7 +117,7 @@ function OurTeam(){
                         Executive Assistant
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Siddh, a 12th-grade student who enjoys outdoor activities, talking, and helping out my community.
+                        I'm Siddh, a freshman in college who enjoys outdoor activities, talking, and helping out my community.
                         </p>
                     </div>
                     </div>
@@ -133,7 +133,7 @@ function OurTeam(){
                         Head of Technology
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Vedanth, a 11th-grader who is passionate about coding and photography and is always open to learn more.
+                        I'm Vedanth, a 12th-grader who is passionate about coding and photography and is always open to learn more.
                         </p>
                     </div>
                     </div>
@@ -149,7 +149,7 @@ function OurTeam(){
                         Head of Public Health
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Shivam, a 12th-grader passionate about giving back to my community, helping others, and medicine.
+                        I'm Shivam, a freshman in college who is passionate about giving back to my community, helping others, and medicine.
                         </p>
                     </div>
                     </div>
@@ -181,7 +181,7 @@ function OurTeam(){
                         Head of Finance
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Ishan, a 10th-grader passionate about giving back to communities, having fun, and designing my own CAD projects.
+                        I'm Ishan, a 11th-grader passionate about giving back to communities, having fun, and designing my own CAD projects.
                         </p>
                     </div>
                     </div>
@@ -197,7 +197,7 @@ function OurTeam(){
                         Head of Volunteering
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Sree, a high school junior that loves playing video games, going for runs to stay active as well as building things using CAD.
+                        I'm Sree, a high school senior that loves playing video games, going for runs to stay active as well as building things using CAD.
                         </p>
                     </div>
                     </div>
@@ -213,7 +213,7 @@ function OurTeam(){
                         Marketing Manager
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Emily, a 10th-grade student, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!
+                        I'm Emily, a 11th-grade student, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!
                         </p>
                     </div>
                     </div>
@@ -229,7 +229,7 @@ function OurTeam(){
                         Technology Manager
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Arnav, a 12th-grade student who enjoys coding, tennis and learning how things work.
+                        I'm Arnav, a freshman in college who enjoys coding, tennis and learning how things work.
                         </p>
                     </div>
                     </div>
@@ -246,7 +246,7 @@ function OurTeam(){
                         Public Health Coordinator
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Jaisuria, a 12th-grade student passionate about medicine, badminton, and community health.
+                        I'm Jaisuria, a freshman in college who is passionate about medicine, badminton, and community health.
                         </p>
                     </div>
                     </div>
@@ -262,7 +262,7 @@ function OurTeam(){
                         Logistics Coordinator
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Harshith, a highschool junior who enjoys communcating with people as well as helping our community and people.
+                        I'm Harshith, a highschool senior who enjoys communcating with people as well as helping our community and people.
                         </p>
                     </div>
                     </div>
@@ -310,7 +310,7 @@ function OurTeam(){
                         Social Media Relations
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Advith, a high school junior passionate about filmmaking, fencing, and supporting our community.
+                        I'm Advith, a high school senior passionate about filmmaking, fencing, and supporting our community.
                         </p>
                     </div>
                     </div>
@@ -326,7 +326,7 @@ function OurTeam(){
                         Social Media Relations
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Abby, an 11th-grade student who loves helping others, making the community a better place, and giving back to those in need!
+                        I'm Abby, an 12th-grade student who loves helping others, making the community a better place, and giving back to those in need!
                         </p>
                     </div>
                     </div>
@@ -342,7 +342,7 @@ function OurTeam(){
                         Social Media Relations
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Connor, an 11th-grade student who is passionate about fostering positivity and hope through community service and outreach
+                        I'm Connor, an 12th-grade student who is passionate about fostering positivity and hope through community service and outreach
                         </p>
                     </div>
                     </div>
@@ -375,7 +375,7 @@ function OurTeam(){
                         Head of Finance
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Ansh, a high school junior passionate about chess, business, and communicating with others.
+                        I'm Ansh, a high school senior passionate about chess, business, and communicating with others.
                         </p>
                     </div>
                     </div>
@@ -391,7 +391,7 @@ function OurTeam(){
                         Co-Founder
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Juan, a 12th-grade student who loves reading, working out and volunteering in my community.
+                        I'm Juan, a freshman in college who loves reading, working out and volunteering in my community.
                         </p>
                     </div>
                     </div>*/}
