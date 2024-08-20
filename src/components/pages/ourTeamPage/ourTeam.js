@@ -342,7 +342,7 @@ function OurTeam(){
                         Social Media Relations
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Connor, an 12th-grade student who is passionate about fostering positivity and hope through community service and outreach
+                        I'm Connor, an 12th-grade student who is passionate about fostering positivity and hope through community service and outreach.
                         </p>
                     </div>
                     </div>
