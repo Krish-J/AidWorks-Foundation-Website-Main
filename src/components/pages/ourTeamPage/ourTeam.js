@@ -307,7 +307,7 @@ function OurTeam(){
                         Advith Velamakanni
                         </p>
                         <p class="text-blk position">
-                        Social Media Realtions
+                        Social Media Relations
                         </p>
                         <p class="text-blk feature-text">
                         I'm Advith, a high school junior passionate about filmmaking, fencing, and supporting our community.
@@ -323,7 +323,7 @@ function OurTeam(){
                         Abby Pacy
                         </p>
                         <p class="text-blk position">
-                        Social Media Realtions
+                        Social Media Relations
                         </p>
                         <p class="text-blk feature-text">
                         I'm Abby, an 11th-grade student who loves helping others, making the community a better place, and giving back to those in need!
@@ -339,7 +339,7 @@ function OurTeam(){
                         Connor Duffy
                         </p>
                         <p class="text-blk position">
-                        Social Media Realtions
+                        Social Media Relations
                         </p>
                         <p class="text-blk feature-text">
                         I'm Connor, an 11th-grade student who is passionate about fostering positivity and hope through community service and outreach
