@@ -210,7 +210,7 @@ function OurTeam(){
                         Emily Chow
                         </p>
                         <p class="text-blk position">
-                        Marketing Manager
+                        Head of Marketing
                         </p>
                         <p class="text-blk feature-text">
                         I'm Emily, a 11th-grade student, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!
