@@ -2,7 +2,7 @@ import React from "react";
 import "../../../App.css";
 import "./ourTeam.css"
 import Jai from "./jaiPhoto.jpg";
-import Siddh from "./siddhPhoto.jpg";
+import Siddh from "./siddhPhoto.png";
 import Madhavan from "./madhavanPhoto.jpg";
 import Krish from "./krishPhoto.jpg";
 import Juan from "./juanPhoto.jpg";
@@ -14,7 +14,7 @@ import Pranay from "./pranayImage.png";
 import Shivam from "./shivamPhoto.jpg";
 import Ansh from "./anshPhoto.jpg";
 import Sree from "./sreePhoto.jpg";
-import Vedanth from "./vedanthPhoto.jpg";
+import Vedanth from "./vedanthPic.png";
 import Ishan from "./ishanPhoto.jpg";
 import Harshith from "./harshithPhoto.jpg";
 import Abby from "./abbyPhoto.png";
@@ -114,7 +114,7 @@ function OurTeam(){
                         Siddh Patel
                         </p>
                         <p class="text-blk position">
-                        Executive Assistant
+                        Deputy Chief of Human Resources Officer
                         </p>
                         <p class="text-blk feature-text">
                         I'm Siddh, a freshman in college who enjoys outdoor activities, talking, and helping out my community.
