@@ -18,10 +18,9 @@ function AidWorks5k() {
                     <p className="aidWorks5kExplain">
                     Mark your calendars for August 17th, 2024 at 9:30 am, and join us at Saint Anne's for a day of fun and compassion. Whether you're a seasoned runner, a casual jogger, or simply want to show your support, everyone is welcome at the Shrewsbury 5K Run for Medical Relief. Together, we can make a positive impact and help ensure that medical care remains accessible to all in our community.
                     </p>
-                    <button className="registrationButtonParent" onClick={() => document.getElementById("registrationTitle").scrollIntoView()}>
-                        {/* <a target="_blank" rel="noopener" href="https://www.zeffy.com/en-US/ticketing/5f8ad0da-6279-403e-afc5-1d5550ca477f" className="registrationButton"> Register Here </a> */}
-                        <a className="registrationButton"> Register Here </a>
-                    </button>
+                    <a className="registrationButton" onClick={() => document.getElementById("registrationTitle").scrollIntoView()}>Register Here!</a>
+                    {/* <a target="_blank" rel="noopener" href="https://www.zeffy.com/en-US/ticketing/5f8ad0da-6279-403e-afc5-1d5550ca477f" className="registrationButton"> Register Here </a> */}
+                    <a className="registrationButton" href="https://forms.gle/zHy7besQ7rEVw8fX6" target="_blank" rel="noopener noreferrer">Volunteer with Us!</a>
                 </div>
                 <img class="aidWorks5kRunPhoto" src={aidWorks5kPhoto}/>
             </div>

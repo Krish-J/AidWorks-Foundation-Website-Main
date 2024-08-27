@@ -7,12 +7,12 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 function Contact() {
     let captchaValue = false
-    const captchaRef = useRef(null)
+    const captchaRef = useRef()
     
 
-    function receipt() {
-        document.getElementById("receipt").hidden=false
-        document.getElementById("thanksButton").hidden=true
+    function receipt() {   
+        document.getElementById("receipt").hidden=false;
+        document.getElementById("thanksButton").hidden=true;
     }
     function reload() {
         window.location.reload();
@@ -20,7 +20,7 @@ function Contact() {
     }
     async function onclickSubmit(e) {
 
-        e.preventDefault() 
+        e.preventDefault()  
         const token = captchaRef.current.getValue();
         captchaRef.current.reset();
 
@@ -29,7 +29,6 @@ function Contact() {
         var email = document.getElementById("email");
         var category = document.getElementById("category");
         var desc = document.getElementById("desc");
-        var loader = document.getElementById("loader");
            
 
         fname.style.borderColor = "black";
@@ -73,7 +72,7 @@ function Contact() {
             desc.style.borderWidth = "3px";
             return
         } else{document.getElementById("descErrHidden").hidden = true;}
-        if (captchaValue !== true){
+        if (captchaValue !== false){
             document.getElementById("captchaErr").hidden = false;
         } else{
             document.getElementById("emailConf").innerHTML = email.value;
@@ -81,7 +80,7 @@ function Contact() {
             document.getElementById("thanksBox").hidden = false;
             document.getElementById("formParent").hidden = true;  
             try {        
-                const response = await fetch(process.env.REACT_APP_MACROS_LINK, { 
+                const response = await fetch("https://script.google.com/macros/s/AKfycbyqK3XMiUdIqAYarZuj1l4vIMfpmYRwB5EActM82T0zvdUTrELZKsKek07LHhJJ9SOW/exec", { 
                     mode: "no-cors",
                     method: "POST",
                     headers: {  
@@ -133,7 +132,6 @@ function Contact() {
                 <p className="contactDescription">
                         <h2>Have any questions?</h2>
                         <h2>We'd love to hear from you!</h2>
-                        <h4>(Note: you may also message us through one of the social medias at the bottom of the page)</h4>
                     </p>
                     <b><form id="contactForm" className="box" onSubmit={(e) => onclickSubmit(e)}>
                         <label for="fname" className="label">First Name</label>
@@ -154,20 +152,20 @@ function Contact() {
                             <option value="Other">Other</option>
                             </select>
                         <label id="errHidden" className="err" hidden={true}>Please select an option</label>
-
                         <textarea id="desc" className="textarea" rows={4} maxlength="300" placeholder="Type here. . ."></textarea>
                         <label id="descErrHidden" className="descErr" hidden={true}>Description Required</label>
                         
                         <button type="submit" onClick={onclickSubmit} className="submit">SUBMIT</button>
                         
                         <ReCAPTCHA
+                            id=""
                             sitekey={"6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03"}
                             class="g-recaptcha"
                             ref={captchaRef}
                         />
+                        <label id="captchaErr" className="Err" hidden={true}>reCAPTCHA Required</label>
 
-                        {/* <ReCAPTCHA sitekey="6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03" onChange={onChange}/> 
-                        <label id="captchaErr" className="err" hidden={true} value="">Please Finish The reCAPTCHA</label> */}
+
                     
                     </form></b>
                 </div>
