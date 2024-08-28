@@ -4,11 +4,14 @@ import { Link } from 'react-router-dom';
 import "./contact.css";
 import contactImage from "./contactImage.jpg"
 import ReCAPTCHA from "react-google-recaptcha";
+import { TailSpin } from 'react-loader-spinner';
+
 
 function Contact() {
+    
     let captchaValue = false
     const captchaRef = useRef()
-    
+      
 
     function receipt() {   
         document.getElementById("receipt").hidden=false;
@@ -19,6 +22,7 @@ function Contact() {
         
     }
     async function onclickSubmit(e) {
+        
 
         e.preventDefault()  
         const token = captchaRef.current.getValue();
@@ -77,8 +81,13 @@ function Contact() {
         } else{
             document.getElementById("emailConf").innerHTML = email.value;
             document.getElementById("nameConf").innerHTML = fname.value;
-            document.getElementById("thanksBox").hidden = false;
-            document.getElementById("formParent").hidden = true;  
+            document.getElementById("loader").hidden = false;
+            setTimeout(function(){
+                document.getElementById("loader").hidden = true;
+                document.getElementById("thanksBox").hidden = false;
+                document.getElementById("formParent").hidden = true; 
+            }, 2000);
+            
             try {        
                 const response = await fetch("https://script.google.com/macros/s/AKfycbyqK3XMiUdIqAYarZuj1l4vIMfpmYRwB5EActM82T0zvdUTrELZKsKek07LHhJJ9SOW/exec", { 
                     mode: "no-cors",
@@ -104,7 +113,9 @@ function Contact() {
     }
 
     return (
+        
         <div className="contactParent">
+            <div id="loader" className="loader" hidden={true}><TailSpin color="#DD6C73"/></div>
             <div id="thanksBox" className="thanksBox" hidden={true}>
                 <div className="thanksTitle">Contact Form</div>
                 <div className="thanksText">Thank you <b><span id="nameConf"></span></b> for filling out our form! Your input is valuable and will help us serve you better!</div>
@@ -116,8 +127,6 @@ function Contact() {
 
             </div>
 
-
-            
             <div id="formParent" hidden={false}>
                 <div className="navBarBg"> </div>
                 <div class="titleParent">
@@ -130,6 +139,7 @@ function Contact() {
                 </div>
                 <div className="container">
                 <p className="contactDescription">
+
                         <h2>Have any questions?</h2>
                         <h2>We'd love to hear from you!</h2>
                     </p>
