@@ -69,6 +69,7 @@
     column-count: 2;
     column-gap: 10%;
     column-rule-style:solid;  
+    column-rule-color: #BC4374;
     margin-top:100px;
     margin-bottom: 100px;
     margin-left: 45%;
@@ -79,12 +80,17 @@
     width:150%;
     border-radius: 10px;
     padding: 50px;
-    background-image: radial-gradient(#547dde, #1c53d5);
+    background-image: radial-gradient(#3772ff, #1c53d5);
     overflow:hidden;
 }
 
 .box label {
     color: #FFFFFF;
+}
+
+.box option {
+    font-family: "Poppins";
+
 }
 
 
@@ -104,7 +110,6 @@
 }
 
 .input:focus {
-    background-color: #e0f7ff;
     border: 2px solid #000000;
 }
 
@@ -129,6 +134,9 @@
 }
 
 .submit{
+    background-color: #DD6C73;
+    color: white;
+    font-weight: bolder;
     padding: 10px 15px; 
     font-size: 12px; 
     border-radius: 20px;
@@ -139,40 +147,6 @@
 .submit:hover {
     border-width: 3px;
 }
-
-.loader {
-    position: fixed;
-    margin-left: 43%;
-    margin-top: 14%;
-    width: 4%;
-    aspect-ratio: 1;
-    display: grid;
-    border-radius: 50%;
-    background:
-      linear-gradient(0deg ,rgb(0 0 0/50%) 30%,#0000 0 70%,rgb(0 0 0/100%) 0) 50%/8% 100%,
-      linear-gradient(90deg,rgb(0 0 0/25%) 30%,#0000 0 70%,rgb(0 0 0/75% ) 0) 50%/100% 8%;
-    background-repeat: no-repeat;
-    animation: l23 1s infinite steps(12);
-  }
-  
-  .loader::before,
-  .loader::after {
-     content: "";
-     grid-area: 1/1;
-     border-radius: 50%;
-     background: inherit;
-     opacity: 0.915;
-     transform: rotate(30deg);
-  }
-  .loader::after {
-     opacity: 0.83;
-     transform: rotate(60deg);
-  }
-
-  @keyframes l23 {
-    100% {transform: rotate(1turn)}
-  }
-
 
 .line{
     border-bottom: 0px; 
@@ -220,20 +194,23 @@
     margin-left: 10%;
 }
 
+.select {
+    padding: 5px 5px; 
+    border-radius: 10px;
+}
+
 .linkButton {
     text-decoration: none;
     display: block;
-    width: 50%;
     text-align: center;
     margin: auto;
-    padding-left: 3px;
-    padding-left: 30px;
-    padding-right: 30px;
     font-size: 15px;
     border-style:outset;
     border-radius: 30px;
     border-width: 2px;
     border-color: blue;
+    width: fit-content;
+    padding: 0.5% 5% 0.5% 5%;
 }
 
 .linkButton:hover {
@@ -253,7 +230,8 @@
     margin-right: auto;
     margin-bottom: 3%;
     margin-top: 3%;
-    width: 50%;
+    width: fit-content;
+    padding: 0.5% 5% 0.5% 5%;
 }
 
 .thanksButton:hover {
@@ -269,6 +247,15 @@
     text-align: center;
 }
 
+.loader {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 100vh 50vw 100vh 50vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    z-index: 1;
+}
 
 @media (max-width: 1000px) {
     .contactTitle{
