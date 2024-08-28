@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2477579.css",
-    "main.js": "/static/js/main.d56dafb5.js",
+    "main.css": "/static/css/main.e82bea80.css",
+    "main.js": "/static/js/main.fb0d2765.js",
     "static/js/787.95f4ab80.chunk.js": "/static/js/787.95f4ab80.chunk.js",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
     "static/media/vedanthPic.png": "/static/media/vedanthPic.85cbf87182dcb5e14042.png",
@@ -42,14 +42,13 @@
     "static/media/benefits.jpg": "/static/media/benefits.c2bcd5d9d91fe48bea6c.jpg",
     "static/media/arnavPhoto.jpg": "/static/media/arnavPhoto.a469f6c76dd67a7aed5f.jpg",
     "static/media/cost.png": "/static/media/cost.c8f6a98da39d41b37a79.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.c2477579.css.map": "/static/css/main.c2477579.css.map",
-    "main.d56dafb5.js.map": "/static/js/main.d56dafb5.js.map",
+    "main.e82bea80.css.map": "/static/css/main.e82bea80.css.map",
+    "main.fb0d2765.js.map": "/static/js/main.fb0d2765.js.map",
     "787.95f4ab80.chunk.js.map": "/static/js/787.95f4ab80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2477579.css",
-    "static/js/main.d56dafb5.js"
+    "static/css/main.e82bea80.css",
+    "static/js/main.fb0d2765.js"
   ]
 }
