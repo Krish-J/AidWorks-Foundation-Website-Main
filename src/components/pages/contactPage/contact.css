@@ -79,12 +79,12 @@
     width:150%;
     border-radius: 10px;
     padding: 50px;
-    background-image: radial-gradient(#FAF8F5, #B8B6B3);
+    background-image: radial-gradient(#547dde, #1c53d5);
     overflow:hidden;
 }
 
 .box label {
-    color: #7F5A68;
+    color: #FFFFFF;
 }
 
 
