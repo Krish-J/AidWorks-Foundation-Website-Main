@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.navBarBg {
+  height: 80px;
+  background-color: #0b42c1;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  overflow: hidden;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

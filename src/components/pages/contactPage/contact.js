@@ -142,7 +142,7 @@ function Contact() {
 
                         <h2>Have any questions?</h2>
                         <h2>We'd love to hear from you!</h2>
-                    </p>
+                </p>
                     <b><form id="contactForm" className="box" onSubmit={(e) => onclickSubmit(e)}>
                         <label for="fname" className="label">First Name</label>
                         <input id="fname" className="input" placeholder="" />
