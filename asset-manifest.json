@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e82bea80.css",
-    "main.js": "/static/js/main.fb0d2765.js",
+    "main.css": "/static/css/main.a9ed5932.css",
+    "main.js": "/static/js/main.4d74f810.js",
     "static/js/787.95f4ab80.chunk.js": "/static/js/787.95f4ab80.chunk.js",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
+    "static/media/raghuPhoto.jpg": "/static/media/raghuPhoto.7a65aab108dcdfbc584b.jpg",
     "static/media/vedanthPic.png": "/static/media/vedanthPic.85cbf87182dcb5e14042.png",
     "static/media/krishPhoto.jpg": "/static/media/krishPhoto.a29bc72addd210722cc2.jpg",
     "static/media/jaiPhoto.jpg": "/static/media/jaiPhoto.3cef72a598a857fa601d.jpg",
@@ -11,6 +12,7 @@
     "static/media/ishanPhoto.jpg": "/static/media/ishanPhoto.383d8155899a0ce15cab.jpg",
     "static/media/siddhPhoto.png": "/static/media/siddhPhoto.52ad2adff24fa0ad35a5.png",
     "static/media/madhavanPhoto.jpg": "/static/media/madhavanPhoto.659a333297d5c6b66ff8.jpg",
+    "static/media/brianPhoto.jpg": "/static/media/brianPhoto.9c06055ad3281b4f2076.jpg",
     "static/media/emilyphoto.jpg": "/static/media/emilyphoto.07634d78851acf37f081.jpg",
     "static/media/milindPhoto.png": "/static/media/milindPhoto.f2b8a10f43c0a01661d0.png",
     "static/media/contactImage.jpg": "/static/media/contactImage.0bfac0fc87fd6c350c73.jpg",
@@ -43,12 +45,12 @@
     "static/media/arnavPhoto.jpg": "/static/media/arnavPhoto.a469f6c76dd67a7aed5f.jpg",
     "static/media/cost.png": "/static/media/cost.c8f6a98da39d41b37a79.png",
     "index.html": "/index.html",
-    "main.e82bea80.css.map": "/static/css/main.e82bea80.css.map",
-    "main.fb0d2765.js.map": "/static/js/main.fb0d2765.js.map",
+    "main.a9ed5932.css.map": "/static/css/main.a9ed5932.css.map",
+    "main.4d74f810.js.map": "/static/js/main.4d74f810.js.map",
     "787.95f4ab80.chunk.js.map": "/static/js/787.95f4ab80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e82bea80.css",
-    "static/js/main.fb0d2765.js"
+    "static/css/main.a9ed5932.css",
+    "static/js/main.4d74f810.js"
   ]
 }
