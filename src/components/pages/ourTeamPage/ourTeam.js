@@ -24,6 +24,8 @@ import Milind from "./milindPhoto.png";
 import Connor from "./connorPhoto.jpg";
 import Emily from "./emilyphoto.jpg";
 import Ayur from "./ayurPhoto.jpg";
+import Brian from "./brianPhoto.jpg";
+import Raghu from "./raghuPhoto.jpg"
 
 function OurTeam(){
     return(
@@ -343,6 +345,38 @@ function OurTeam(){
                         </p>
                         <p class="text-blk feature-text">
                         I'm Connor, an 12th-grade student who is passionate about fostering positivity and hope through community service and outreach.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Brian}/>
+                        </div>
+                        <p class="text-blk name">
+                        Brian Olsen
+                        </p>
+                        <p class="text-blk position">
+                        Volunteers Coordinator
+                        </p>
+                        <p class="text-blk feature-text">
+                        I’m Brian, a high school junior passionate about basketball, golf, education, and helping others.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Raghu}/>
+                        </div>
+                        <p class="text-blk name">
+                        Raghu Rajagopalan
+                        </p>
+                        <p class="text-blk position">
+                        Director of Food Access and Security
+                        </p>
+                        <p class="text-blk feature-text">
+                        Hi, I am Raghu, a high school freshman who likes playing video games and someone who is  very passionate about volunteering and creating a positive impact on our community. 
                         </p>
                     </div>
                     </div>
