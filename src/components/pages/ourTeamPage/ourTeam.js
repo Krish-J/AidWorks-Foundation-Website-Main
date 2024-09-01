@@ -376,7 +376,7 @@ function OurTeam(){
                         Director of Food Access and Security
                         </p>
                         <p class="text-blk feature-text">
-                        Hi, I am Raghu, a high school freshman who likes playing video games and someone who is  very passionate about volunteering and creating a positive impact on our community. 
+                        I'm Raghu, a high school freshman passionate about volunteering and enthusiastic about helping our community.
                         </p>
                     </div>
                     </div>
