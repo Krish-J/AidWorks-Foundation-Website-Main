@@ -9,7 +9,7 @@ function Footer() {
         </head>
         <div class="wrapper">
             <div className="iconWrapper">
-                <a target="_blank" rel="noreferrer" href="!#" class="icon facebook">
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=61561200076591&mibextid=JRoKGi" class="icon facebook">
                     <span><i class="fab fa-facebook-f"></i></span>
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/aidworks-foundation/" class="icon linkedin"> 
