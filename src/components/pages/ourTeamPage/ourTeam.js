@@ -293,7 +293,7 @@ function OurTeam(){
                         Milind Gupta
                         </p>
                         <p class="text-blk position">
-                        Director of Food Access and Security
+                        Director of Food Security
                         </p>
                         <p class="text-blk feature-text">
                         Hey I'm Milind, and I love volunteering to give back to my community, experience new things, and inspire others to share this passion.
@@ -373,7 +373,7 @@ function OurTeam(){
                         Raghu Rajagopalan
                         </p>
                         <p class="text-blk position">
-                        Director of Food Access and Security
+                        Director of Food Security
                         </p>
                         <p class="text-blk feature-text">
                         I'm Raghu, a high school freshman passionate about volunteering and enthusiastic about helping our community.
