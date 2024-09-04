@@ -27,7 +27,7 @@
     background-image: linear-gradient(90deg, #e7effb, #00bbff);
     background-size: 200% auto;
     -webkit-background-clip: text;
-    animation: textclip 3s linear ;
+    animation: textclip 4s linear ;
 }
 
 @keyframes textclip {
