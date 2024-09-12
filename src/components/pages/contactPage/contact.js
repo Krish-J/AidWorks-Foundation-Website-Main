@@ -1,13 +1,12 @@
 import React, { useRef } from "react";
 import "./contact.css";
-import contactImage from "./contactImage.jpg"
 import ReCAPTCHA from "react-google-recaptcha";
 import { TailSpin } from 'react-loader-spinner';
 
 
 function Contact() {
-    let captchaValue = false;
-    const captchaRef = useRef();
+    // let captchaValue = false;
+    // const captchaRef = useRef();
 
     function receipt() {   
         document.getElementById("receipt").hidden=false;
@@ -19,35 +18,29 @@ function Contact() {
 
     async function onclickSubmit(e) {
         e.preventDefault()  
-        const token = captchaRef.current.getValue();
-        captchaRef.current.reset();
+        // const token = captchaRef.current.getValue();
+        // captchaRef.current.reset();
 
-        var fname = document.getElementById("fname");
-        var lname = document.getElementById("lname");
+        var firstName = document.getElementById("firstName");
+        var lastName = document.getElementById("lastName");
         var email = document.getElementById("email");
         var category = document.getElementById("category");
         var desc = document.getElementById("desc");
 
-        fname.style.borderColor = "black";
-        lname.style.borderColor = "black";
-        email.style.borderColor = "black";
-        category.style.borderColor = "black";
-        desc.style.borderColor = "black";
-
-        if (fname.value === ""){
-            document.getElementById("fnameErr").hidden = false;
-            fname.focus();
-            fname.style.borderColor = "red";
-            fname.style.borderWidth = "3px";    
+        if (firstName.value === ""){
+            document.getElementById("firstNameErr").hidden = false;
+            firstName.focus();
+            firstName.style.borderColor = "red";
+            firstName.style.borderWidth = "3px";    
             return
-        } else{document.getElementById("fnameErr").hidden = true;}
-        if (lname.value === ""){
-            document.getElementById("lnameErr").hidden = false;
-            lname.focus();
-            lname.style.borderColor = "red";
-            lname.style.borderWidth = "3px";    
+        } else{document.getElementById("firstNameErr").hidden = true;}
+        if (lastName.value === ""){
+            document.getElementById("lastNameErr").hidden = false;
+            lastName.focus();
+            lastName.style.borderColor = "red";
+            lastName.style.borderWidth = "3px";    
             return
-        } else{document.getElementById("lnameErr").hidden = true;}
+        } else{document.getElementById("lastNameErr").hidden = true;}
         if (email.value === ""){
             document.getElementById("emailErr").hidden = false;
             email.focus();
@@ -56,26 +49,26 @@ function Contact() {
             return
         } else{document.getElementById("emailErr").hidden = true;}
         if (category.value === "0"){
-            document.getElementById("errHidden").hidden = false;
+            document.getElementById("categoryErr").hidden = false;
             category.focus();
             category.style.borderColor = "red";
             category.style.borderWidth = "3px";    
             return
-        } else{document.getElementById("errHidden").hidden = true;}
+        } else{document.getElementById("categoryErr").hidden = true;}
         if (desc.value === ""){
-            document.getElementById("descErrHidden").hidden = false;
+            document.getElementById("descErr").hidden = false;
             desc.focus();
             desc.style.borderColor = "red";
             desc.style.borderWidth = "3px";
             return
-        } else{document.getElementById("descErrHidden").hidden = true;
+        } else{document.getElementById("descErr").hidden = true;
         // if (captchaValue === false){
         //     document.getElementById("captchaErr").hidden = false;
         //     return
         // } else{
-            document.getElementById("captchaErr").hidden = true;        
+        //    document.getElementById("captchaErr").hidden = true;        
             document.getElementById("emailConf").innerHTML = email.value;
-            document.getElementById("nameConf").innerHTML = fname.value;
+            document.getElementById("nameConf").innerHTML = firstName.value;
             document.getElementById("loader").hidden = false;
             setTimeout(function(){
                 document.getElementById("loader").hidden = true;
@@ -91,8 +84,8 @@ function Contact() {
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
-                        "fname": fname.value,
-                        "lname": lname.value,
+                        "firstName": firstName.value,
+                        "lastName": lastName.value,
                         "email": email.value,
                         "category": category.value,
                         "desc": desc.value
@@ -106,44 +99,26 @@ function Contact() {
 
     return ( 
         <div className="contactParent">
-            <div className="navBarBg"> </div>
+            <div className="navBarBg"></div>
             <div id="loader" className="loader" hidden={true}><TailSpin color="#DD6C73"/></div>
 
-            <div id="thanksBox" className="thanksBox" hidden={true}>
-                <div className="thanksTitle">Contact Form</div>
-                <div className="thanksText">Thank you <b><span id="nameConf"></span></b> for filling out our form! Your input is valuable and will help us serve you better!</div>
-        
-                <button className="thanksButton" type="submit" onClick={receipt}>Email me my receipt</button>
-                <strong><div id="receipt" className="emailConf" hidden={true}>Sent an email to <span id="emailConf"></span></div></strong>
-                <button className="thanksButton" onClick={reload}>Submit Another Form</button>
-                <button className="thanksButton"><a href="/home">Return to Homepage</a></button>
-            </div>
-
             <div id="formParent" hidden={false}>
-                <div class="titleParent">
-                    <div className="contactImgParent">
-                    <img className="contactImg" src={contactImage} />
-                    </div>
-                    <div className="contactTitle">
-                        <h1 className="centered">Contact Us!</h1>
-                    </div>
-                </div>
                 <div className="container">
                     <p className="contactDescription">
                             <h2>Have any questions?</h2>
                             <h2>We'd love to hear from you!</h2>
                     </p>
                     <form id="contactForm" className="box" onSubmit={(e) => onclickSubmit(e)}><b>
-                        <label for="fname" className="label">First Name</label>
-                        <input id="fname" className="input" placeholder="" />
-                        <mark id="fnameErr" className="err" hidden={true}>First Name Required</mark>
+                        <label for="firstName" className="label">First Name</label>
+                        <input id="firstName"  placeholder="" />
+                        <label id="firstNameErr" className="err" hidden={true}>First Name Required</label>
 
-                        <label for="lname" className="label">Last Name</label>
-                        <input id="lname" className="input" placeholder="" />
-                        <label id="lnameErr" className="err" hidden={true}>Last Name Required</label>
+                        <label for="lastName" className="label">Last Name</label>
+                        <input id="lastName"  placeholder="" />
+                        <label id="lastNameErr" className="err" hidden={true}>Last Name Required</label>
 
                         <label for="email" className="label">Your Email</label>
-                        <input id="email" className="input" placeholder="" />
+                        <input id="email"  placeholder="" />
                         <label id="emailErr" className="err" hidden={true}>Email Required</label>
 
                         <label for="category" className="label">What can we help you with?</label>
@@ -157,21 +132,30 @@ function Contact() {
                         <label id="errHidden" className="err" hidden={true}>Please select an option</label>
                         
                         <textarea id="desc" className="textarea" rows={4} maxlength="300" placeholder="Type here. . ."></textarea>
-                        <label id="descErrHidden" className="err" hidden={true}>Description Required</label>
+                        <label id="descErr" className="err" hidden={true}>Description Required</label>
                                                 
-                        <ReCAPTCHA
+                        {/* <ReCAPTCHA
                             id=""
                             sitekey={"6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03"}
                             class="g-recaptcha"
                             ref={captchaRef}
-                        />
+                        /> */}
                         <label id="captchaErr" className="err" hidden={true}>reCAPTCHA Required</label>
                         <button type="submit" onClick={onclickSubmit} className="submit">SUBMIT</button>
-
-
                     </b></form>
                 </div>
             </div>
+
+            <div id="thanksBox" className="thanksBox" hidden={true}>
+                <div className="thanksTitle">Contact Form</div>
+                <div className="thanksText">Thank you <b><span id="nameConf"></span></b> for filling out our form! Your input is valuable and will help us serve you better!</div>
+        
+                <button className="thanksButton" type="submit" onClick={receipt}>Email me my receipt</button>
+                <strong><div id="receipt" className="emailConf" hidden={true}>Sent an email to <span id="emailConf"></span></div></strong>
+                <button className="thanksButton" onClick={reload}>Submit Another Form</button>
+                <button className="thanksButton"><a href="/home">Return to Homepage</a></button>
+            </div>
+
         </div> 
 
 
