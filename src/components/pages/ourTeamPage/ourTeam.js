@@ -319,22 +319,6 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Abby}/>
-                        </div>
-                        <p class="text-blk name">
-                        Abby Pacy
-                        </p>
-                        <p class="text-blk position">
-                        Social Media Relations
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Abby, an 12th-grade student who loves helping others, making the community a better place, and giving back to those in need!
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Connor}/>
                         </div>
                         <p class="text-blk name">
@@ -381,7 +365,9 @@ function OurTeam(){
                     </div>
                     </div>
                     
-                    {/*<div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    {/*
+                    TERMINATIONS
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Kevin}/>
@@ -426,6 +412,23 @@ function OurTeam(){
                         </p>
                         <p class="text-blk feature-text">
                         I'm Juan, a freshman in college who loves reading, working out and volunteering in my community.
+                        </p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Abby}/>
+                        </div>
+                        <p class="text-blk name">
+                        Abby Pacy
+                        </p>
+                        <p class="text-blk position">
+                        Social Media Relations
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Abby, an 12th-grade student who loves helping others, making the community a better place, and giving back to those in need!
                         </p>
                     </div>
                     </div>*/}
