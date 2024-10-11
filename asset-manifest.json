@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7752deaf.css",
-    "main.js": "/static/js/main.a9bee3e2.js",
+    "main.css": "/static/css/main.5b94cba9.css",
+    "main.js": "/static/js/main.7b7379ee.js",
     "static/js/787.95f4ab80.chunk.js": "/static/js/787.95f4ab80.chunk.js",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
     "static/media/raghuPhoto.jpg": "/static/media/raghuPhoto.7a65aab108dcdfbc584b.jpg",
@@ -15,7 +15,6 @@
     "static/media/brianPhoto.jpg": "/static/media/brianPhoto.9c06055ad3281b4f2076.jpg",
     "static/media/emilyphoto.jpg": "/static/media/emilyphoto.07634d78851acf37f081.jpg",
     "static/media/milindPhoto.png": "/static/media/milindPhoto.f2b8a10f43c0a01661d0.png",
-    "static/media/contactImage.jpg": "/static/media/contactImage.0bfac0fc87fd6c350c73.jpg",
     "static/media/juanPhoto.jpg": "/static/media/juanPhoto.82933611c35da05603c3.jpg",
     "static/media/aadiPhoto.jpg": "/static/media/aadiPhoto.88299260b66e6734ce05.jpg",
     "static/media/harshithPhoto.jpg": "/static/media/harshithPhoto.1d3a884f311e14305523.jpg",
@@ -45,12 +44,12 @@
     "static/media/arnavPhoto.jpg": "/static/media/arnavPhoto.a469f6c76dd67a7aed5f.jpg",
     "static/media/cost.png": "/static/media/cost.c8f6a98da39d41b37a79.png",
     "index.html": "/index.html",
-    "main.7752deaf.css.map": "/static/css/main.7752deaf.css.map",
-    "main.a9bee3e2.js.map": "/static/js/main.a9bee3e2.js.map",
+    "main.5b94cba9.css.map": "/static/css/main.5b94cba9.css.map",
+    "main.7b7379ee.js.map": "/static/js/main.7b7379ee.js.map",
     "787.95f4ab80.chunk.js.map": "/static/js/787.95f4ab80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7752deaf.css",
-    "static/js/main.a9bee3e2.js"
+    "static/css/main.5b94cba9.css",
+    "static/js/main.7b7379ee.js"
   ]
 }
