@@ -82,7 +82,7 @@ function OurTeam(){
                         Chief Compliance Officer
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Aadi, an 12th-grade student whose passions include helping others, problem solving, and giving back to my community.
+                        I’m Aadi, a high school senior who loves to problem-solve and help others within our community.
                         </p>
                     </div>
                     </div>
