@@ -3,10 +3,10 @@ import './scrollpage.css';
 
 const InfiniteScroll = () => {
   const scrollItems = [
-    <p>Empowering Communities</p>,
-    <p>Creating Sustainable Change</p>,
-    <p>Improving Access to Healthcare</p>,
-    <p>Educating for a Better Future</p>,
+    <p>$10,850+ raised</p>,
+    <p>55,000+ reached</p>,
+    //<p>Improving Access to Healthcare</p>,
+    //<p>Educating for a Better Future</p>,
     // Add more items if needed
   ];
   const duplicatedItems = [...scrollItems, ...scrollItems];

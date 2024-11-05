@@ -89,7 +89,7 @@
 .dropdown {
     display: none;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .hamburger{
         margin-left: 28px;
         position: relative;
