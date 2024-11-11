@@ -36,9 +36,9 @@ function Navbar(){
                     <Link to="/ourteam" className="nav-item">
                         Our Team
                     </Link>
-                    {/* <Link to="/events" className="nav-item">
+                    <Link to="/events" className="nav-item">
                         Past Events
-                    </Link> */}
+                    </Link>
                     <Link to="/contact" className="nav-item">
                         Contact Us
                     </Link>
@@ -63,9 +63,9 @@ function Navbar(){
                         <Link to="/ourteam" className="nav-itemDrop">
                             Our Team
                         </Link>
-                        {/* <Link to="/events" className="nav-itemDrop">
+                        <Link to="/events" className="nav-itemDrop">
                         Past Events
-                        </Link> */}
+                        </Link>
                         <Link to="/contact" className="nav-itemDrop">
                             Contact Us
                         </Link>
