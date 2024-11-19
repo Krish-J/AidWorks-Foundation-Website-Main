@@ -45,17 +45,17 @@ body {
     border-left: 3px solid #3498db; 
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-/*
+
 .timelineDate {
     font-size: 1.25rem;
-    color: #3498db;
+    color: black;
     font-weight: bold;
 }
 
-
 .timelineContent {
-    padding-left: 1rem;
-}*/
+    padding-top: 1rem;
+    width: 100%;
+}
 
 .timelineContent h3 {
     margin-top: 0.5rem;
@@ -81,8 +81,4 @@ body {
     display: flex;
     position: fixed;
     margin-top: -80px;
-}
-
-.date {
-    color: rgb(0, 0, 0);
 }

@@ -1,31 +1,27 @@
 import React from "react";
 import "../../../App.css";
 import "./ourTeam.css"
-import Jai from "./jaiPhoto.jpg";
-import Siddh from "./siddhPhoto.png";
-import Madhavan from "./madhavanPhoto.jpg";
-import Krish from "./krishPhoto.jpg";
-import Juan from "./juanPhoto.jpg";
-import Trung from "./trungPhoto.jpg";
-import Aadi from "./aadiPhoto.jpg";
-import Arnav from "./arnavPhoto.jpg";
-import Advith from "./advithPhoto.jpg";
-import Pranay from "./pranayImage.png";
-import Shivam from "./shivamPhoto.jpg";
-import Ansh from "./anshPhoto.jpg";
-import Sree from "./sreePhoto.jpg";
-import Vedanth from "./vedanthPic.png";
-import Ishan from "./ishanPhoto.jpg";
-import Harshith from "./harshithPhoto.jpg";
-import Abby from "./abbyPhoto.png";
-import Tej from "./tejPhoto.png";
-import Kevin from "./kevinPhoto.png";
-import Milind from "./milindPhoto.png";
-import Connor from "./connorPhoto.jpg";
-import Emily from "./emilyphoto.jpg";
-import Ayur from "./ayurPhoto.jpg";
-import Brian from "./brianPhoto.jpg";
-import Raghu from "./raghuPhoto.jpg"
+import Jai from "./pictures/jaiPhoto.jpg";
+import Siddh from "./pictures/siddhPhoto.png";
+import Madhavan from "./pictures/madhavanPhoto.jpg";
+import Krish from "./pictures/krishPhoto.jpg";
+import Trung from "./pictures/trungPhoto.jpg";
+import Aadi from "./pictures/aadiPhoto.jpg";
+import Arnav from "./pictures/arnavPhoto.jpg";
+import Advith from "./pictures/advithPhoto.jpg";
+import Shivam from "./pictures/shivamPhoto.jpg";
+import Sree from "./pictures/sreePhoto.jpg";
+import Vedanth from "./pictures/vedanthPhoto.png";
+import Ishan from "./pictures/ishanPhoto.jpg";
+import Harshith from "./pictures/harshithPhoto.jpg";
+import Tej from "./pictures/tejPhoto.png";
+import Milind from "./pictures/milindPhoto.png";
+import Connor from "./pictures/connorPhoto.jpg";
+import Emily from "./pictures/emilyphoto.jpg";
+import Ayur from "./pictures/ayurPhoto.jpg";
+import Brian from "./pictures/brianPhoto.jpg";
+import Raghu from "./pictures/raghuPhoto.jpg"
+import Adam from "./pictures/adamPhoto.jpg"
 
 function OurTeam(){
     return(
@@ -168,6 +164,22 @@ function OurTeam(){
                         </p >
                         <p class="text-blk feature-text">
                         I'm Tejpravin Ravikumar, and I am an enthusiastic, determined high school student who wishes to promote goodwill.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Adam}/>
+                        </div>
+                        <p class="text-blk name">
+                        Adam Munch
+                        </p>
+                        <p class="text-blk position">
+                        Technology Support 
+                        </p>
+                        <p class="text-blk feature-text">
+                        I’m Adam, a high school senior who loves to problem-solve and help others within our community.
                         </p>
                     </div>
                     </div>
