@@ -3,6 +3,8 @@ import React from "react";
 import "./events.css";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import TurkeyTrot from "./pictures/turkey_trot.jpeg"
+import Garba from "./pictures/garba.jpg"
 
 
 const timelineData = [
@@ -11,63 +13,24 @@ const timelineData = [
         title: "Info about the timeline",
         description: "You guys can change the timelineData section to add in the events. Free free to add as many events as you want, the timeline will auto create the new events on the timeline.",
         backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)'
+        textColor: 'rgb(255, 255, 255)',
+        image: ''
     },
     {
-        date: "Date of Event",
-        title: "Name of Event",
+        date: "November 2023",
+        title: "Volunteering at Turkey Trot for the Memory",
         description: "Description of Event",
         backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)'
+        textColor: 'rgb(255, 255, 255)',
+        image: TurkeyTrot
     },
     {
-        date: "Date of Event",
-        title: "Name of Event",
-        description: "Description of Event",
+        date: "October 2024",
+        title: "Garba with Sewa USA",
+        description: "AidWorks Foundation sent volunteers to Sewa USA for a garba event. We provided critcal setup, clean-up, and crowd control services.",
         backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)'
-    },
-    {
-        date: "Date of Event",
-        title: "Name of Event",
-        description: "Description of Event",
-        backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)'
-    },
-    {
-        date: "Date of Event",
-        title: "Name of Event",
-        description: "Description of Event",
-        backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)'
-    },
-    {
-        date: "Date of Event",
-        title: "Name of Event",
-        description: "Description of Event",
-        backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)'
-    },
-    {
-        date: "Date of Event",
-        title: "Name of Event",
-        description: "Description of Event",
-        backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)'
-    },
-    {
-        date: "Date of Event",
-        title: "Name of Event",
-        description: "Description of Event",
-        backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)'
-    },
-    {
-        date: "Date of Event",
-        title: "Name of Event",
-        description: "Description of Event",
-        backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)'
+        textColor: 'rgb(255, 255, 255)',
+        image: Garba
     },
     // Add more events here
 ];
@@ -85,12 +48,13 @@ function Timeline() {
                 contentArrowStyle={{ borderRight: '7px solid ' + timelineData[i].backgroundColor }}
                 date={ timelineData[i].date }
                 iconStyle={{ background: timelineData[i].backgroundColor }}
-                dateClassName={ "date" }
+                dateClassName={ "timelineDate" }
             >
                 <h3 className="vertical-timeline-element-title">{ timelineData[i].title }</h3>
                 <p>
                     { timelineData[i].description }
                 </p>
+                <img className={ "timelineContent" } src={ timelineData[i].image }></img>
             </VerticalTimelineElement>);
     }
 
@@ -110,7 +74,7 @@ function Timeline() {
             <VerticalTimeline
                 lineColor={ 'black' }
             >
-                {events}
+                { events }
             </VerticalTimeline>
 
         </>
