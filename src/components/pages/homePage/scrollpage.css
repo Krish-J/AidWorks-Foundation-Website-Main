@@ -13,7 +13,7 @@
   
   .scroll-content {
     display: inline-flex;
-    align-items: center;
+    /*align-items: center;*/
     animation: scroll 10s linear infinite reverse;
     
   }
@@ -24,10 +24,19 @@
   
   @keyframes scroll {
     from {
-      transform: translateX(300%);
+      transform: translateX(240%);
     }
     to {
-      transform: translateX(-100%);
+      transform: translateX(-240%);
     }
   }
-  
+  @media (max-width: 1000px) {
+    @keyframes scroll {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+  }
