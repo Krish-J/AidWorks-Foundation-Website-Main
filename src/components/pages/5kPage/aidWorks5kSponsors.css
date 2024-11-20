@@ -41,13 +41,9 @@
     margin-bottom: 30px;
 }
 
-/* @media (max-width: 1000px) {
-    .SponsorsContainer {
-        height: fit-content;
-        display: flex;
-        flex-flow: column;
-        margin: 0px;
-        padding-top: 50px;
+@media (max-width: 1000px) {
+    .SponsorsParent {
+        margin-top: -24px;
     }
     .SponsorsTitle {
         font-size: 35px;
@@ -65,10 +61,8 @@
     }
     .Images {
         height: fit-content;
-        width: 95%;
-        float: none;
-        align-items: center;
-        margin-left: 2.5%;
+        padding: 0;
+        
     }
     .logos {
         width: 40%;
@@ -76,5 +70,6 @@
         margin-bottom: 10px;
         margin-left: 5%;
         float: none;
+        
     }
-}} */
+}

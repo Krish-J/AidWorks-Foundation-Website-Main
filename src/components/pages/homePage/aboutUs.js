@@ -1,6 +1,6 @@
 import "./aboutUs.css";
 import {Link} from "react-router-dom";
-import teamPhoto from "./teamPhoto.jpg";
+import teamPhoto from "./teamPhoto2.jpg";
 
 function AboutUs() {
     return (

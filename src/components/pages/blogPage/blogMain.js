@@ -5,10 +5,10 @@ import Blog from "./blog.js";
 
 function BlogMain(){
     return(
-        <>
+        
         <Blog/>
         
-        </>
+        
     );
 }
 
