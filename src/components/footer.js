@@ -1,5 +1,4 @@
 import "./footer.css";
-import {Link} from "react-router-dom";
 import React from "react";
 
 function Footer() {
@@ -10,14 +9,14 @@ function Footer() {
         </head>
         <div class="wrapper">
             <div className="iconWrapper">
-                <a target="_blank" rel="noopener" href="#" class="icon facebook">
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=61561200076591&mibextid=JRoKGi" class="icon facebook">
                     <span><i class="fab fa-facebook-f"></i></span>
                 </a>
-                <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/aidwork-foundation/" class="icon twitter"> 
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/aidworks-foundation/" class="icon linkedin"> 
                 {/* Actually LinkedIn */}
                     <span><i class="fab fa-linkedin"></i></span>
                 </a>
-                <a target="_blank" rel="noopener" href="https://www.instagram.com/aidworksfoundation/" class="icon instagram">
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/aidworksfoundation/" class="icon instagram">
                     <span><i class="fab fa-instagram"></i></span>
                 </a>
                 {/* <a href="#" class="icon github">

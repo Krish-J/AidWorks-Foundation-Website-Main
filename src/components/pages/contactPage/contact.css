@@ -1,86 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
 .contactParent {
     height: fit-content;
     background-image: url("contactBg.png");
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 10px;
     font-family: "Poppins";
-
-
 }
 
-.navBarBg {
-    height: 80px;
-    background-color: #0b42c1;
-    width: 100%;
+.loader {
     position: fixed;
-    overflow: hidden;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
-.contactTitle {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 55px;
-    color: rgb(255, 255, 255);
-    text-shadow: -7px 5px #3772ff;
-    white-space: nowrap;
-    overflow:hidden;
-}
-.titleParent {
-    position: relative;
-    text-align: center;
-    display: none;
-}
-
-.contactDescription {
-    font-family: "Poppins";
-    font-size: 18px;
-    text-align: end;
-    height:10%;
-    margin-top: 60%;
-}
-
-
-.centered {
-    position: absolute;
-    top: 0%;
-    left: 35%;
-    right: 35%;
-  }
-  
-
-.contactImgParent {
-    margin-top: 90px;
-
-}
-.contactImg {
-    width: 60%;
-    height:350px;
-    object-fit:fill;
-    opacity: 0.6;
-    border-radius: 30px;
-    border: 5px solid rgb(0, 0, 0);
-    display: none;
-
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 100vh 100vw 100vh 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    z-index: 1;
 }
 
 .container{
     column-count: 2;
     column-gap: 10%;
     column-rule-style:solid;  
+    column-rule-color: #BC4374;
     margin-top:100px;
     margin-bottom: 100px;
     margin-left: 45%;
     transform: translateX(-50%);
 }
+.contactDescription {
+    font-size: 18px;
+    text-align: end;
+    color: #193E7E;
+    text-wrap:pretty;
+    margin-top: 50%;
+}
 
 .box{
-    width:100%;
-    border-style:ridge;
+    width:170%;
     border-radius: 10px;
-    padding: 20px;
-    background-color:#cef4ff;
-    margin-top: 300px;
+    padding: 50px;
+    background-image: radial-gradient(#3772ff, #1c53d5);
+    overflow:hidden;
+}
+
+.box option {
+    font-family: "Poppins";
 }
 
 .label{
@@ -88,17 +53,25 @@
     font-family: "Poppins";
     display: block;
     margin-top: 20px;
-
+    color: #FFFFFF;
 }
 
-.input {
+.box input {
     padding: 3px 10px;  
     border-radius: 20px;
     width: 150px;
+    border: 2px solid #ccc;
+    margin-right: 10%;
 }
 
 .input:focus {
-    background-color: #e0f7ff;
+    border: 2px solid #000000;
+}
+
+.select {
+    padding: 5px 5px; 
+    border-radius: 10px;
+    margin-right: 5%;
 }
 
 .textarea{
@@ -109,45 +82,98 @@
     border-radius: 5px;
     font-size: 15px;
     margin-top:15px;
-    margin-bottom: 15px;
 }
 
 .textarea:focus {
     background-color: #e0f7ff;
-    border: 3px solid #555;
+    border: 2px solid #555;
 }
-
-.select {
-    padding: 3px 10px;  
-    border-radius: 5px;
-    width: 130px;
-}
-
 
 .textarea {
     resize: none;  
 }
 
 .submit{
-    padding: 5px 10px; 
-    font-size: 15px; 
-    background-color:rgb(210, 234, 255);
-    border-radius: 10px;
-    margin-top: 10px;
+    display: block;
+    background-color: #DD6C73;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 15px; 
+    font-size: 12px; 
+    border-radius: 20px;
+    margin-right: 30px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
-.line{
-    border-bottom: 0px; 
+.submit:hover {
+    border-width: 3px;
 }
+
+.err{
+    color: white;
+    background-color: red;
+    padding: 3px;
+    position:relative;
+    white-space: nowrap;
+}
+
+.thanksBox{
+    height: fit-content;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:5%;
+    margin-bottom:25%;
+
+    padding:30px;
+    border-radius: 10px;
+    border-style:solid dashed solid dashed;
+}
+
+.thanksTitle{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: #3772ff;
+    border-radius: 10px;
+}
+
+.thanksText{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    text-wrap: balance;
+    margin-top:5%;
+}
+
+
+.thanksButton {
+    background-color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    border-color: blue;
+
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    padding: 0.5% 50px 0.5% 50px;
+}
+
+.thanksButton:hover {
+    border-width: 4px;
+}
+
+.thanksButton a {
+    text-decoration: none;
+}
+
+.emailConf {
+    text-align: center;
+}
+
 
 @media (max-width: 1000px) {
-    .contactTitle{
-        display: none;
-    }
-    .contactImg {
-        display: none;
-    }
     .container{
         column-count: 1;
         justify-content: center;
@@ -155,16 +181,14 @@
     }
     .contactDescription {
         font-size: 14px;
-        margin-top: 0%;
         text-align: center;
         width: 120%;
         margin-left:-10%;
     }
     .box{
-        width:90%;
         border-style:ridge;
         border-radius: 10px;
-        background-color:#cef4ff;
+        background-color:#B3989F;
         margin-top: 10%; 
         margin-left: 50%;
         transform: translateX(-50%);
@@ -174,5 +198,10 @@
     }    
     .input{
         height:25px;
+    }
+
+    .thanksBox {
+        width: 80vw;
+        margin: 10vw;
     }
 }

@@ -1,0 +1,63 @@
+.aidWorks5kRegistrationParent {
+    width: 100%;
+    height: 1100px;
+    background-image: linear-gradient(180deg, #f9c6b4,  #3772ff);
+    display: flex;
+}
+.registrationTitleParent {
+    width: 100%;
+}
+.registrationTitle {
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 65px;
+    text-align: center;
+    height: fit-content;
+}
+.registrationParent {
+    margin-top: 200px;
+    position: absolute;
+    overflow:hidden;
+    width:70%;
+    height: 500px;
+    padding-top: 900px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-style: double;
+    border-radius: 30px;
+    border-width: 10px;
+    border-color: gold;
+    
+}
+.donationForm {
+    padding: 10px;
+    position: absolute;
+    border: 0;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    height:100%;
+    border-radius: 30px;
+    border-width: 10px;
+}
+@media (max-width: 1000px) {
+    .aidWorks5kRegistrationParent {
+        position: relative;
+        top: 1px;
+        height: 1075px;
+    }
+    .registrationTitle {
+        width: 100%;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 35px;
+        text-align: center;
+        height: fit-content;
+    }
+    .registrationParent {
+        width: 90%;
+        margin-top: 100px;
+
+    }
+}

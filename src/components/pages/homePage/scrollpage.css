@@ -1,0 +1,42 @@
+.infinite-scroll {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #0710a2; /* Adjust background color */
+    padding: 0px 0;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: -5px; /* tiny white gap, idk a better way to get rid of it */
+  }
+  
+  .scroll-content {
+    display: inline-flex;
+    /*align-items: center;*/
+    animation: scroll 10s linear infinite reverse;
+    
+  }
+  
+  .scroll-item {
+    padding: 0 20px;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(240%);
+    }
+    to {
+      transform: translateX(-240%);
+    }
+  }
+  @media (max-width: 1000px) {
+    @keyframes scroll {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+  }

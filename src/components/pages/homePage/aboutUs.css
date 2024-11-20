@@ -6,9 +6,10 @@
     background-image: linear-gradient(180deg, #f4fdff, #ffffff);
 }
 .aboutContent {
-    width: 60%;
+    width: 38%;
     height: fit-content;
-    float: left;
+    float: right;
+    margin-right: 2%;
 }
 .teamImageMobile {
     display: none;
@@ -20,7 +21,7 @@
     font-size: 65px;
     text-align: center;
     letter-spacing: 1rem;
-    background-image: linear-gradient(90deg, #f4fdff, #3772ff);
+    background-image: linear-gradient(90deg, #6795ff,blue);
     color: transparent;
     background-clip: text;
     margin: 0;
@@ -36,8 +37,8 @@
     line-height: 2.5em;
 }
 .aboutImage {
-    width: 40%;
-    float: right;
+    width: 60%;
+    float: left;
     height: fit-content;
     justify-content: center;
     text-align: center;
