@@ -37,7 +37,7 @@ function Donate() {
                     </li>
                 </ul>
                 <h2>Financial Contributions:</h2>
-                    <p style={{'text-wrap': 'balance', 'width': '100vw'}}>We welcome monetary donations to further our mission. All contributions will be directly utilized to acquire the aforementioned goods or to sponsor community-building events. Your support can make a tangible difference in the lives of these 83 families!</p>
+                    <p style={{'text-wrap': 'balance', 'width': '90vw', 'margin-left':'2vw'}}>We welcome monetary donations to further our mission. All contributions will be directly utilized to acquire the aforementioned goods or to sponsor community-building events. Your support can make a tangible difference in the lives of these 83 families!</p>
             </div>
                     
             <div className="donateImgParent">
