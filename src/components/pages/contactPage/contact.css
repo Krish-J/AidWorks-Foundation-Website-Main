@@ -37,7 +37,7 @@
 }
 
 .box{
-    width:170%;
+    width:45vw;
     border-radius: 10px;
     padding: 50px;
     background-image: radial-gradient(#3772ff, #1c53d5);
@@ -177,31 +177,36 @@
     .container{
         column-count: 1;
         justify-content: center;
-        margin-left: 50%;
+        margin-left: 0;
+        transform: translateX(0%);
     }
     .contactDescription {
         font-size: 14px;
         text-align: center;
-        width: 120%;
-        margin-left:-10%;
+        margin-top: 5%;
+        width: 100vw;
     }
     .box{
+        margin-left: 15vw;
+        width: 70vw;
         border-style:ridge;
         border-radius: 10px;
         background-color:#B3989F;
-        margin-top: 10%; 
-        margin-left: 50%;
-        transform: translateX(-50%);
     }    
     .label{
         font-size:medium;
     }    
-    .input{
-        height:25px;
-    }
 
     .thanksBox {
         width: 80vw;
         margin: 10vw;
     }
 }
+
+@media (max-width: 500px) {
+    .select, .box input {
+        width: 80%;
+    }
+
+}
+

@@ -1,19 +1,21 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import { TailSpin } from 'react-loader-spinner';
 
 
+
 function Contact() {
     // let captchaValue = false;
     // const captchaRef = useRef();
+    const [emailReceipt, setEmailReceipt] = useState(false);
 
-    function receipt() {   
-        document.getElementById("receipt").hidden=false;
-        document.getElementById("thanksButton").hidden=true;
-    }
     function reload() {
         window.location.reload();       
+    }
+
+    function emailReceiptChange () {
+        setEmailReceipt(!emailReceipt);
     }
 
     async function onclickSubmit(e) {
@@ -67,7 +69,7 @@ function Contact() {
         //     return
         // } else{
         //    document.getElementById("captchaErr").hidden = true;        
-            document.getElementById("emailConf").innerHTML = email.value;
+            // document.getElementById("emailConf").innerHTML = email.value;
             document.getElementById("nameConf").innerHTML = firstName.value;
             document.getElementById("loader").hidden = false;
             setTimeout(function(){
@@ -77,7 +79,7 @@ function Contact() {
             }, 2000);
             
             try {        
-                const response = await fetch("https://script.google.com/macros/s/AKfycbyqK3XMiUdIqAYarZuj1l4vIMfpmYRwB5EActM82T0zvdUTrELZKsKek07LHhJJ9SOW/exec", { 
+                const response = await fetch("https://script.google.com/macros/s/AKfycbyVO6K7aJzb1yeYigo2re7nVgRzUv8ZueAE6Ynqfzjkvl4gIjcZAnu_ER1K2KIjL8aF/exec", { 
                     mode: "no-cors",
                     method: "POST",
                     headers: {  
@@ -88,7 +90,9 @@ function Contact() {
                         "lastName": lastName.value,
                         "email": email.value,
                         "category": category.value,
-                        "desc": desc.value
+                        "desc": desc.value,
+                        "emailReceipt": emailReceipt,
+
                     })
                 })         
             } catch (error) {
@@ -129,7 +133,7 @@ function Contact() {
                             <option value="Website Malfunction/Feedback">Website Malfunction/Feedback</option>
                             <option value="Other">Other</option>
                             </select>
-                        <label id="errHidden" className="err" hidden={true}>Please select an option</label>
+                        <label id="categoryErr" className="err" hidden={true}>Please select an option</label>
                         
                         <textarea id="desc" className="textarea" rows={4} maxlength="300" placeholder="Type here. . ."></textarea>
                         <label id="descErr" className="err" hidden={true}>Description Required</label>
@@ -139,8 +143,14 @@ function Contact() {
                             sitekey={"6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03"}
                             class="g-recaptcha"
                             ref={captchaRef}
-                        /> */}
-                        <label id="captchaErr" className="err" hidden={true}>reCAPTCHA Required</label>
+                        />
+                        <label id="captchaErr" className="err" hidden={true}>reCAPTCHA Required</label> */}
+
+                        <div style={{"display":"flexbox", "margin-top":"10px"}}>
+                            <input style={{"transform":"scale(1.5)", "margin-right": "15px", "width": "15px"}} type="checkbox" checked={emailReceipt} value={emailReceipt} onChange={emailReceiptChange} />
+                            <label className="label" style={{"margin-top":"0", "color":""}} for="link-checkbox">Email me my receipt</label>
+                        </div>
+
                         <button type="submit" onClick={onclickSubmit} className="submit">SUBMIT</button>
                     </b></form>
                 </div>
@@ -150,8 +160,6 @@ function Contact() {
                 <div className="thanksTitle">Contact Form</div>
                 <div className="thanksText">Thank you <b><span id="nameConf"></span></b> for filling out our form! Your input is valuable and will help us serve you better!</div>
         
-                <button className="thanksButton" type="submit" onClick={receipt}>Email me my receipt</button>
-                <strong><div id="receipt" className="emailConf" hidden={true}>Sent an email to <span id="emailConf"></span></div></strong>
                 <button className="thanksButton" onClick={reload}>Submit Another Form</button>
                 <button className="thanksButton"><a href="/home">Return to Homepage</a></button>
             </div>
