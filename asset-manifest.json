@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.4cd651ea.css",
-    "main.js": "/static/js/main.1ec89ab2.js",
+    "main.css": "/static/css/main.4610910b.css",
+    "main.js": "/static/js/main.dbe36175.js",
     "static/js/787.95f4ab80.chunk.js": "/static/js/787.95f4ab80.chunk.js",
+    "static/media/garba.jpg": "/static/media/garba.b72f768c2bd030ff16b4.jpg",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
     "static/media/raghuPhoto.jpg": "/static/media/raghuPhoto.7a65aab108dcdfbc584b.jpg",
-    "static/media/vedanthPic.png": "/static/media/vedanthPic.85cbf87182dcb5e14042.png",
+    "static/media/vedanthPhoto.png": "/static/media/vedanthPhoto.85cbf87182dcb5e14042.png",
     "static/media/krishPhoto.jpg": "/static/media/krishPhoto.a29bc72addd210722cc2.jpg",
     "static/media/jaiPhoto.jpg": "/static/media/jaiPhoto.3cef72a598a857fa601d.jpg",
     "static/media/advithPhoto.jpg": "/static/media/advithPhoto.803e318cd9735253dbf9.jpg",
@@ -15,7 +16,7 @@
     "static/media/brianPhoto.jpg": "/static/media/brianPhoto.9c06055ad3281b4f2076.jpg",
     "static/media/emilyphoto.jpg": "/static/media/emilyphoto.07634d78851acf37f081.jpg",
     "static/media/milindPhoto.png": "/static/media/milindPhoto.f2b8a10f43c0a01661d0.png",
-    "static/media/juanPhoto.jpg": "/static/media/juanPhoto.82933611c35da05603c3.jpg",
+    "static/media/turkey_trot.jpeg": "/static/media/turkey_trot.a60b4b94de0a309c9fc6.jpeg",
     "static/media/aadiPhoto.jpg": "/static/media/aadiPhoto.88299260b66e6734ce05.jpg",
     "static/media/harshithPhoto.jpg": "/static/media/harshithPhoto.1d3a884f311e14305523.jpg",
     "static/media/teamPhoto2.jpg": "/static/media/teamPhoto2.793d5850a1d84a2eb5d3.jpg",
@@ -23,16 +24,12 @@
     "static/media/sreePhoto.jpg": "/static/media/sreePhoto.880ad86c7bb2af70a88d.jpg",
     "static/media/ayurPhoto.jpg": "/static/media/ayurPhoto.862f5dba70d8ea66112e.jpg",
     "static/media/connorPhoto.jpg": "/static/media/connorPhoto.8a6d782059c5c8989a57.jpg",
-    "static/media/kevinPhoto.png": "/static/media/kevinPhoto.41db8c10335a56acdc29.png",
     "static/media/aidworksLogo.png": "/static/media/aidworksLogo.b024bd8804462e76a634.png",
     "static/media/shivamPhoto.jpg": "/static/media/shivamPhoto.2faf1bdfdd43ca0b6442.jpg",
-    "static/media/abbyPhoto.png": "/static/media/abbyPhoto.289a732fc5a69d79d809.png",
     "static/media/5kRunMap.png": "/static/media/5kRunMap.c9227ff5dcb85d7285e2.png",
     "static/media/ymca.png": "/static/media/ymca.03b31b34bea5c9e2638c.png",
-    "static/media/pranayImage.png": "/static/media/pranayImage.64a20957d28e48e8938e.png",
     "static/media/smoc.png": "/static/media/smoc.8e9d9d1a835ee0e6d5a3.png",
     "static/media/tejPhoto.png": "/static/media/tejPhoto.7df60a3cf64449d5614b.png",
-    "static/media/anshPhoto.jpg": "/static/media/anshPhoto.a48ffc08832b2fff4f28.jpg",
     "static/media/massGov.jpg": "/static/media/massGov.98903714aa7b82c90406.jpg",
     "static/media/contactBg.png": "/static/media/contactBg.6f663b049f246850ce82.png",
     "static/media/trungPhoto.jpg": "/static/media/trungPhoto.b103016e68970ee4b30c.jpg",
@@ -42,14 +39,15 @@
     "static/media/shrewsburyGov.jpg": "/static/media/shrewsburyGov.29e18bd6a370522d022e.jpg",
     "static/media/benefits.jpg": "/static/media/benefits.c2bcd5d9d91fe48bea6c.jpg",
     "static/media/arnavPhoto.jpg": "/static/media/arnavPhoto.a469f6c76dd67a7aed5f.jpg",
+    "static/media/adamPhoto.jpg": "/static/media/adamPhoto.6dd95b1fd5294fb2a48e.jpg",
     "static/media/cost.png": "/static/media/cost.c8f6a98da39d41b37a79.png",
     "index.html": "/index.html",
-    "main.4cd651ea.css.map": "/static/css/main.4cd651ea.css.map",
-    "main.1ec89ab2.js.map": "/static/js/main.1ec89ab2.js.map",
+    "main.4610910b.css.map": "/static/css/main.4610910b.css.map",
+    "main.dbe36175.js.map": "/static/js/main.dbe36175.js.map",
     "787.95f4ab80.chunk.js.map": "/static/js/787.95f4ab80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cd651ea.css",
-    "static/js/main.1ec89ab2.js"
+    "static/css/main.4610910b.css",
+    "static/js/main.dbe36175.js"
   ]
 }
