@@ -9,14 +9,6 @@ import Garba from "./pictures/garba.jpg"
 
 const timelineData = [
     {
-        date: "Today",
-        title: "Info about the timeline",
-        description: "You guys can change the timelineData section to add in the events. Free free to add as many events as you want, the timeline will auto create the new events on the timeline.",
-        backgroundColor: 'rgb(33, 150, 243)',
-        textColor: 'rgb(255, 255, 255)',
-        image: ''
-    },
-    {
         date: "November 2023",
         title: "Volunteering at Turkey Trot for the Memory",
         description: "Description of Event",

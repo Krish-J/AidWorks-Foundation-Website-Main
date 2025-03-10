@@ -122,16 +122,16 @@ function OurTeam(){
                 <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Vedanth}/>
+                        <img class="team-member-image" src={Adam}/>
                         </div>
                         <p class="text-blk name">
-                        Vedanth Saranath
+                        Adam Munch
                         </p>
                         <p class="text-blk position">
                         Head of Technology
                         </p>
                         <p class="text-blk feature-text">
-                        I'm Vedanth, a 12th-grader who is passionate about coding and photography and is always open to learn more.
+                        I’m Adam, a high school senior who loves to problem-solve and help others within our community.
                         </p>
                     </div>
                     </div>
@@ -170,16 +170,16 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Adam}/>
+                        <img class="team-member-image" src={Vedanth}/>
                         </div>
                         <p class="text-blk name">
-                        Adam Munch
+                        Vedanth Saranath
                         </p>
                         <p class="text-blk position">
                         Technology Support 
                         </p>
                         <p class="text-blk feature-text">
-                        I’m Adam, a high school senior who loves to problem-solve and help others within our community.
+                        I'm Vedanth, a 12th-grader who is passionate about coding and photography and is always open to learn more.
                         </p>
                     </div>
                     </div>
