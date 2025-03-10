@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4610910b.css",
-    "main.js": "/static/js/main.dbe36175.js",
+    "main.css": "/static/css/main.960534a3.css",
+    "main.js": "/static/js/main.9ca5e7a8.js",
     "static/js/787.95f4ab80.chunk.js": "/static/js/787.95f4ab80.chunk.js",
     "static/media/garba.jpg": "/static/media/garba.b72f768c2bd030ff16b4.jpg",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
@@ -34,20 +34,20 @@
     "static/media/contactBg.png": "/static/media/contactBg.6f663b049f246850ce82.png",
     "static/media/trungPhoto.jpg": "/static/media/trungPhoto.b103016e68970ee4b30c.jpg",
     "static/media/landingPageBg.jpg": "/static/media/landingPageBg.b19e6cfbe74966dc75b9.jpg",
-    "static/media/donateImage.png": "/static/media/donateImage.24f2c9bb39bc73e45966.png",
     "static/media/unitedWay.png": "/static/media/unitedWay.27a6465a30cb58ed3fe5.png",
     "static/media/shrewsburyGov.jpg": "/static/media/shrewsburyGov.29e18bd6a370522d022e.jpg",
     "static/media/benefits.jpg": "/static/media/benefits.c2bcd5d9d91fe48bea6c.jpg",
     "static/media/arnavPhoto.jpg": "/static/media/arnavPhoto.a469f6c76dd67a7aed5f.jpg",
     "static/media/adamPhoto.jpg": "/static/media/adamPhoto.6dd95b1fd5294fb2a48e.jpg",
     "static/media/cost.png": "/static/media/cost.c8f6a98da39d41b37a79.png",
+    "static/media/donateImage.png": "/static/media/donateImage.a06b3796e18de3b24957.png",
     "index.html": "/index.html",
-    "main.4610910b.css.map": "/static/css/main.4610910b.css.map",
-    "main.dbe36175.js.map": "/static/js/main.dbe36175.js.map",
+    "main.960534a3.css.map": "/static/css/main.960534a3.css.map",
+    "main.9ca5e7a8.js.map": "/static/js/main.9ca5e7a8.js.map",
     "787.95f4ab80.chunk.js.map": "/static/js/787.95f4ab80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4610910b.css",
-    "static/js/main.dbe36175.js"
+    "static/css/main.960534a3.css",
+    "static/js/main.9ca5e7a8.js"
   ]
 }
