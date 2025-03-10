@@ -22,7 +22,7 @@
     column-count: 2;
     column-gap: 10%;
     column-rule-style:solid;  
-    column-rule-color: #BC4374;
+    column-rule-color: #0b42c1;
     margin-top:100px;
     margin-bottom: 100px;
     margin-left: 45%;
@@ -95,7 +95,7 @@
 
 .submit{
     display: block;
-    background-color: #DD6C73;
+    background-color: #0b42c1;
     color: white;
     font-weight: bolder;
     padding: 10px 15px; 

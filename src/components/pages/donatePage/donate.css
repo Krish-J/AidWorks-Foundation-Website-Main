@@ -1,7 +1,7 @@
 .donateParent {
-    background-image: linear-gradient(#ffffff, #77CAD7);
+    background: linear-gradient(130deg, #ffffff 0%, #ffffff 50%, #3772ff 100%);
     padding: 5% 2%;
-    
+    font-family: "Poppins", sans-serif;
     display: grid;
     grid-template-columns: 40% 20% 40%;
     grid-template-areas: 
@@ -12,7 +12,6 @@
     "button button button";
 }
 
-
 .donateTitle {
     position:sticky;
     margin: auto;
@@ -21,10 +20,7 @@
 }
 .donateTitle h1 {
     font-size:55px;
-    font-family: 'Lexend';
-    color: #16387F;
     letter-spacing:1px; 
-    text-transform:uppercase; 
     height: fit-content;
     margin-top: 0;
   }
@@ -32,7 +28,7 @@
     content: '';
     display: block;
 
-    background-color: #329cc6; 
+    background-color: #0b42c1; 
     float: right;
     height: 2px;
     width: 30%;
@@ -42,13 +38,12 @@
     content: '';
     display: block;
 
-    background-color: #C63243; 
+    background-color: #0b42c1; 
     left: 0;
     height: 2px;
     width: 30%;
     margin-bottom: 2%;
 }
-
 
 .donateDescription {
     grid-area: desc;
@@ -59,16 +54,14 @@
     color: #344798;
 }
 
-
 .donateImgParent {
     grid-area: img;
 }
 .donateImg {
     background-size:cover;
-    min-height: 70%;
-    max-width: 100%;
+    max-width: 90%;
+    padding-left: 25%;
 }
-
 
 .donateButton{
     font-family: "Poppins", sans-serif;
@@ -78,18 +71,17 @@
     padding: 0.5% 3%;
     border-radius:50px;
     border-width: 3px;
-    border-color: #DD944A;
+    border-color: #0b42c1;
     transition: box-shadow 0.5s ease-in-out;
     grid-area: button;
 }
 .donateButton:hover{
-    box-shadow: 5px 5px 0px 0px #DD944A;
+    box-shadow: 5px 5px 0px 0px #0b42c1;
 }
 .donateButton a{
     text-decoration: none;
-    color: #DD944A;
+    color: #0b42c1;
 }
-
   
 @media (max-width: 1200px) {
     .donateTitle h1 {
@@ -101,7 +93,7 @@
             "header header header"
             "desc desc desc"
             "desc desc desc"
-            "button img img";
+            "button button button";
     }
 
     .donateDescription {

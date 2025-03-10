@@ -14,29 +14,19 @@
   .scroll-content {
     display: inline-flex;
     /*align-items: center;*/
-    animation: scroll 10s linear infinite reverse;
+    animation: scroll 60s linear infinite reverse;
     
   }
-  
+
   .scroll-item {
-    padding: 0 20px;
+    margin-left: 100%;
   }
   
   @keyframes scroll {
     from {
-      transform: translateX(240%);
+      transform: translateX(600%);
     }
     to {
-      transform: translateX(-240%);
-    }
-  }
-  @media (max-width: 1000px) {
-    @keyframes scroll {
-      from {
-        transform: translateX(100%);
-      }
-      to {
-        transform: translateX(-100%);
-      }
+      transform: translateX(-600%);
     }
   }
