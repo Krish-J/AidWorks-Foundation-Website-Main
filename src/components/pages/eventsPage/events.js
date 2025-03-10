@@ -11,7 +11,7 @@ const timelineData = [
     {
         date: "November 2023",
         title: "Volunteering at Turkey Trot for the Memory",
-        description: "Description of Event",
+        description: "AidWorks volunteers helped provide operational support and clean-up services at the annual Turkey Trot for the Memory 5K. This race is held on Thanksgiving Day and the proceeds go to Alzheimer's research.",
         backgroundColor: 'rgb(33, 150, 243)',
         textColor: 'rgb(255, 255, 255)',
         image: TurkeyTrot
