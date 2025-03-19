@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import "./contact.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import { TailSpin } from 'react-loader-spinner';
-import env from "react-dotenv";
-const API_URL = process.env.REACT_APP_MACROS_LINK;
 
 
 
@@ -11,7 +9,6 @@ function Contact() {
     // let captchaValue = false;
     // const captchaRef = useRef();
     const [emailReceipt, setEmailReceipt] = useState(false);
-
 
     function reload() {
         window.location.reload();       
