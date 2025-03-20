@@ -202,22 +202,6 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Sree}/>
-                        </div>
-                        <p class="text-blk name">
-                        Sreevatsen Kumar
-                        </p>
-                        <p class="text-blk position">
-                        Head of Volunteering
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Sree, a high school senior that loves playing video games, going for runs to stay active as well as building things using CAD.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Emily}/>
                         </div>
                         <p class="text-blk name">
@@ -247,23 +231,6 @@ function OurTeam(){
                         </p>
                     </div>
                     </div>
-
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Jai}/>
-                        </div>
-                        <p class="text-blk name">
-                        Jaisuria Satish Babu
-                        </p>
-                        <p class="text-blk position">
-                        Public Health Coordinator
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Jaisuria, a freshman in college who is passionate about medicine, badminton, and community health.
-                        </p>
-                    </div>
-                    </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
@@ -277,38 +244,6 @@ function OurTeam(){
                         </p>
                         <p class="text-blk feature-text">
                         I'm Harshith, a highschool senior who enjoys communcating with people as well as helping our community and people.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Ayur}/>
-                        </div>
-                        <p class="text-blk name">
-                        Ayur Nikhade
-                        </p>
-                        <p class="text-blk position">
-                        Logistics Coordinator
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Ayur, a student passionate about the humanities. My goal is to bring a change in the community and make the world a better place.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Milind}/>
-                        </div>
-                        <p class="text-blk name">
-                        Milind Gupta
-                        </p>
-                        <p class="text-blk position">
-                        Director of Food Security
-                        </p>
-                        <p class="text-blk feature-text">
-                        Hey I'm Milind, and I love volunteering to give back to my community, experience new things, and inspire others to share this passion.
                         </p>
                     </div>
                     </div>
