@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d6023cb.css",
-    "main.js": "/static/js/main.cc9a2548.js",
+    "main.js": "/static/js/main.5161f8e1.js",
     "static/js/787.95f4ab80.chunk.js": "/static/js/787.95f4ab80.chunk.js",
     "static/media/garba.jpg": "/static/media/garba.b72f768c2bd030ff16b4.jpg",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
@@ -22,6 +22,7 @@
     "static/media/aadiPhoto.jpg": "/static/media/aadiPhoto.88299260b66e6734ce05.jpg",
     "static/media/harshithPhoto.jpg": "/static/media/harshithPhoto.1d3a884f311e14305523.jpg",
     "static/media/teamPhoto2.jpg": "/static/media/teamPhoto2.793d5850a1d84a2eb5d3.jpg",
+    "static/media/gayatriPhoto.jpg": "/static/media/gayatriPhoto.904a6d430f5c9a28acf0.jpg",
     "static/media/aidWorks5kPhoto.jpg": "/static/media/aidWorks5kPhoto.2014cfd4b39131d3a1f4.jpg",
     "static/media/sreePhoto.jpg": "/static/media/sreePhoto.880ad86c7bb2af70a88d.jpg",
     "static/media/ayurPhoto.jpg": "/static/media/ayurPhoto.862f5dba70d8ea66112e.jpg",
@@ -45,11 +46,11 @@
     "static/media/donateImage.png": "/static/media/donateImage.a06b3796e18de3b24957.png",
     "index.html": "/index.html",
     "main.0d6023cb.css.map": "/static/css/main.0d6023cb.css.map",
-    "main.cc9a2548.js.map": "/static/js/main.cc9a2548.js.map",
+    "main.5161f8e1.js.map": "/static/js/main.5161f8e1.js.map",
     "787.95f4ab80.chunk.js.map": "/static/js/787.95f4ab80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d6023cb.css",
-    "static/js/main.cc9a2548.js"
+    "static/js/main.5161f8e1.js"
   ]
 }
