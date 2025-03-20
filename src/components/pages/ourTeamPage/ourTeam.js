@@ -20,8 +20,9 @@ import Connor from "./pictures/connorPhoto.jpg";
 import Emily from "./pictures/emilyphoto.jpg";
 import Ayur from "./pictures/ayurPhoto.jpg";
 import Brian from "./pictures/brianPhoto.jpg";
-import Raghu from "./pictures/raghuPhoto.jpg"
-import Adam from "./pictures/adamPhoto.jpg"
+import Raghu from "./pictures/raghuPhoto.jpg";
+import Adam from "./pictures/adamPhoto.jpg";
+import Gayatri from "./pictures/gayatriPhoto.jpg";
 
 function OurTeam(){
     return(
@@ -78,7 +79,7 @@ function OurTeam(){
                         Chief Compliance Officer
                         </p>
                         <p class="text-blk feature-text">
-                        I’m Aadi, a high school senior who loves to problem-solve and help others within our community.
+                        I'm Aadi, a high school senior who loves to problem-solve and help others within our community.
                         </p>
                     </div>
                     </div>
@@ -131,7 +132,7 @@ function OurTeam(){
                         Head of Technology
                         </p>
                         <p class="text-blk feature-text">
-                        I’m Adam, a high school senior who loves to problem-solve and help others within our community.
+                        I'm Adam, a high school senior who loves to problem-solve and help others within our community.
                         </p>
                     </div>
                     </div>
@@ -164,22 +165,6 @@ function OurTeam(){
                         </p >
                         <p class="text-blk feature-text">
                         I'm Tejpravin Ravikumar, and I am an enthusiastic, determined high school student who wishes to promote goodwill.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Vedanth}/>
-                        </div>
-                        <p class="text-blk name">
-                        Vedanth Saranath
-                        </p>
-                        <p class="text-blk position">
-                        Technology Support 
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Vedanth, a 12th-grader who is passionate about coding and photography and is always open to learn more.
                         </p>
                     </div>
                     </div>
@@ -291,7 +276,7 @@ function OurTeam(){
                         Volunteers Coordinator
                         </p>
                         <p class="text-blk feature-text">
-                        I’m Brian, a high school junior passionate about basketball, golf, education, and helping others.
+                        I'm Brian, a high school junior passionate about basketball, golf, education, and helping others.
                         </p>
                     </div>
                     </div>
@@ -308,6 +293,22 @@ function OurTeam(){
                         </p>
                         <p class="text-blk feature-text">
                         I'm Raghu, a high school freshman passionate about volunteering and enthusiastic about helping our community.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Gayatri}/>
+                        </div>
+                        <p class="text-blk name">
+                        Gayatri Iyer
+                        </p>
+                        <p class="text-blk position">
+                        Data Analyst
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Gayatri, a junior in high school who is very interested in volunteering, community service, and business & finance projects.
                         </p>
                     </div>
                     </div>
