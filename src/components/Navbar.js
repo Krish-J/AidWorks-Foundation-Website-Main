@@ -61,7 +61,7 @@ function Navbar(){
                             Our Team
                         </Link>
                         <Link to="/events" className="nav-itemDrop">
-                        Past Events
+                            Past Events
                         </Link>
                         <Link to="/contact" className="nav-itemDrop">
                             Contact Us
