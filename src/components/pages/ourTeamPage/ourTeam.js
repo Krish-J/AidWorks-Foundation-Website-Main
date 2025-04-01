@@ -24,6 +24,10 @@ import Raghu from "./pictures/raghuPhoto.jpg";
 import Adam from "./pictures/adamPhoto.jpg";
 import Gayatri from "./pictures/gayatriPhoto.jpg";
 import Raashid from "./pictures/raashidPhoto.jpg";
+import Pratap from "./pictures/pratapPhoto.jpg";
+import Satya from "./pictures/satyaPhoto.png";
+import Aarya from "./pictures/aaryaPhoto.jpg";
+import Mahesh from "./pictures/maheshPhoto.jpg";
 
 function OurTeam(){
     return(
@@ -286,6 +290,22 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Satya}/>
+                        </div>
+                        <p class="text-blk name">
+                        Satya Divakaruni
+                        </p>
+                        <p class="text-blk position">
+                        Public Health Department
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Satya, a sophomore in highschool and I enjoy helping others through various different community service projects and campaigns.
+                        </p>
+                    </div>
+                    </div> 
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Raashid}/>
                         </div>
                         <p class="text-blk name">
@@ -298,7 +318,55 @@ function OurTeam(){
                         I'm Raashid, a Junior in high school who loves to do art, is ecstatic about biology, and likes to volunteer to give back to the community.
                         </p>
                     </div>
-                    </div>                    
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Pratap}/>
+                        </div>
+                        <p class="text-blk name">
+                        Pratap Srivastava
+                        </p>
+                        <p class="text-blk position">
+                        Marketing Department
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Pratap, an 11th grader who loves playing piano, cars, aviation, and staying active.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Mahesh}/>
+                        </div>
+                        <p class="text-blk name">
+                        Mahesh Manneru
+                        </p>
+                        <p class="text-blk position">
+                        Data Analyst
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Mahesh, a junior who loves to code and play chess. I want to make a good change in our community.
+                        </p>
+                    </div>
+                    </div> 
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Aarya}/>
+                        </div>
+                        <p class="text-blk name">
+                        Aarya Deepak
+                        </p>
+                        <p class="text-blk position">
+                        Logistics Coordinator
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Aarya, a high school senior who loves helping out his local community through fundraising and volunteering.
+                        </p>
+                    </div>
+                    </div> 
                 </div>
             
             </div>

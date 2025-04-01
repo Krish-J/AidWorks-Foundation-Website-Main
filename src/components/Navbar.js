@@ -30,6 +30,9 @@ function Navbar(){
                     {/* <Link to="/home" className="nav-item">
                         Home
                     </Link> */}
+                    <a href="https://aidworksdailyorg.wordpress.com/" className="nav-item">
+                        Our Blog
+                    </a>
                     <Link to="/donate" className="nav-item">
                         Donate
                     </Link>
@@ -54,6 +57,11 @@ function Navbar(){
                         {/* <Link to="/home" className="nav-itemDrop">
                             Home
                         </Link> */}
+
+                        <a href="https://aidworksdailyorg.wordpress.com/" className="nav-itemDrop">
+                            Our Blog
+                        </a>
+                        
                         <Link to="/donate" className="nav-itemDrop">
                             Donate
                         </Link>
