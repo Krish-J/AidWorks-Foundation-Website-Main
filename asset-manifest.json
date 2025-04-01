@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a22a50f8.css",
-    "main.js": "/static/js/main.b88fe923.js",
+    "main.js": "/static/js/main.62ff92e7.js",
     "static/js/453.18ba6b33.chunk.js": "/static/js/453.18ba6b33.chunk.js",
     "static/media/garba.jpg": "/static/media/garba.b72f768c2bd030ff16b4.jpg",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
@@ -16,6 +16,7 @@
     "static/media/brianPhoto.jpg": "/static/media/brianPhoto.9c06055ad3281b4f2076.jpg",
     "static/media/emilyphoto.jpg": "/static/media/emilyphoto.07634d78851acf37f081.jpg",
     "static/media/milindPhoto.png": "/static/media/milindPhoto.f2b8a10f43c0a01661d0.png",
+    "static/media/raashidPhoto.jpg": "/static/media/raashidPhoto.f3fa68cfaf3dcf669f66.jpg",
     "static/media/turkey_trot.jpeg": "/static/media/turkey_trot.a60b4b94de0a309c9fc6.jpeg",
     "static/media/food_drive.jpg": "/static/media/food_drive.585aaff3058c6090e44b.jpg",
     "static/media/gummere.jpg": "/static/media/gummere.0864d4ff651132d79ef3.jpg",
@@ -44,11 +45,11 @@
     "static/media/donateImage.png": "/static/media/donateImage.a06b3796e18de3b24957.png",
     "index.html": "/index.html",
     "main.a22a50f8.css.map": "/static/css/main.a22a50f8.css.map",
-    "main.b88fe923.js.map": "/static/js/main.b88fe923.js.map",
+    "main.62ff92e7.js.map": "/static/js/main.62ff92e7.js.map",
     "453.18ba6b33.chunk.js.map": "/static/js/453.18ba6b33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a22a50f8.css",
-    "static/js/main.b88fe923.js"
+    "static/js/main.62ff92e7.js"
   ]
 }
