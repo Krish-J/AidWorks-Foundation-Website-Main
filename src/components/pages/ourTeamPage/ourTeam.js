@@ -23,6 +23,7 @@ import Brian from "./pictures/brianPhoto.jpg";
 import Raghu from "./pictures/raghuPhoto.jpg";
 import Adam from "./pictures/adamPhoto.jpg";
 import Gayatri from "./pictures/gayatriPhoto.jpg";
+import Raashid from "./pictures/raashidPhoto.jpg";
 
 function OurTeam(){
     return(
@@ -120,22 +121,8 @@ function OurTeam(){
                         </p>
                     </div>
                     </div>
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Adam}/>
-                        </div>
-                        <p class="text-blk name">
-                        Adam Munch
-                        </p>
-                        <p class="text-blk position">
-                        Head of Technology
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Adam, a high school senior who loves to problem-solve and help others within our community.
-                        </p>
-                    </div>
-                    </div>
+
+
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
@@ -203,6 +190,22 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
+                        <img class="team-member-image" src={Brian}/>
+                        </div>
+                        <p class="text-blk name">
+                        Brian Olsen
+                        </p>
+                        <p class="text-blk position">
+                        Co-Head of Volunteering
+                        </p>
+                        <p class="text-blk feature-text">
+                        I'm Brian, a high school junior passionate about basketball, golf, education, and helping others.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                    <div class="card">
+                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Arnav}/>
                         </div>
                         <p class="text-blk name">
@@ -251,22 +254,6 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Brian}/>
-                        </div>
-                        <p class="text-blk name">
-                        Brian Olsen
-                        </p>
-                        <p class="text-blk position">
-                        Volunteers Coordinator
-                        </p>
-                        <p class="text-blk feature-text">
-                        I'm Brian, a high school junior passionate about basketball, golf, education, and helping others.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
                         <img class="team-member-image" src={Raghu}/>
                         </div>
                         <p class="text-blk name">
@@ -299,7 +286,7 @@ function OurTeam(){
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                     <div class="card">
                         <div class="team-image-wrapper">
-                        <img class="team-member-image" src={Gayatri}/>
+                        <img class="team-member-image" src={Raashid}/>
                         </div>
                         <p class="text-blk name">
                         Raashid Abdullah
