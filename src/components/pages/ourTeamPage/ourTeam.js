@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../App.css";
 import "./ourTeam.css"
-import Jai from "./pictures/jaiPhoto.jpg";
+import * as motion from "motion/react-client"
 import Siddh from "./pictures/siddhPhoto.png";
 import Madhavan from "./pictures/madhavanPhoto.jpg";
 import Krish from "./pictures/krishPhoto.jpg";
@@ -10,18 +10,12 @@ import Aadi from "./pictures/aadiPhoto.jpg";
 import Arnav from "./pictures/arnavPhoto.jpg";
 import Advith from "./pictures/advithPhoto.jpg";
 import Shivam from "./pictures/shivamPhoto.jpg";
-import Sree from "./pictures/sreePhoto.jpg";
-import Vedanth from "./pictures/vedanthPhoto.png";
 import Ishan from "./pictures/ishanPhoto.jpg";
-import Harshith from "./pictures/harshithPhoto.jpg";
 import Tej from "./pictures/tejPhoto.png";
-import Milind from "./pictures/milindPhoto.png";
 import Connor from "./pictures/connorPhoto.jpg";
 import Emily from "./pictures/emilyphoto.jpg";
-import Ayur from "./pictures/ayurPhoto.jpg";
 import Brian from "./pictures/brianPhoto.jpg";
 import Raghu from "./pictures/raghuPhoto.jpg";
-import Adam from "./pictures/adamPhoto.jpg";
 import Gayatri from "./pictures/gayatriPhoto.jpg";
 import Raashid from "./pictures/raashidPhoto.jpg";
 import Pratap from "./pictures/pratapPhoto.jpg";
@@ -34,6 +28,7 @@ function OurTeam(){
         <div className="mainTeamParent">
             <div className="navBarCover"> </div>  
         <div className="teamParent">
+            
             <div class="responsive-container-block teamContainer">
             <p class="text-blk team-head-text">
                     Board of Directors
@@ -41,7 +36,7 @@ function OurTeam(){
                 <div class="responsive-container-block">
                     
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Trung}/>
                         </div>
@@ -54,10 +49,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Trung, a freshman in college who is passionate about managing non-profits, finances, and benefiting society.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Krish}/>
                         </div>
@@ -70,10 +65,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Krish, a freshman in college who enjoys coding, teaching, and giving back to the community.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Aadi}/>
                         </div>
@@ -86,10 +81,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Aadi, a high school senior who loves to problem-solve and help others within our community.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Madhavan}/>
                         </div>
@@ -102,7 +97,7 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Madhavan, a freshman in college who is passionate about helping the community and managing volunteers.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     </div>
                 <p class="text-blk team-head-text">
@@ -110,7 +105,7 @@ function OurTeam(){
                 </p>
                 <div class="responsive-container-block">
                 <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Siddh}/>
                         </div>
@@ -123,12 +118,12 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Siddh, a freshman in college who enjoys outdoor activities, talking, and helping out my community.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
 
 
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Shivam}/>
                         </div>
@@ -141,10 +136,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Shivam, a freshman in college who is passionate about giving back to my community, helping others, and medicine.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Tej}/>
                         </div>
@@ -157,10 +152,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Tejpravin Ravikumar, and I am an enthusiastic, determined high school student who wishes to promote goodwill.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Ishan}/>
                         </div>
@@ -173,10 +168,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Ishan, a 11th-grader passionate about giving back to communities, having fun, and designing my own CAD projects.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Emily}/>
                         </div>
@@ -189,10 +184,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Emily, a 11th-grade student, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Brian}/>
                         </div>
@@ -205,10 +200,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Brian, a high school junior passionate about basketball, golf, education, and helping others.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Arnav}/>
                         </div>
@@ -221,10 +216,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Arnav, a freshman in college who enjoys coding, tennis and learning how things work.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Advith}/>
                         </div>
@@ -237,10 +232,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Advith, a high school senior passionate about filmmaking, fencing, and supporting our community.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Connor}/>
                         </div>
@@ -253,10 +248,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Connor, an 12th-grade student who is passionate about fostering positivity and hope through community service and outreach.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Raghu}/>
                         </div>
@@ -269,10 +264,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Raghu, a high school freshman passionate about volunteering and enthusiastic about helping our community.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Gayatri}/>
                         </div>
@@ -285,10 +280,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Gayatri, a junior in high school who is very interested in volunteering, community service, and business & finance projects.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Satya}/>
                         </div>
@@ -301,10 +296,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Satya, a sophomore in highschool and I enjoy helping others through various different community service projects and campaigns.
                         </p>
-                    </div>
+                    </motion.div>
                     </div> 
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Raashid}/>
                         </div>
@@ -317,10 +312,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Raashid, a Junior in high school who loves to do art, is ecstatic about biology, and likes to volunteer to give back to the community.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Pratap}/>
                         </div>
@@ -333,10 +328,10 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Pratap, an 11th grader who loves playing piano, cars, aviation, and staying active.
                         </p>
-                    </div>
+                    </motion.div>
                     </div>
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                         <div class="team-image-wrapper">
                         <img class="team-member-image" src={Mahesh}/>
                         </div>
@@ -349,11 +344,11 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Mahesh, a junior who loves to code and play chess. I want to make a good change in our community.
                         </p>
-                    </div>
+                    </motion.div>
                     </div> 
                     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-                    <div class="card">
-                        <div class="team-image-wrapper">
+                    <motion.div className="card" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
+                    <div class="team-image-wrapper">
                         <img class="team-member-image" src={Aarya}/>
                         </div>
                         <p class="text-blk name">
@@ -365,8 +360,9 @@ function OurTeam(){
                         <p class="text-blk feature-text">
                         I'm Aarya, a high school senior who loves helping out his local community through fundraising and volunteering.
                         </p>
-                    </div>
-                    </div> 
+                    </motion.div>
+
+            </div>
                 </div>
             
             </div>
@@ -374,6 +370,8 @@ function OurTeam(){
         </div>
         </div>
     );
+
+    
 }
 
 export default OurTeam;
