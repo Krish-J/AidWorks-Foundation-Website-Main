@@ -8,7 +8,7 @@ function Footer() {
             <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' />
         </head>
         <div class="wrapper">
-            <div className="iconWrapper">
+            <div class="iconWrapper">
                 <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=61561200076591&mibextid=JRoKGi" class="icon facebook">
                     <span><i class="fab fa-facebook-f"></i></span>
                 </a>
@@ -19,7 +19,7 @@ function Footer() {
                     <span><i class="fab fa-instagram"></i></span>
                 </a>
             </div>
-            <p className="copyRightText">
+            <p class="copyRightText">
                 &copy; AidWorks Foundation 2025
             </p>
             </div>
