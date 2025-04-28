@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.efdf5b67.css",
-    "main.js": "/static/js/main.ae5bb271.js",
+    "main.css": "/static/css/main.e3225b58.css",
+    "main.js": "/static/js/main.41eedaeb.js",
     "static/js/453.18ba6b33.chunk.js": "/static/js/453.18ba6b33.chunk.js",
     "static/media/garba.jpg": "/static/media/garba.b72f768c2bd030ff16b4.jpg",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
@@ -41,12 +41,12 @@
     "static/media/cost.png": "/static/media/cost.c8f6a98da39d41b37a79.png",
     "static/media/donateImage.png": "/static/media/donateImage.a06b3796e18de3b24957.png",
     "index.html": "/index.html",
-    "main.efdf5b67.css.map": "/static/css/main.efdf5b67.css.map",
-    "main.ae5bb271.js.map": "/static/js/main.ae5bb271.js.map",
+    "main.e3225b58.css.map": "/static/css/main.e3225b58.css.map",
+    "main.41eedaeb.js.map": "/static/js/main.41eedaeb.js.map",
     "453.18ba6b33.chunk.js.map": "/static/js/453.18ba6b33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efdf5b67.css",
-    "static/js/main.ae5bb271.js"
+    "static/css/main.e3225b58.css",
+    "static/js/main.41eedaeb.js"
   ]
 }
