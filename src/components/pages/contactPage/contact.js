@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./contact.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import { TailSpin } from 'react-loader-spinner';
+import { TypeAnimation } from 'react-type-animation';
 
 
 
@@ -108,10 +109,24 @@ function Contact() {
 
             <div id="formParent" hidden={false}>
                 <div className="container">
-                    <p className="contactDescription">
-                            <h2>Have any questions?</h2>
-                            <h2>We'd love to hear from you!</h2>
-                    </p>
+                    <h2 className="contactDescription">
+                            Have any questions? <br /> We'd love to hear from you! <br />
+                    <TypeAnimation
+                        sequence={[
+                            // Same substring at the start will only be typed out once, initially
+                            'Partnership Information?',
+                            3000, // wait 3s 
+                            'Volunteer Opportunities?',
+                            3000,
+                            'Website Malfunction?',
+                            3000
+                        ]}
+                        wrapper="span"
+                        speed={50}
+                        style={{color: '#2C66EE' }}
+                        repeat={Infinity}
+                    />
+                    </h2>
                     <form id="contactForm" className="box" onSubmit={(e) => onclickSubmit(e)}><b>
                         <label for="firstName" className="label">First Name</label>
                         <input id="firstName"  placeholder="" />

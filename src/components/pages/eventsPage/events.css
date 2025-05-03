@@ -30,12 +30,6 @@ body {
     padding-left: 0rem;
 }
 
-.container {
-    width: 80%;
-    max-width: 800px;
-    position: relative;
-    box-sizing: border-box;
-}
 
 .timelineItem {
     position: relative;
@@ -68,11 +62,6 @@ body {
     color: #555;
 }
 
-@media (max-width: 500px) {
-    .container {
-        width: 90%;
-    }
-}
 .navBarCover {
     height: 80px;
     background-color: #0b42c1;
