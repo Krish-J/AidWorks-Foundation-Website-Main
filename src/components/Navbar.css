@@ -22,8 +22,7 @@
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
-    padding-bottom: 20px;
-    height: 80px
+    height: 60px
 }
 
 
