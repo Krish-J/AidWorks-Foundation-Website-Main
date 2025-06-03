@@ -8,9 +8,7 @@ function MissionStatement() {
             <div className="missionContent">
                 <h1 className="missionTitle">Our Mission</h1>
                 <p1 className="missionText">
-                AidWorks Foundation, a student-led nonprofit supported by the local government, 
-                is dedicated to helping households in Shrewsbury and surrounding areas.
-                Our aim is to bridge the gap in access to opportunities for immigrants throughout Massachusetts.
+                AidWorks Foundation, a student-led nonprofit, is dedicated to enhancing the lives of children in foster care by providing essential resources, emotional support, and advocacy. Our mission is to empower foster families and ensure that every child experiences stability, love, and the opportunity to thrive.
                 </p1>
                 
             </div>
