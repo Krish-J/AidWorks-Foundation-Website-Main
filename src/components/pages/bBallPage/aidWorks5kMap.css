@@ -1,0 +1,98 @@
+.aidWorks5kMapParent {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    text-align: center;
+    font-family: "Poppins";
+    position: relative;
+    background-image: linear-gradient(180deg, #FFFFFF, #f9c6b4);
+}
+.mapContent {
+    width: 40%;
+    margin-left: 5%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-style: double;
+    border-radius: 30px;
+    padding: 50px;
+    border-width: 10px;
+}
+.mapTitle {
+    font-size: 65px;
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.mapTextBreak {
+    width: 90%;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+.mapParent {
+    overflow:hidden; 
+    position:absolute;
+    width: 45%;
+    margin-left: 50%;
+    height: 600px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.map {
+    position:relative;
+    width:100%;
+    padding-top:56.25%;
+    overflow:visible;
+}
+.plotaroute_map_2626350 {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    height:100%;
+}
+@media (max-width: 1000px) {
+    .aidWorks5kMapParent {
+        height: 1050px;
+        overflow: hidden;
+        bottom: -5px;
+    }
+    .mapContent {
+        width: 90%;
+        margin-left: 5%;
+        position: absolute;
+        top: 0;
+        transform: translateY(0%);
+        border-style: double;
+        
+    }
+    .mapTitle {
+        width: 100%;
+        font-size: 40px;
+    }
+    .mapParent {
+        width: 90%;
+        margin: 0;
+        margin-left: 2.5%;
+        transform: translateY(0%);
+        top: 425px;
+    }
+}
+@media (max-width: 650px) {
+    .aidWorks5kMapParent {
+        height: 1560px;
+        overflow: hidden;
+        bottom: -5px;
+    }
+    .mapParent {
+        width: 90%;
+        margin: 0;
+        margin-left: 5%;
+        transform: translateY(0%);
+        top: 950px;
+    }
+}

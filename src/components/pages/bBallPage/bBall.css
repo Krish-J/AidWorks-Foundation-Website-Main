@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+  }
+.bBallParent {
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    top: 0px;
+    background-image: linear-gradient(180deg, #0b42c1, #f9c6b4);
+    position: relative;
+}
+.bBallContent {
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.bBallRunBox {
+    background-image: linear-gradient(180deg, #cd6596, #5b3568);
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    float: right;
+    margin-left: 55%;
+    width: 35%;
+    overflow-wrap: normal;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bBallRunTitle {
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.bBallRunLine {
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.bBallExplain {
+    margin-top: 50px;
+    font-family: "Poppins";
+    color: #fff;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    
+}
+
+.registrationButton{
+    border-radius: 15px;
+    padding: 20px 50px;
+    margin-top: 40px;
+    background-color: #ff8800;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 0px 0px 40px 0px #ff8800;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    display:flex;
+    transition: width 1s;
+    text-decoration: none;
+    justify-self: center;
+}
+.registrationButton:hover{
+    width: 60%;
+}
+.landingButton:hover{
+    color: black;
+    transition: all 0.2s ease-out;
+}
+.bBallRunPhoto {
+    width: 35%;
+    margin-left: 10%;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+@media (max-width: 1000px) {
+    .bBallParent {
+        top: 0;
+        overflow: hidden;
+        height: 1000px;
+    }
+    .bBallRunPhoto {
+        top: 25px;
+        width: 50%;
+        border-radius: 30px;
+        margin: 0;
+        margin-left: 50%;
+        max-width: 215px;
+        transform: translateX(-50%);
+    }
+    .bBallRunBox {
+        height: fit-content;
+        width: 90%;
+        top: 250px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    .bBallRunTitle {
+        font-size: 30px;
+    }
+    .bBallExplain {
+        font-size: 15px;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+}

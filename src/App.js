@@ -8,7 +8,7 @@ import OurTeamMain from './components/pages/ourTeamPage/ourTeamMain.js';
 import Contact from './components/pages/contactPage/contact.js';
 import EventsMain from './components/pages/eventsPage/eventMain.js';
 import ScrollToTop from './components/ScrollToTop.js';
-import AidWorks5k from './components/pages/5kPage/aidWorks5kMain.js';
+import BBallMain from './components/pages/bBallPage/bBallMain.js';
 
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         <Navbar/>
         <ScrollToTop/>
         <Routes>
-          {/* <Route exact path='/' element={<AidWorks5k/>}/> */}
-          <Route exact path='/' element={<Home/>}/>
+          {/* <Route exact path='/' element={<BBall/>}/> */}
+          <Route exact path='/' element={<BBallMain/>}/>
           <Route exact path='/donate' element={<DonateMain/>}/>
           <Route exact path='/ourteam' element={<OurTeamMain/>}/>
           <Route exact path='/events' element={<EventsMain/>}/>
