@@ -16,37 +16,22 @@
   text-align: center;
 }
 .aidWorks5kColumns {
-  display: flex;
-  text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.columnBox:not(:first-child) {
+    margin-left: 3%;
+}
+.columnBox {
+  width: 30%;
+  border-style: double;
+  border-radius: 30px;
+  padding-top: 15px;
+  border-width: 10px;
+  padding-bottom: 30px;
+}
 
-}
-.cost {
-  width: 30%;
-  margin-left: 3%;
-  border-style: double;
-  border-radius: 30px;
-  padding-top: 15px;
-  border-width: 10px;
-  padding-bottom: 30px;
-}
-.benefits {
-  width: 30%;
-  margin-left: 2%;
-  border-style: double;
-  border-radius: 30px;
-  padding-top: 15px;
-  border-width: 10px;
-  padding-bottom: 30px;
-}
-.prizes {
-  width: 30%;
-  margin-left: 2%;
-  border-style: double;
-  border-radius: 30px;
-  padding-top: 15px;
-  border-width: 10px;
-  padding-bottom: 30px;
-}
 .columnPhotos {
   width: 80%;
   border-radius: 30px;
@@ -128,40 +113,32 @@
 
 
 @media (max-width: 900px) {
-  .aidWorks5kInfoParent {
-    height: 2600px;
-    overflow: hidden;
-    overflow-y: visible;
-  }
-  .aidWorks5kInfoContent {
-      width: 95%;
-      margin-left: 2.5%;
-  }
-  .aidWorks5kInfoTitle {
-      font-family: 'Titillium Web', sans-serif;
-      font-size: 65px;
-      text-align: center;
-      margin-top: 10%;
-  }
-  .aidWorks5kColumns {
-      display:contents;
-      width: 95%;
-      text-align: top;
-  }
-  .cost {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-bottom: 10px;
-  }
-  .benefits {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-bottom: 10px;
-  }
-  .prizes {
-    width: 95%;
-    margin-left: 2.5%;
-  }
+    .aidWorks5kInfoParent {
+        height: 2600px;
+        overflow: hidden;
+        overflow-y: visible;
+    }
+    .aidWorks5kInfoContent {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .aidWorks5kInfoTitle {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 65px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .aidWorks5kColumns {
+        display:contents;
+        width: 95%;
+    }
+    .columnBox {
+        width: 95%;
+        justify-self: center;
+    }
+    .columnBox:not(:first-child) {
+        margin: 10px 0 0;
+    }
 
   .columnPhotos {
       width: 80%;

@@ -74,8 +74,9 @@ html {
     text-decoration: none;
     justify-self: center;
 }
-.registrationButton:hover{
-    width: 60%;
+.buttonLink{
+    color: white;
+    text-decoration: none;
 }
 .landingButton:hover{
     color: black;
@@ -95,7 +96,7 @@ html {
     .bBallParent {
         top: 0;
         overflow: hidden;
-        height: 1000px;
+        height: 800px;
     }
     .bBallRunPhoto {
         top: 25px;

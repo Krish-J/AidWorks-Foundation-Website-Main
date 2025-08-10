@@ -1,13 +1,12 @@
 import React from "react";
 import "../../../App.css";
-import "./aidWorks5kInfo.css";
-import {Link} from "react-router-dom";
+import "./bBallInfo.css";
 import Cost from "./cost.png";
 import SaintAnnes from "./saintannes.png";
-import Benefits from "./benefits.jpg";
+import FosterCare from "./fosterCare.png";
 import Countdown from "./countdown.js"
 
-function AidWorks5kInfo(){
+function BBallInfo(){
     return(
         <div className="aidWorks5kInfoParent">
             <div className="aidWorks5kInfoContent">
@@ -15,31 +14,28 @@ function AidWorks5kInfo(){
                     Information
                 </h1>
                 <div className="aidWorks5kColumns">
-                    
-                    <div className="benefits">
-                        <img className="columnPhotos" src={Benefits}/>
-                        <h1 className="columnTitles">Benefits</h1>
+                    <div className="columnBox">
+                        <img className="columnPhotos" src={FosterCare} alt={"foster care photo"}/>
+
+                        <h1 className="columnTitles">Prizes</h1>
                         <hr className="columnTextBreak"></hr>
                         <p className="columnText">
-                        All proceeds from the event will directly contribute to alleviating medical expenses for cancer patients in need within our community. We will work closely with local healthcare providers to identify and support those facing financial challenges due to medical treatments.</p>
+                            The winning team will choose a foster care shelter to receive all proceeds from the tournament. Winning teams will also receive awards, and all participants will enjoy free food.</p>
                     </div>
-                    <div className="cost">
+                    <div className="columnBox">
                         <img class="columnPhotos" src={Cost}/>
                         <h1 className="columnTitles">Cost</h1>
                         <hr className="columnTextBreak"></hr>
                         <p className="columnText">
-                        First 50: $25
-                        <br/>
-                        <br/>
-                        Regular Cost: $35
-                        <br/>
-                        <br/>
-                        Cost from August 10th Onwards: $45
+                            The entry fee is $15 per person. Teams may have 3–4 players, resulting in a total cost of $45–$60 per team.
+                            <br/>
+                            <br/>
+                            Note: Teams will need to register together under the same Google Form.
                         </p>
                     </div>
-                    <div className="prizes">
+                    <div className="columnBox">
                         <img className="columnPhotos" src={SaintAnnes}/>
-                        <h1 className="columnTitles">About Saint Anne's</h1>
+                        <h1 className="columnTitles">Specifics</h1>
                         <hr className="columnTextBreak"></hr>
                         <p className="columnText">
                         St. Anne's is a Catholic Christian community rich in a tradition of giving and caring for its Church and its people. Their mission is to inform and educate through their lived faith at St. Anne's. For generations, St. Anne's has been a beacon of hope and compassion, embodying the principles of love, charity, and community service. This year, they are proud to support AidWorks' 5k run, as their commitment to aiding those in need aligns perfectly with AidWorks' mission to create positive change through community involvement and support.
@@ -61,7 +57,6 @@ function AidWorks5kInfo(){
                             <p className="label4">Sec</p> 
                         </div>
                         <br></br>
-                        <center><div>The 5K has been pushed back to August 17th, we apologize for the inconvenience.</div></center>
                     </div>
                 </div>
             </div>
@@ -69,4 +64,4 @@ function AidWorks5kInfo(){
     );
 }
 
-export default AidWorks5kInfo;
+export default BBallInfo;
