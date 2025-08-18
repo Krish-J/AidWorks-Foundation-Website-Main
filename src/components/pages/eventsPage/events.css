@@ -1,16 +1,3 @@
-/** {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-}
-*/
 .EventsParent {
     padding-top: 50px;
     margin-top: 80px;
@@ -24,25 +11,22 @@ body {
 .timeline {
     margin-top: -5%;
     display: flex;
-    flex-direction: center;
     align-items: center;
-    padding: 2rem 0;
-    padding-left: 0rem;
+    padding: 2rem 0 2rem 0;
 }
 
 
 .timelineItem {
     position: relative;
-    padding: 1rem;
-    margin: 2rem 0;
-    background-color: #fff;
-    border-left: 3px solid #0b42c1; 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255,255,255,0);
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .timelineDate {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 1.25rem;
     color: black;
+    opacity: 1 !important;
     font-weight: bold;
 }
 
@@ -51,23 +35,11 @@ body {
     width: 100%;
 }
 
-.timelineContent h3 {
-    margin-top: 0.5rem;
-    font-size: 1.5rem;
+.timelineItem h3 {
+    font-size: 2rem;
+
 }
 
-.timelineContent p {
-    margin-top: 0.5rem;
+.timelineItem p {
     font-size: 1rem;
-    color: #555;
-}
-
-.navBarCover {
-    height: 80px;
-    background-color: #0b42c1;
-    width: 100%;
-    z-index: 3;
-    display: flex;
-    position: fixed;
-    margin-top: -80px;
 }

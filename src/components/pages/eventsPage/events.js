@@ -7,6 +7,7 @@ import TurkeyTrot from "./pictures/turkey_trot.jpeg";
 import Garba from "./pictures/garba.jpg";
 import Gummere from "./pictures/gummere.jpg";
 import FoodDrive from "./pictures/food_drive.jpg";
+import ChristmasFD from "./pictures/christmasFD.jpg";
 
 const timelineData = [
     {
@@ -26,6 +27,14 @@ const timelineData = [
         image: FoodDrive
     },
     {
+        date: "July 2024",
+        title: "Cleaning Gummere Forest Trail",
+        description: "AidWorks Foundation collaborated with Light A Better Light Inc. to help pick up trash and clean up the Gummere Forest Trail. ",
+        backgroundColor: '#3772ff',
+        textColor: 'rgb(255, 255, 255)',
+        image: Gummere
+    },
+    {
         date: "October 2024",
         title: "Garba with Sewa USA",
         description: "AidWorks Foundation sent volunteers to Sewa USA for a garba event. We provided critcal setup, clean-up, and crowd control services.",
@@ -34,12 +43,12 @@ const timelineData = [
         image: Garba
     },
     {
-        date: "July 2024",
-        title: "Cleaning Gummere Forest Trail",
-        description: "AidWorks Foundation collaborated with Light A Better Light Inc. to help pick up trash and clean up the Gummere Forest Trail. ",
+        date: "December 2024",
+        title: "Restocking Shrewsbury Community Fridge",
+        description: "AidWorks Foundation restocked the community fridge located in Shrewsbury to help families in our town during the holiday season.",
         backgroundColor: '#3772ff',
         textColor: 'rgb(255, 255, 255)',
-        image: Gummere
+        image: ChristmasFD
     },
     // Add more events here
 ];
@@ -47,9 +56,9 @@ const timelineData = [
 
 function Timeline() {
 
-    var events = [];
+    const events = [];
 
-    for (var i = timelineData.length - 1; i >= 0; i--) {
+    for (let i = timelineData.length - 1; i >= 0; i--) {
 
         events.push(
             <VerticalTimelineElement
@@ -59,11 +68,12 @@ function Timeline() {
                 iconStyle={{ background: timelineData[i].backgroundColor }}
                 dateClassName={ "timelineDate" }
             >
-                <h3 className="vertical-timeline-element-title">{ timelineData[i].title }</h3>
-                <p>
-                    { timelineData[i].description }
-                </p>
-                <img className={ "timelineContent" } src={ timelineData[i].image }></img>
+
+                <div className="timelineItem">
+                    <h3 className="vertical-timeline-element-title">{ timelineData[i].title }</h3>
+                    <p> { timelineData[i].description } </p>
+                    <img className="timelineContent" src={ timelineData[i].image }></img>
+                </div>
             </VerticalTimelineElement>);
     }
 
