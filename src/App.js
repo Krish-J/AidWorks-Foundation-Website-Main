@@ -19,7 +19,7 @@ function App() {
         <ScrollToTop/>
         <Routes>
           {/* <Route exact path='/' element={<BBall/>}/> */}
-          <Route exact path='/' element={<BBallMain/>}/>
+          <Route exact path='/' element={<Home/>}/>
           <Route exact path='/donate' element={<DonateMain/>}/>
           <Route exact path='/ourteam' element={<OurTeamMain/>}/>
           <Route exact path='/events' element={<EventsMain/>}/>
