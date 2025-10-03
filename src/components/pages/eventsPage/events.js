@@ -8,6 +8,7 @@ import Garba from "./pictures/garba.jpg";
 import Gummere from "./pictures/gummere.jpg";
 import FoodDrive from "./pictures/food_drive.jpg";
 import ChristmasFD from "./pictures/christmasFD.jpg";
+import BBall from "./pictures/bball.webp";
 
 const timelineData = [
     {
@@ -50,6 +51,15 @@ const timelineData = [
         textColor: 'rgb(255, 255, 255)',
         image: ChristmasFD
     },
+    {
+        date: "August 2025",
+        title: "Basketball Tournament Fundraiser",
+        description: "AidWorks hosted this event to raise funds to provide resources for children in the foster care system.",
+        backgroundColor: '#3772ff',
+        textColor: 'rgb(255, 255, 255)',
+        image: BBall
+    },
+
     // Add more events here
 ];
 
