@@ -44,13 +44,13 @@ This repository contains the front-end and back-end codebase for the AidWorks Fo
 ### Installation
 ```bash
 # clone the repo
-git clone https://github.com/<ORG>/<REPO>.git
-cd <REPO>
+git clone https://github.com/Krish-J/AidWorks-Foundation-Website-Main.git
+cd AidWorks-Foundation-Website-Main
 
 # install dependencies
 npm install    # or yarn install
 
-# start development server
+# start local server
 npm start      # or yarn start
 ```
 
