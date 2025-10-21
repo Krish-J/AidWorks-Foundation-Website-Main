@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# AidWorks Foundation Website
+Repository for The AidWorks Foundation website, a student-led nonprofit focused on supporting children in foster care and under-resourced families.  
+Website: https://www.aidworksfoundation.org/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## Table of Contents
+- [Overview](#overview)
+- [Architecture & Tech Stack](#architecture--tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Overview
+This repository contains the front-end and back-end codebase for the AidWorks Foundation website, designed to:
+- Provide an informational and donation-enabled platform for the organization
+- Facilitate volunteer sign-ups and event outreach
+- Ensure accessibility, responsiveness, and performance across devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Architecture & Tech Stack
+**Front-end**
+- Framework: React (Create React App)
+- Languages: HTML + CSS
 
-### `npm test`
+**Back-end** (if applicable)
+- Languages: JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Build & Tooling**
+- Package Manager: npm or yarn
+- Deployment: GitHub Pages
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
+### Prerequisites
+- Node.js (v16+ recommended)
+- npm (v8+) or yarn
+- Git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
+```bash
+# clone the repo
+git clone https://github.com/<ORG>/<REPO>.git
+cd <REPO>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# install dependencies
+npm install    # or yarn install
 
-### `npm run eject`
+# start development server
+npm start      # or yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
+```
+/
+├── public/
+│   ├── index.html
+│   ├── manifest.json            # PWA settings
+├── src/
+│   ├── components/              # reusable React components & top level pages
+│   ├── App.css                  # global styles, themes
+│   ├── App.js                   # main app component
+│   └── index.js                 # entry point
+└── README.md                    # this file
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any questions, feel free to reach out:
+- Email 1: Krish (CIO): [krishjain@aidworksfoundation.org](mailto:krishjain@aidworksfoundation.org)
+- Email 2: Arnav (Head of Tech): [arnavsharma@aidworksfoundation.org](mailto:arnavsharma@aidworksfoundation.org)
