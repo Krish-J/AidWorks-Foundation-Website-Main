@@ -155,13 +155,6 @@ const ourTeam = [
         linkedIn: "https://www.linkedin.com/in/harshit-cheepurpalli-435596348/"
     },
     {
-        image: null,
-        name: "Adi Kinhikar",
-        position: "Volunteering Department",
-        bio: "",
-        linkedIn: "https://www.linkedin.com/in/adi-kinhikar-15a148315/"
-    },
-    {
         image: Emad,
         name: "Emad Makhdumi",
         position: "Volunteering Department",
@@ -260,14 +253,14 @@ const pastMembers = [
         name: "Vedanth Saranath",
         position: "Former Cross-Departmental Specialist",
         bio: "I'm Vedanth, a freshman in college who is passionate about coding and photography and is always open to learn more.",
-        linkedIn: ""
+        linkedIn: "https://www.linkedin.com/in/vedanth-saranath/"
     },
         {
         image: Tej,
         name: "Tejpravin Ravikumar",
         position: "Former Volunteer Coordinator",
         bio: "I'm Tejpravin Ravikumar, and I am an enthusiastic, determined college freshman who wishes to promote goodwill.",
-        linkedIn: ""
+        linkedIn: "http://linkedin.com/in/tejpravin-ravikumar-ab5b2230b/"
     },
         {
         image: Shivam,
@@ -281,7 +274,7 @@ const pastMembers = [
         name: "Adam Munch",
         position: "Former Head of Technology",
         bio: "I’m Adam, a freshman in college who loves to problem-solve and help others within our community.",
-        linkedIn: ""
+        linkedIn: "https://www.linkedin.com/in/adam-munch-78baa48b/"
     },
         {
         image: Harshith,
@@ -295,7 +288,7 @@ const pastMembers = [
         name: "Ayur Nikhade",
         position: "Former Logistics Coordinator",
         bio: "I'm Ayur, a student passionate about the humanities. My goal is to bring a change in the community and make the world a better place.",
-        linkedIn: ""
+        linkedIn: "https://www.linkedin.com/in/ayur-nikhade-087b2430b/"
     },
     
 
@@ -329,7 +322,7 @@ function OurTeam() {
                 </div>
 
                 <p className="text-blk team-head-text">
-                    Our Past Members
+                    Our Alumni
                 </p>
                 <div className="responsive-container-block">
                     {pastMembers.map((member, index) => (
