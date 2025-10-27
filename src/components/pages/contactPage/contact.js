@@ -80,8 +80,7 @@ function Contact() {
             }, 2000);
             
             try {        
-                const response = await fetch("https://script.google.com/macros/s/AKfycbyVO6K7aJzb1yeYigo2re7nVgRzUv8ZueAE6Ynqfzjkvl4gIjcZAnu_ER1K2KIjL8aF/exec", { 
-                    mode: "no-cors",
+                const response = await fetch("https://fancy-butterfly-7762.officialaidworksfoundation.workers.dev/", { 
                     method: "POST",
                     headers: {  
                         "Content-Type": "application/json",
@@ -95,7 +94,8 @@ function Contact() {
                         "emailReceipt": emailReceipt,
 
                     })
-                })         
+                });      
+                
             } catch (error) {
                 console.error(error)
             }
@@ -155,7 +155,7 @@ function Contact() {
                                                 
                         {/* <ReCAPTCHA
                             id=""
-                            sitekey={"6LdDCuMpAAAAAI2SistJgvgTdxgDPL2BtIXRfW03"}
+                            sitekey={""}
                             class="g-recaptcha"
                             ref={captchaRef}
                         />
