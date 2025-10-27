@@ -26,7 +26,7 @@ This repository contains the front-end and back-end codebase for the AidWorks Fo
 - Framework: React (Create React App)
 - Languages: HTML + CSS
 
-**Back-end** (if applicable)
+**Back-end**
 - Languages: JavaScript
 
 **Build & Tooling**
