@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.159fc27b.css",
-    "main.js": "/static/js/main.2bbf8467.js",
+    "main.js": "/static/js/main.b88b5847.js",
     "static/js/453.001727c0.chunk.js": "/static/js/453.001727c0.chunk.js",
     "static/media/garba.jpg": "/static/media/garba.b72f768c2bd030ff16b4.jpg",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
@@ -54,11 +54,11 @@
     "static/media/donateImage.png": "/static/media/donateImage.a06b3796e18de3b24957.png",
     "index.html": "/index.html",
     "main.159fc27b.css.map": "/static/css/main.159fc27b.css.map",
-    "main.2bbf8467.js.map": "/static/js/main.2bbf8467.js.map",
+    "main.b88b5847.js.map": "/static/js/main.b88b5847.js.map",
     "453.001727c0.chunk.js.map": "/static/js/453.001727c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.159fc27b.css",
-    "static/js/main.2bbf8467.js"
+    "static/js/main.b88b5847.js"
   ]
 }
