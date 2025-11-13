@@ -97,15 +97,35 @@ const boardOfDirectors = [
 ];
 
 const ourTeam = [
-
+    {
+        image: Gayatri,
+        name: "Gayatri Iyer",
+        position: "Deputy Chief Executive Officer",
+        bio: "I'm Gayatri, a high school senior who is very interested in volunteering, community service, and business & finance projects.",
+        linkedIn: "https://www.linkedin.com/in/gayatri-iyer-907419317/"
+    },
+    {
+        image: Satya,
+        name: "Satya Divakaruni",
+        position: "Deputy Chief Operating Officer",
+        bio: "I'm Satya, a junior in high school and I enjoy helping others through various different community service projects and campaigns.",
+        linkedIn: null
+    },
+    {
+        image: Brian,
+        name: "Brian Olsen",
+        position: "Deputy Chief Human Resources Officer",
+        bio: "I'm Brian, a high school senior passionate about basketball, golf, education, and helping others.",
+        linkedIn: "https://www.linkedin.com/in/brian-olsen-9195b7388/",
+    },
     {
         image: Siddh,
         name: "Siddh Patel",
-        position: "Deputy Chief of Human Resources Officer",
+        position: "Chief of Human Resources Officer",
         bio: "I'm Siddh, a sophomore in college who enjoys outdoor activities, talking, and helping out my community.",
         linkedIn: "https://www.linkedin.com/in/siddh-patel-80a029279/",
     },
-        {
+    {
         image: Arnav,
         name: "Arnav Sharma",
         position: "Head of Technology",
@@ -113,11 +133,18 @@ const ourTeam = [
         linkedIn: "https://www.linkedin.com/in/arnav-sharma-26252622a"
     },
     {
-        image: Brian,
-        name: "Brian Olsen",
+        image: Raghu,
+        name: "Raghu Rajagopalan",
         position: "Head of Volunteering",
-        bio: "I'm Brian, a high school senior passionate about basketball, golf, education, and helping others.",
-        linkedIn: "https://www.linkedin.com/in/brian-olsen-9195b7388/",
+        bio: "I'm Raghu, a high school sophomore passionate about volunteering and enthusiastic about helping our community.",
+        linkedIn: null
+    },
+    {
+        image: Pratap,
+        name: "Pratap Srivastava",
+        position: "Head of Marketing",
+        bio: "I'm Pratap, an high school senior who loves playing piano, cars, aviation, and staying active.",
+        linkedIn: "https://www.linkedin.com/in/pratap-srivastava-2339a5313/"
     },
     {
         image: Ishan,
@@ -126,26 +153,12 @@ const ourTeam = [
         bio: "I'm Ishan, a high school senior passionate about giving back to communities, having fun, and designing my own CAD projects.",
         linkedIn: "https://www.linkedin.com/in/ishan-jain-728890315/",
     },
-    {
-        image: Emily,
-        name: "Emily Chow",
-        position: "Head of Marketing",
-        bio: "I'm Emily, a high school senior, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!",
-        linkedIn: "https://www.linkedin.com/in/emily-chow-61b4b7312/",
-    },
-    {
-        image: Satya,
-        name: "Satya Divakaruni",
-        position: "Head of Public Health",
-        bio: "I'm Satya, a junior in high school and I enjoy helping others through various different community service projects and campaigns.",
-        linkedIn: null
-    },
-    {
-        image: Raghu,
-        name: "Raghu Rajagopalan",
-        position: "Director of Food Security",
-        bio: "I'm Raghu, a high school sophomore passionate about volunteering and enthusiastic about helping our community.",
-        linkedIn: null
+        {
+        image: Mahesh,
+        name: "Mahesh Manneru",
+        position: "Head of Finance",
+        bio: "I'm Mahesh, a high school senior who loves to code and play chess. I want to make a good change in our community.",
+        linkedIn: "https://www.linkedin.com/in/mahesh-manneru-4b282a304/"
     },
     {
         image: Harsh,
@@ -183,32 +196,11 @@ const ourTeam = [
         linkedIn: "https://www.linkedin.com/in/connor-duffy-24219b372/"
     },
     {
-        image: Pratap,
-        name: "Pratap Srivastava",
-        position: "Marketing Department",
-        bio: "I'm Pratap, an high school senior who loves playing piano, cars, aviation, and staying active.",
-        linkedIn: "https://www.linkedin.com/in/pratap-srivastava-2339a5313/"
-    },
-    {
-        image: Gayatri,
-        name: "Gayatri Iyer",
-        position: "Finance Department",
-        bio: "I'm Gayatri, a high school senior who is very interested in volunteering, community service, and business & finance projects.",
-        linkedIn: "https://www.linkedin.com/in/gayatri-iyer-907419317/"
-    },
-    {
         image: Aarya,
         name: "Aarya Deepak",
         position: "Finance Department",
         bio: "I'm Aarya, a freshman in college who loves helping out his local community through fundraising and volunteering.",
         linkedIn: "https://www.linkedin.com/in/aarya-deepak-938272342/"
-    },
-    {
-        image: Mahesh,
-        name: "Mahesh Manneru",
-        position: "Finance Department",
-        bio: "I'm Mahesh, a high school senior who loves to code and play chess. I want to make a good change in our community.",
-        linkedIn: "https://www.linkedin.com/in/mahesh-manneru-4b282a304/"
     },
     {
         image: Raashid,
