@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.159fc27b.css",
-    "main.js": "/static/js/main.b88b5847.js",
+    "main.js": "/static/js/main.ec74d14a.js",
     "static/js/453.001727c0.chunk.js": "/static/js/453.001727c0.chunk.js",
     "static/media/garba.jpg": "/static/media/garba.b72f768c2bd030ff16b4.jpg",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
@@ -36,6 +36,7 @@
     "static/media/maheshPhoto.jpg": "/static/media/maheshPhoto.0b16e8f24dd35561018b.jpg",
     "static/media/pratapPhoto.jpg": "/static/media/pratapPhoto.d838ebfd97bbd11a68f2.jpg",
     "static/media/shivamPhoto.jpg": "/static/media/shivamPhoto.2faf1bdfdd43ca0b6442.jpg",
+    "static/media/aahishPhoto.jpg": "/static/media/aahishPhoto.b14da410de1a1888b0ca.jpg",
     "static/media/satyaPhoto.png": "/static/media/satyaPhoto.93c3411dc58c7d1e9445.png",
     "static/media/ymca.png": "/static/media/ymca.03b31b34bea5c9e2638c.png",
     "static/media/trungPhoto.png": "/static/media/trungPhoto.123e5c6df3255b0db773.png",
@@ -54,11 +55,11 @@
     "static/media/donateImage.png": "/static/media/donateImage.a06b3796e18de3b24957.png",
     "index.html": "/index.html",
     "main.159fc27b.css.map": "/static/css/main.159fc27b.css.map",
-    "main.b88b5847.js.map": "/static/js/main.b88b5847.js.map",
+    "main.ec74d14a.js.map": "/static/js/main.ec74d14a.js.map",
     "453.001727c0.chunk.js.map": "/static/js/453.001727c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.159fc27b.css",
-    "static/js/main.b88b5847.js"
+    "static/js/main.ec74d14a.js"
   ]
 }
