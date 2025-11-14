@@ -7,6 +7,7 @@ import Madhavan from "./pictures/madhavanPhoto.jpg";
 import Krish from "./pictures/krishPhoto.jpg";
 import Trung from "./pictures/trungPhoto.png";
 import Aarya from "./pictures/aaryaPhoto.jpg";
+import Aahish from "./pictures/aahishPhoto.jpg";
 import Adam from "./pictures/adamPhoto.jpg";
 import Aadi from "./pictures/aadiPhoto.jpg";
 import Arnav from "./pictures/arnavPhoto.jpg";
@@ -98,6 +99,13 @@ const boardOfDirectors = [
 
 const ourTeam = [
     {
+        image: Siddh,
+        name: "Siddh Patel",
+        position: "Chief of Human Resources Officer",
+        bio: "I'm Siddh, a sophomore in college who enjoys outdoor activities, talking, and helping out my community.",
+        linkedIn: "https://www.linkedin.com/in/siddh-patel-80a029279/",
+    },
+    {
         image: Gayatri,
         name: "Gayatri Iyer",
         position: "Deputy Chief Executive Officer",
@@ -114,16 +122,9 @@ const ourTeam = [
     {
         image: Brian,
         name: "Brian Olsen",
-        position: "Deputy Chief Human Resources Officer",
+        position: "Deputy Chief of Human Resources Officer",
         bio: "I'm Brian, a high school senior passionate about basketball, golf, education, and helping others.",
         linkedIn: "https://www.linkedin.com/in/brian-olsen-9195b7388/",
-    },
-    {
-        image: Siddh,
-        name: "Siddh Patel",
-        position: "Chief of Human Resources Officer",
-        bio: "I'm Siddh, a sophomore in college who enjoys outdoor activities, talking, and helping out my community.",
-        linkedIn: "https://www.linkedin.com/in/siddh-patel-80a029279/",
     },
     {
         image: Arnav,
@@ -147,13 +148,6 @@ const ourTeam = [
         linkedIn: "https://www.linkedin.com/in/pratap-srivastava-2339a5313/"
     },
     {
-        image: Ishan,
-        name: "Ishan Jain",
-        position: "Head of Finance",
-        bio: "I'm Ishan, a high school senior passionate about giving back to communities, having fun, and designing my own CAD projects.",
-        linkedIn: "https://www.linkedin.com/in/ishan-jain-728890315/",
-    },
-        {
         image: Mahesh,
         name: "Mahesh Manneru",
         position: "Head of Finance",
@@ -185,7 +179,7 @@ const ourTeam = [
         image: Advith,
         name: "Advith Velamakanni",
         position: "Marketing Department",
-        bio: "I'm Advith, a junior in college passionate about filmmaking, fencing, and supporting our community.",
+        bio: "I'm Advith, a freshman in college passionate about filmmaking, fencing, and supporting our community.",
         linkedIn: "https://www.linkedin.com/in/advith-velamakanni-aa7b3031b/"
     },
     {
@@ -233,6 +227,21 @@ const ourTeam = [
 ];
 
 const pastMembers = [
+    {
+        image: Ishan,
+        name: "Ishan Jain",
+        position: "Head of Finance",
+        bio: "I'm Ishan, a high school senior passionate about giving back to communities, having fun, and designing my own CAD projects.",
+        linkedIn: "https://www.linkedin.com/in/ishan-jain-728890315/",
+    },
+    {
+        image: Emily,
+        name: "Emily Chow",
+        position: "Head of Marketing",
+        bio: "I'm Emily, a high school senior, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!",
+        linkedIn: "https://www.linkedin.com/in/emily-chow-61b4b7312/",
+    },
+
     {
         image: Sree,
         name: "Sreevatsen Kumar",
