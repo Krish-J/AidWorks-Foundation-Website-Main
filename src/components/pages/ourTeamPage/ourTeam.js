@@ -239,7 +239,7 @@ const ourTeam = [
         {
         image: Medha,
         name: "Medha Manneru",
-        position: "",
+        position: "Finance Department",
         bio: "My name is Medha, and I'm currently a freshman in high school who enjoys working with new people and building a strong community.",
         linkedIn: null
     },
