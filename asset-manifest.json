@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.159fc27b.css",
-    "main.js": "/static/js/main.b955fb42.js",
+    "main.css": "/static/css/main.1a672a74.css",
+    "main.js": "/static/js/main.35bb940a.js",
     "static/js/453.001727c0.chunk.js": "/static/js/453.001727c0.chunk.js",
     "static/media/garba.jpg": "/static/media/garba.b72f768c2bd030ff16b4.jpg",
     "static/media/saintannes.png": "/static/media/saintannes.68c3a93e4bd0669440c2.png",
@@ -9,10 +9,11 @@
     "static/media/krishPhoto.jpg": "/static/media/krishPhoto.a29bc72addd210722cc2.jpg",
     "static/media/advithPhoto.jpg": "/static/media/advithPhoto.803e318cd9735253dbf9.jpg",
     "static/media/ishanPhoto.jpg": "/static/media/ishanPhoto.383d8155899a0ce15cab.jpg",
-    "static/media/siddhPhoto.png": "/static/media/siddhPhoto.52ad2adff24fa0ad35a5.png",
+    "static/media/nishadPhoto.png": "/static/media/nishadPhoto.261a515c357a46c32f16.png",
     "static/media/aaryaPhoto.jpg": "/static/media/aaryaPhoto.0669d16d3336c41c583a.jpg",
     "static/media/madhavanPhoto.jpg": "/static/media/madhavanPhoto.659a333297d5c6b66ff8.jpg",
     "static/media/fosterCare.png": "/static/media/fosterCare.ea7f1bfabc37492c5013.png",
+    "static/media/medhaPhoto.png": "/static/media/medhaPhoto.3ebba8917462cb894ea1.png",
     "static/media/brianPhoto.jpg": "/static/media/brianPhoto.9c06055ad3281b4f2076.jpg",
     "static/media/emilyphoto.jpg": "/static/media/emilyphoto.07634d78851acf37f081.jpg",
     "static/media/raashidPhoto.jpg": "/static/media/raashidPhoto.f3fa68cfaf3dcf669f66.jpg",
@@ -21,11 +22,14 @@
     "static/media/food_drive.jpg": "/static/media/food_drive.585aaff3058c6090e44b.jpg",
     "static/media/harshPhoto.png": "/static/media/harshPhoto.c58e8c65daae0e6c60d4.png",
     "static/media/lillianPhoto.jpg": "/static/media/lillianPhoto.a55354a788caec9efb03.jpg",
+    "static/media/sanjayPhoto.png": "/static/media/sanjayPhoto.0fff9ec8103f4803594e.png",
     "static/media/gummere.jpg": "/static/media/gummere.0864d4ff651132d79ef3.jpg",
     "static/media/christmasFD.jpg": "/static/media/christmasFD.b81293d03d68b66c93df.jpg",
+    "static/media/adiPhoto.png": "/static/media/adiPhoto.6df466b25b8e70d57026.png",
     "static/media/aadiPhoto.jpg": "/static/media/aadiPhoto.88299260b66e6734ce05.jpg",
     "static/media/harshithPhoto.jpg": "/static/media/harshithPhoto.1d3a884f311e14305523.jpg",
     "static/media/katherineMPhoto.jpg": "/static/media/katherineMPhoto.42d0a942e32bd8b6d520.jpg",
+    "static/media/dipenPhoto.png": "/static/media/dipenPhoto.75c6148822f3bf79d641.png",
     "static/media/teamPhoto2.jpg": "/static/media/teamPhoto2.793d5850a1d84a2eb5d3.jpg",
     "static/media/gayatriPhoto.jpg": "/static/media/gayatriPhoto.904a6d430f5c9a28acf0.jpg",
     "static/media/bBallPhoto.jpg": "/static/media/bBallPhoto.2014cfd4b39131d3a1f4.jpg",
@@ -48,18 +52,19 @@
     "static/media/katherineSPhoto.jpg": "/static/media/katherineSPhoto.eaf4ab52b3e28a4c7415.jpg",
     "static/media/landingPageBg.jpg": "/static/media/landingPageBg.b19e6cfbe74966dc75b9.jpg",
     "static/media/unitedWay.png": "/static/media/unitedWay.27a6465a30cb58ed3fe5.png",
+    "static/media/siddhPhoto.jpeg": "/static/media/siddhPhoto.41c747e51f2dad68e9e3.jpeg",
     "static/media/bball.webp": "/static/media/bball.a1f90e1b71c924fcc4b9.webp",
     "static/media/arnavPhoto.jpg": "/static/media/arnavPhoto.a469f6c76dd67a7aed5f.jpg",
     "static/media/adamPhoto.jpg": "/static/media/adamPhoto.6dd95b1fd5294fb2a48e.jpg",
     "static/media/cost.png": "/static/media/cost.c8f6a98da39d41b37a79.png",
     "static/media/donateImage.png": "/static/media/donateImage.a06b3796e18de3b24957.png",
     "index.html": "/index.html",
-    "main.159fc27b.css.map": "/static/css/main.159fc27b.css.map",
-    "main.b955fb42.js.map": "/static/js/main.b955fb42.js.map",
+    "main.1a672a74.css.map": "/static/css/main.1a672a74.css.map",
+    "main.35bb940a.js.map": "/static/js/main.35bb940a.js.map",
     "453.001727c0.chunk.js.map": "/static/js/453.001727c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.159fc27b.css",
-    "static/js/main.b955fb42.js"
+    "static/css/main.1a672a74.css",
+    "static/js/main.35bb940a.js"
   ]
 }
