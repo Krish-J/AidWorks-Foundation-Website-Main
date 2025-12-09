@@ -2,19 +2,21 @@ import React from "react";
 import "../../../App.css";
 import "./ourTeam.css"
 import * as motion from "motion/react-client"
-import Siddh from "./pictures/siddhPhoto.png";
+import Siddh from "./pictures/siddhPhoto.jpeg";
 import Madhavan from "./pictures/madhavanPhoto.jpg";
 import Krish from "./pictures/krishPhoto.jpg";
 import Trung from "./pictures/trungPhoto.png";
 import Aarya from "./pictures/aaryaPhoto.jpg";
 import Aahish from "./pictures/aahishPhoto.jpg";
-import Adam from "./pictures/adamPhoto.jpg";
 import Aadi from "./pictures/aadiPhoto.jpg";
+import Adam from "./pictures/adamPhoto.jpg";
+import Adi from "./pictures/adiPhoto.png";
 import Arnav from "./pictures/arnavPhoto.jpg";
 import Ayur from "./pictures/ayurPhoto.jpg";
 import Advith from "./pictures/advithPhoto.jpg";
 import Brian from "./pictures/brianPhoto.jpg";
 import Connor from "./pictures/connorPhoto.jpg";
+import Dipen from "./pictures/dipenPhoto.png";
 import Emad from "./pictures/emadPhoto.png";
 import Emily from "./pictures/emilyphoto.jpg";
 import Gayatri from "./pictures/gayatriPhoto.jpg";
@@ -24,9 +26,12 @@ import Ishan from "./pictures/ishanPhoto.jpg";
 import KatherineM from "./pictures/katherineMPhoto.jpg";
 import KatherineS from "./pictures/katherineSPhoto.jpg";
 import Mahesh from "./pictures/maheshPhoto.jpg";
+import Medha from "./pictures/medhaPhoto.png";
+import Nishad from "./pictures/nishadPhoto.png";
 import Pratap from "./pictures/pratapPhoto.jpg";
 import Raashid from "./pictures/raashidPhoto.jpg";
 import Raghu from "./pictures/raghuPhoto.jpg";
+import Sanjay from "./pictures/sanjayPhoto.png";
 import Satya from "./pictures/satyaPhoto.png";
 import Shivam from "./pictures/shivamPhoto.jpg";
 import Lillian from "./pictures/lillianPhoto.jpg";
@@ -162,6 +167,20 @@ const ourTeam = [
         linkedIn: "https://www.linkedin.com/in/harshit-cheepurpalli-435596348/"
     },
     {
+        image: Adi,
+        name: "Adi Kinhikar",
+        position: "Volunteer Coordinator",
+        bio: "I’m Adi, a senior in high school passionate about helping the community through fundraisers and more.",
+        linkedIn: "https://www.linkedin.com/in/adi-kinhikar-15a148315/"
+    },
+    {
+        image: Dipen,
+        name: "Dipen Sunda",
+        position: "Volunteer Coordinator",
+        bio: "My name is Dipen. I'm actively involved in HOSA, Model UN, and IYG at SHS. I have a strong interest in STEM and am deeply committed to helping the community.",
+        linkedIn: null
+    },
+    {
         image: Emad,
         name: "Emad Makhdumi",
         position: "Volunteering Department",
@@ -197,6 +216,34 @@ const ourTeam = [
         linkedIn: "https://www.linkedin.com/in/aarya-deepak-938272342/"
     },
     {
+        image: Sanjay,
+        name: "Sanjay Pappu",
+        position: "Finance Department",
+        bio: "I’m Sanjay. I’m a high school sophomore who loves to play basketball, run track, and sing. I joined Aidworks because every child deserves and equal opportunity to succeed.",
+        linkedIn: null
+    },
+    {
+        image: Nishad,
+        name: "Nishad Basrur",
+        position: "Finance Department",
+        bio: "I’m Nishad, a high school senior who loves cars, and helping the community out through volunteering through different ways.",
+        linkedIn: "https://www.linkedin.com/in/nishad-basrur-63102031b/"
+    },
+    {
+        image: Aahish,
+        name: "Aahish Abbani",
+        position: "Finance Department",
+        bio: "Hey, I’m Aahish Abbani, a high school freshman who’s passionate about finance, business, and community volunteering, and I love hanging out with friends!",
+        linkedIn: null
+    },
+        {
+        image: Medha,
+        name: "Medha Manneru",
+        position: "",
+        bio: "My name is Medha, and I'm currently a freshman in high school who enjoys working with new people and building a strong community.",
+        linkedIn: null
+    },
+    {
         image: Raashid,
         name: "Raashid Abdullah",
         position: "Public Health Department",
@@ -208,7 +255,7 @@ const ourTeam = [
         name: "Shreya Saikia",
         position: "Public Health Department",
         bio: "Hi my name is Shreya and I am excited to be apart of a community that’s passionate about public health!",
-        linkedIn: ""
+        linkedIn: null
     },
     {
         image: KatherineM,
@@ -222,7 +269,7 @@ const ourTeam = [
         name: "Lillian Wen",
         position: "Public Health Department",
         bio: "I’m Lillian, a senior passionate about public health and committed to supporting community wellness through education and outreach.",
-        linkedIn: ""
+        linkedIn: null
     },
 ];
 
@@ -245,9 +292,9 @@ const pastMembers = [
     {
         image: Sree,
         name: "Sreevatsen Kumar",
-        position: "Former Volunteer Coordinator",
+        position: "Former Head of Volunteering",
         bio: "I'm Sree, a freshman in college that loves playing video games, going for runs to stay active as well as building things using CAD.",
-        linkedIn: ""
+        linkedIn: null
     },
     {
         image: Vedanth,
@@ -268,7 +315,7 @@ const pastMembers = [
         name: "Shivam Goel",
         position: "Former Public Health Coordinator",
         bio: "I'm Shivam, a sophomore in college passionate about giving back to my community, helping others, and medicine.",
-        linkedIn: ""
+        linkedIn: null
     },
         {
         image: Adam,
@@ -282,7 +329,7 @@ const pastMembers = [
         name: "Harshith Mothkuri",
         position: "Former Logistics Coordinator",
         bio: "I'm Harshith, a freshman in college who enjoys communcating with people as well as helping our community and people.",
-        linkedIn: ""
+        linkedIn: null
     },
         {
         image: Ayur,
