@@ -29,6 +29,7 @@ import Mahesh from "./pictures/maheshPhoto.jpg";
 import Medha from "./pictures/medhaPhoto.png";
 import Nishad from "./pictures/nishadPhoto.png";
 import Pratap from "./pictures/pratapPhoto.jpg";
+import Pranav from "./pictures/pranavPhoto.png";
 import Raashid from "./pictures/raashidPhoto.jpg";
 import Raghu from "./pictures/raghuPhoto.jpg";
 import Sanjay from "./pictures/sanjayPhoto.png";
@@ -185,6 +186,13 @@ const ourTeam = [
         name: "Emad Makhdumi",
         position: "Volunteering Department",
         bio: "Hey! My name is Emad, I'm a senior in high school and I love basketball, lifting weights, and helping out the community through various initiatives.",
+        linkedIn: null
+    },
+    {
+        image: Pranav,
+        name: "Pranav Deepak",
+        position: "Volunteering Department",
+        bio: "Hi I'm Pranav Deepak I'm a junior in high school I'm passionate in singing and I look forward to help in making a better community through volunteering.",
         linkedIn: null
     },
     {
