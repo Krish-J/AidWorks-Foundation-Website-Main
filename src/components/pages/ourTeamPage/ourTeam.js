@@ -74,11 +74,11 @@ function TeamCard({image, name, position, bio, linkedIn}) {
 }
 const boardOfDirectors = [
     {
-        image: Trung,
-        name: "Trung Nguyen",
+        image: Gayatri,
+        name: "Gayatri Iyer",
         position: "Chief Executive Officer",
-        bio: "I'm Trung, a sophomore in college who is passionate about managing non-profits, finances, and benefiting society.",
-        linkedIn: "https://www.linkedin.com/in/trung-nguyen-150ba3254/",
+        bio: "I'm Gayatri, a high school senior who is very interested in volunteering, community service, and business & finance projects.",
+        linkedIn: "https://www.linkedin.com/in/gayatri-iyer-907419317/"
     },
     {
         image: Krish,
@@ -88,47 +88,33 @@ const boardOfDirectors = [
         linkedIn: "https://www.linkedin.com/in/krishjain718",
     },
     {
+        image: Satya,
+        name: "Satya Divakaruni",
+        position: "Chief Operating Officer",
+        bio: "I'm Satya, a junior in high school and I enjoy helping others through various different community service projects and campaigns.",
+        linkedIn: null
+    },
+    {
         image: Aadi,
         name: "Aadi Dixit",
         position: "Chief Compliance Officer",
         bio: "I'm Aadi, a freshman in college who loves to problem-solve and help others within our community.",
         linkedIn: "https://www.linkedin.com/in/aadi-dixit-0b084a288/",
     },
-    {
-        image: Madhavan,
-        name: "Madhavan Rajagopalan",
-        position: "Chief Operating Officer",
-        bio: "I'm Madhavan, a sophomore in college who is passionate about helping the community and managing volunteers.",
-        linkedIn: "https://www.linkedin.com/in/madhavan-rajagopalan-590597299/",
-    }
 ];
 
 const ourTeam = [
     {
-        image: Siddh,
-        name: "Siddh Patel",
-        position: "Chief of Human Resources Officer",
-        bio: "I'm Siddh, a sophomore in college who enjoys outdoor activities, talking, and helping out my community.",
-        linkedIn: "https://www.linkedin.com/in/siddh-patel-80a029279/",
-    },
-    {
-        image: Gayatri,
-        name: "Gayatri Iyer",
-        position: "Deputy Chief Executive Officer",
-        bio: "I'm Gayatri, a high school senior who is very interested in volunteering, community service, and business & finance projects.",
-        linkedIn: "https://www.linkedin.com/in/gayatri-iyer-907419317/"
-    },
-    {
-        image: Satya,
-        name: "Satya Divakaruni",
-        position: "Deputy Chief Operating Officer",
-        bio: "I'm Satya, a junior in high school and I enjoy helping others through various different community service projects and campaigns.",
+        image: Raghu,
+        name: "Raghu Rajagopalan",
+        position: "Chief Human Resources Officer",
+        bio: "I'm Raghu, a high school sophomore passionate about volunteering and enthusiastic about helping our community.",
         linkedIn: null
     },
     {
         image: Brian,
         name: "Brian Olsen",
-        position: "Deputy Chief of Human Resources Officer",
+        position: "Deputy Chief Human Resources Officer",
         bio: "I'm Brian, a high school senior passionate about basketball, golf, education, and helping others.",
         linkedIn: "https://www.linkedin.com/in/brian-olsen-9195b7388/",
     },
@@ -138,13 +124,6 @@ const ourTeam = [
         position: "Head of Technology",
         bio: "I'm Arnav, a sophomore in college who enjoys coding, calisthenics and giving back to the community.",
         linkedIn: "https://www.linkedin.com/in/arnav-sharma-26252622a"
-    },
-    {
-        image: Raghu,
-        name: "Raghu Rajagopalan",
-        position: "Head of Volunteering",
-        bio: "I'm Raghu, a high school sophomore passionate about volunteering and enthusiastic about helping our community.",
-        linkedIn: null
     },
     {
         image: Pratap,
@@ -163,7 +142,7 @@ const ourTeam = [
     {
         image: Harsh,
         name: "Harsh Cheepurpalli",
-        position: "Volunteer Coordinator",
+        position: "Head of Volunteering",
         bio: "I'm Harsh, a high school junior who enjoys playing basketball and running track, and I strive to bring change in my community.",
         linkedIn: "https://www.linkedin.com/in/harshit-cheepurpalli-435596348/"
     },
@@ -283,16 +262,37 @@ const ourTeam = [
 
 const pastMembers = [
     {
+        image: Trung,
+        name: "Trung Nguyen",
+        position: "Former Chief Executive Officer",
+        bio: "I'm Trung, a sophomore in college who is passionate about managing non-profits, finances, and benefiting society.",
+        linkedIn: "https://www.linkedin.com/in/trung-nguyen-150ba3254/",
+    },
+    {
+        image: Madhavan,
+        name: "Madhavan Rajagopalan",
+        position: "Former Chief Operating Officer",
+        bio: "I'm Madhavan, a sophomore in college who is passionate about helping the community and managing volunteers.",
+        linkedIn: "https://www.linkedin.com/in/madhavan-rajagopalan-590597299/",
+    },
+    {
+        image: Siddh,
+        name: "Siddh Patel",
+        position: "Former Chief Human Resources Officer",
+        bio: "I'm Siddh, a sophomore in college who enjoys outdoor activities, talking, and helping out my community.",
+        linkedIn: "https://www.linkedin.com/in/siddh-patel-80a029279/",
+    },
+    {
         image: Ishan,
         name: "Ishan Jain",
-        position: "Head of Finance",
+        position: "Former Head of Finance",
         bio: "I'm Ishan, a high school senior passionate about giving back to communities, having fun, and designing my own CAD projects.",
         linkedIn: "https://www.linkedin.com/in/ishan-jain-728890315/",
     },
     {
         image: Emily,
         name: "Emily Chow",
-        position: "Head of Marketing",
+        position: "Former Head of Marketing",
         bio: "I'm Emily, a high school senior, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!",
         linkedIn: "https://www.linkedin.com/in/emily-chow-61b4b7312/",
     },
