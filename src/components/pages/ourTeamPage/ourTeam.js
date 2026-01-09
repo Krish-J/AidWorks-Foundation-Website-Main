@@ -73,6 +73,37 @@ function TeamCard({image, name, position, bio, linkedIn}) {
     );
 }
 const boardOfDirectors = [
+        {
+        image: Trung,
+        name: "Trung Nguyen",
+        position: "",
+        bio: "I'm Trung, a sophomore in college who is passionate about managing non-profits, finances, and benefiting society.",
+        linkedIn: "https://www.linkedin.com/in/trung-nguyen-150ba3254/",
+    },
+    {
+        image: Madhavan,
+        name: "Madhavan Rajagopalan",
+        position: "",
+        bio: "I'm Madhavan, a sophomore in college who is passionate about helping the community and managing volunteers.",
+        linkedIn: "https://www.linkedin.com/in/madhavan-rajagopalan-590597299/",
+    },
+    {
+        image: Krish,
+        name: "Krish Jain",
+        position: "",
+        bio: "I'm Krish, a sophomore in college who enjoys coding, teaching, and giving back to the community.",
+        linkedIn: "https://www.linkedin.com/in/krishjain718",
+    },
+    {
+        image: Aadi,
+        name: "Aadi Dixit",
+        position: "",
+        bio: "I'm Aadi, a freshman in college who loves to problem-solve and help others within our community.",
+        linkedIn: "https://www.linkedin.com/in/aadi-dixit-0b084a288/",
+    },
+];
+
+const ourTeam = [
     {
         image: Gayatri,
         name: "Gayatri Iyer",
@@ -81,29 +112,12 @@ const boardOfDirectors = [
         linkedIn: "https://www.linkedin.com/in/gayatri-iyer-907419317/"
     },
     {
-        image: Krish,
-        name: "Krish Jain",
-        position: "Chief Information Officer",
-        bio: "I'm Krish, a sophomore in college who enjoys coding, teaching, and giving back to the community.",
-        linkedIn: "https://www.linkedin.com/in/krishjain718",
-    },
-    {
         image: Satya,
         name: "Satya Divakaruni",
         position: "Chief Operating Officer",
         bio: "I'm Satya, a junior in high school and I enjoy helping others through various different community service projects and campaigns.",
         linkedIn: null
     },
-    {
-        image: Aadi,
-        name: "Aadi Dixit",
-        position: "Chief Compliance Officer",
-        bio: "I'm Aadi, a freshman in college who loves to problem-solve and help others within our community.",
-        linkedIn: "https://www.linkedin.com/in/aadi-dixit-0b084a288/",
-    },
-];
-
-const ourTeam = [
     {
         image: Raghu,
         name: "Raghu Rajagopalan",
@@ -262,20 +276,6 @@ const ourTeam = [
 
 const pastMembers = [
     {
-        image: Trung,
-        name: "Trung Nguyen",
-        position: "Former Chief Executive Officer",
-        bio: "I'm Trung, a sophomore in college who is passionate about managing non-profits, finances, and benefiting society.",
-        linkedIn: "https://www.linkedin.com/in/trung-nguyen-150ba3254/",
-    },
-    {
-        image: Madhavan,
-        name: "Madhavan Rajagopalan",
-        position: "Former Chief Operating Officer",
-        bio: "I'm Madhavan, a sophomore in college who is passionate about helping the community and managing volunteers.",
-        linkedIn: "https://www.linkedin.com/in/madhavan-rajagopalan-590597299/",
-    },
-    {
         image: Siddh,
         name: "Siddh Patel",
         position: "Former Chief Human Resources Officer",
@@ -360,14 +360,6 @@ function OurTeam() {
             <div className="teamParent">
 
                 <div className="responsive-iner-block teamContainer">
-                    <p className="text-blk team-head-text">
-                        Board of Directors
-                    </p>
-                    <div className="responsive-container-block">
-                        {boardOfDirectors.map((member, index) => (
-                            <TeamCard key={index} {...member} />
-                        ))}
-                    </div>
                 <p className="text-blk team-head-text">
                     Our Team
                 </p>
@@ -376,6 +368,16 @@ function OurTeam() {
                         <TeamCard key={index} {...member} />
                     ))}
                 </div>
+
+                <p className="text-blk team-head-text">
+                    Board of Directors
+                </p>
+                <div className="responsive-container-block">
+                    {boardOfDirectors.map((member, index) => (
+                        <TeamCard key={index} {...member} />
+                    ))}
+                </div>
+
 
                 <p className="text-blk team-head-text">
                     Our Alumni
