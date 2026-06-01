@@ -32,6 +32,7 @@ import Pratap from "./pictures/pratapPhoto.jpg";
 import Pranav from "./pictures/pranavPhoto.png";
 import Raashid from "./pictures/raashidPhoto.jpg";
 import Raghu from "./pictures/raghuPhoto.jpg";
+import Sai from "./pictures/saiPhoto.jpg";
 import Sanjay from "./pictures/sanjayPhoto.png";
 import Satya from "./pictures/satyaPhoto.png";
 import Shivam from "./pictures/shivamPhoto.jpg";
@@ -161,13 +162,6 @@ const ourTeam = [
         linkedIn: "https://www.linkedin.com/in/harshit-cheepurpalli-435596348/"
     },
     {
-        image: Adi,
-        name: "Adi Kinhikar",
-        position: "Volunteer Coordinator",
-        bio: "I’m Adi, a senior in high school passionate about helping the community through fundraisers and more.",
-        linkedIn: "https://www.linkedin.com/in/adi-kinhikar-15a148315/"
-    },
-    {
         image: Dipen,
         name: "Dipen Sunda",
         position: "Volunteer Coordinator",
@@ -189,25 +183,11 @@ const ourTeam = [
         linkedIn: null
     },
     {
-        image: KatherineS,
-        name: "Katherine Shan",
-        position: "Marketing Department",
-        bio: "I’m Katherine, a high school senior, dancer, and rhythmic gymnastics coach. I love volunteering whenever I can and helping others!",
-        linkedIn: "https://www.linkedin.com/in/katherine-shan-b3a8b6369/"
-    },
-    {
-        image: Advith,
-        name: "Advith Velamakanni",
-        position: "Marketing Department",
-        bio: "I'm Advith, a freshman in college passionate about filmmaking, fencing, and supporting our community.",
-        linkedIn: "https://www.linkedin.com/in/advith-velamakanni-aa7b3031b/"
-    },
-    {
-        image: Connor,
-        name: "Connor Duffy",
-        position: "Marketing Department",
-        bio: "I'm Connor, a junior in college who is passionate about fostering positivity and hope through community service and outreach.",
-        linkedIn: "https://www.linkedin.com/in/connor-duffy-24219b372/"
+        image: Sai,
+        name: "Sai Saravanan",
+        position: "Volunteering Department",
+        bio: "I'm Sai, a high school sophomore who loves playing soccer and basketball, and enjoys working with others and helping out the community",
+        linkedIn: "https://www.linkedin.com/in/sai-saravanan-272874400/ "
     },
     {
         image: Aarya,
@@ -296,7 +276,34 @@ const pastMembers = [
         bio: "I'm Emily, a high school senior, musician, and rhythmic gymnastics coach who aims to create a more uplifting community!",
         linkedIn: "https://www.linkedin.com/in/emily-chow-61b4b7312/",
     },
-
+    {
+        image: KatherineS,
+        name: "Katherine Shan",
+        position: "Marketing Department",
+        bio: "I’m Katherine, a high school senior, dancer, and rhythmic gymnastics coach. I love volunteering whenever I can and helping others!",
+        linkedIn: "https://www.linkedin.com/in/katherine-shan-b3a8b6369/"
+    },
+    {
+        image: Advith,
+        name: "Advith Velamakanni",
+        position: "Marketing Department",
+        bio: "I'm Advith, a freshman in college passionate about filmmaking, fencing, and supporting our community.",
+        linkedIn: "https://www.linkedin.com/in/advith-velamakanni-aa7b3031b/"
+    },
+    {
+        image: Connor,
+        name: "Connor Duffy",
+        position: "Marketing Department",
+        bio: "I'm Connor, a junior in college who is passionate about fostering positivity and hope through community service and outreach.",
+        linkedIn: "https://www.linkedin.com/in/connor-duffy-24219b372/"
+    },
+    {
+        image: Adi,
+        name: "Adi Kinhikar",
+        position: "Volunteer Coordinator",
+        bio: "I’m Adi, a senior in high school passionate about helping the community through fundraisers and more.",
+        linkedIn: "https://www.linkedin.com/in/adi-kinhikar-15a148315/"
+    },
     {
         image: Sree,
         name: "Sreevatsen Kumar",
@@ -311,35 +318,35 @@ const pastMembers = [
         bio: "I'm Vedanth, a freshman in college who is passionate about coding and photography and is always open to learn more.",
         linkedIn: "https://www.linkedin.com/in/vedanth-saranath/"
     },
-        {
+    {
         image: Tej,
         name: "Tejpravin Ravikumar",
         position: "Former Volunteer Coordinator",
         bio: "I'm Tejpravin Ravikumar, and I am an enthusiastic, determined college freshman who wishes to promote goodwill.",
         linkedIn: "http://linkedin.com/in/tejpravin-ravikumar-ab5b2230b/"
     },
-        {
+    {
         image: Shivam,
         name: "Shivam Goel",
         position: "Former Public Health Coordinator",
         bio: "I'm Shivam, a sophomore in college passionate about giving back to my community, helping others, and medicine.",
         linkedIn: null
     },
-        {
+    {
         image: Adam,
         name: "Adam Munch",
         position: "Former Head of Technology",
         bio: "I’m Adam, a freshman in college who loves to problem-solve and help others within our community.",
         linkedIn: "https://www.linkedin.com/in/adam-munch-78baa48b/"
     },
-        {
+    {
         image: Harshith,
         name: "Harshith Mothkuri",
         position: "Former Logistics Coordinator",
         bio: "I'm Harshith, a freshman in college who enjoys communcating with people as well as helping our community and people.",
         linkedIn: null
     },
-        {
+    {
         image: Ayur,
         name: "Ayur Nikhade",
         position: "Former Logistics Coordinator",
