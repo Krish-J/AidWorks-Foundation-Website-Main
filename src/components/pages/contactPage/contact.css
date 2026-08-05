@@ -1,219 +1,225 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+.contactPage {
+  background: var(--aw-surface);
+}
 
-.contactParent {
-    height: fit-content;
-    background-image: url("contactBg.png");
-    padding-top: 80px; /* 80px for navbar */
-    font-family: "Poppins";
+/* The loader and the thanks panel are toggled with the `hidden` attribute, so
+   any explicit `display` here has to yield to it. */
+.loader[hidden],
+.contact__thanks[hidden],
+#formParent[hidden] {
+  display: none;
 }
 
 .loader {
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 100vh 100vw 100vh 100vw;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);  
-    z-index: 1;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.72);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
 }
 
-.container{
-    width: 100%;
-    padding-right: 10%;
-    column-gap: 10%;
-    justify-content: center;
-
-
-    column-count: 2;
-    column-rule-style:solid;  
-    column-rule-color: #0b42c1;
-    margin-top:100px;
-    margin-bottom: 100px;
-    height: 100%;
-}
-.contactDescription {
-    font-size: x-large;
-    text-align: end;
-    color: #193E7E;
-    max-height: 100%;
-    margin-top: 30%;
+.contact__grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: clamp(40px, 6vw, 76px);
+  align-items: start;
 }
 
-.box{
-    background-image: radial-gradient(#3772ff, #1c53d5);
-    border-radius: 10px;
-    padding: 50px;
-    box-sizing: border-box;
-    break-inside: avoid;
-    max-height: 100%;
+/* Aside ------------------------------------------------------------------- */
+
+.contact__heading {
+  margin: 0;
 }
 
-.box option {
-    font-family: "Poppins";
+.contact__heading em {
+  color: var(--aw-blue-600);
 }
 
-.label{
-    font-size: larger;
-    font-family: "Poppins";
-    display: block;
-    margin-top: 20px;
-    color: #FFFFFF;
+.contact__type {
+  font-family: var(--aw-display);
+  font-style: italic;
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  color: var(--aw-blue-600);
+  margin: 18px 0 0;
+  min-height: 2.2em;
 }
 
-.box input {
-    padding: 3px 10px;  
-    border-radius: 20px;
-    width: 150px;
-    border: 2px solid #ccc;
-    margin-right: 10%;
+.contact__asideText {
+  margin-top: 8px;
 }
 
-.input:focus {
-    border: 2px solid #000000;
+.contact__socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
 }
 
-.select {
-    padding: 5px 5px; 
-    border-radius: 10px;
-    margin-right: 5%;
+.contact__social {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--aw-blue-700);
+  background: var(--aw-blue-100);
+  border: 1px solid var(--aw-blue-200);
+  transition: transform 0.3s var(--aw-ease), background 0.3s var(--aw-ease),
+    color 0.3s var(--aw-ease);
 }
 
-.textarea{
-    font-family: "Poppins";
-    width: 100%;
-    padding: 12px 20px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 15px;
-    margin-top:15px;
+.contact__social:hover {
+  transform: translateY(-3px);
+  background: var(--aw-blue-600);
+  color: #fff;
 }
 
-.textarea:focus {
-    background-color: #e0f7ff;
-    border: 2px solid #555;
+/* Form -------------------------------------------------------------------- */
+
+.contact__card {
+  padding: clamp(28px, 4vw, 44px);
 }
 
-.textarea {
-    resize: none;  
+.contact__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
 }
 
-.submit{
-    display: block;
-    background-color: #0b42c1;
-    color: white;
-    font-weight: bolder;
-    padding: 10px 15px; 
-    font-size: 12px; 
-    border-radius: 20px;
-    margin-right: 30px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+.contact__field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
-.submit:hover {
-    border-width: 3px;
+.contact__label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--aw-ink-soft);
+  margin-bottom: 8px;
 }
 
-.err{
-    color: white;
-    background-color: red;
-    padding: 3px;
-    position:relative;
-    white-space: nowrap;
+.contact__input {
+  font-family: var(--aw-sans);
+  font-size: 15px;
+  color: var(--aw-ink);
+  width: 100%;
+  padding: 13px 16px;
+  border: 1px solid var(--aw-line);
+  border-radius: var(--aw-r-sm);
+  background: var(--aw-blue-50);
+  outline: none;
+  transition: border-color 0.25s var(--aw-ease), box-shadow 0.25s var(--aw-ease),
+    background 0.25s var(--aw-ease);
 }
 
-.thanksBox{
-    height: fit-content;
-    margin-left: 30%;   
-    margin-right: 30%;
-    margin-top:5%;
-    margin-bottom:25%;
-
-    padding:30px;
-    border-radius: 10px;
-    border-style:solid dashed solid dashed;
+.contact__input:focus {
+  background: #fff;
+  border-color: var(--aw-blue-400);
+  box-shadow: 0 0 0 4px rgba(44, 102, 238, 0.14);
 }
 
-.thanksTitle{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    background-color: #3772ff;
-    border-radius: 10px;
+.contact__input::placeholder {
+  color: #9aa4bd;
 }
 
-.thanksText{
-    text-align: center;
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    text-wrap: balance;
-    margin-top:5%;
+.contact__select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236a7591' d='M6 8 0 2l1.4-1.4L6 5.2 10.6.6 12 2z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 40px;
+  cursor: pointer;
 }
 
-
-.thanksButton {
-    background-color: white;
-    font-size: 15px;
-    border-radius: 30px;
-    border-color: blue;
-
-    display: block;
-    margin: auto;
-    margin-top: 5%;
-    padding: 0.5% 50px 0.5% 50px;
+.contact__textarea {
+  resize: vertical;
+  min-height: 130px;
+  line-height: 1.6;
 }
 
-.thanksButton:hover {
-    border-width: 4px;
+.field--invalid {
+  border-color: #e0484b;
+  box-shadow: 0 0 0 4px rgba(224, 72, 75, 0.12);
 }
 
-.thanksButton a {
-    text-decoration: none;
+.contact__err {
+  align-self: flex-start;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #c2373a;
+  background: #fdeced;
+  border-radius: var(--aw-r-pill);
+  padding: 4px 12px;
+  margin-top: 8px;
 }
 
-.emailConf {
-    text-align: center;
+.contact__check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14.5px;
+  color: var(--aw-ink-soft);
+  cursor: pointer;
+  margin-bottom: 26px;
 }
 
-
-@media (max-width: 1000px) {
-    .container{
-        column-count: 1;
-        justify-content: center;
-    }
-    .contactDescription {
-        font-size: large;
-        text-align: center;
-        margin-top: 5%;
-        width: 100vw;
-    }
-    .box{
-        border-radius: 10px;
-        padding: 50px;
-        background-image: radial-gradient(#3772ff, #1c53d5);
-        overflow:hidden;
-
-        margin-left: 15vw;
-        /* width: 70vw; */
-        border-style:ridge;
-        border-radius: 10px;
-        background-color:#B3989F;
-    }    
-    .label{
-        font-size:medium;
-    }    
-
-    .thanksBox {
-        width: 80vw;
-        margin: 10vw;
-    }
+.contact__check input {
+  width: 17px;
+  height: 17px;
+  accent-color: var(--aw-blue-600);
+  cursor: pointer;
 }
 
-@media (max-width: 500px) {
-    .select, .box input {
-        width: 80%;
-    }
-
+.contact__submit {
+  width: 100%;
 }
 
+/* Thanks state ------------------------------------------------------------ */
+
+.contact__thanks {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: clamp(32px, 5vw, 52px);
+  text-align: center;
+}
+
+.contact__thanksTitle {
+  font-family: var(--aw-display);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  color: var(--aw-ink);
+}
+
+.contact__thanksText {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--aw-muted);
+  margin-top: 16px;
+}
+
+.contact__thanksActions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+  .contact__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .contact__row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}

@@ -1,7 +1,8 @@
 import React from "react";
 import "../../../App.css";
-import "./ourTeam.css"
-import * as motion from "motion/react-client"
+import "./ourTeam.css";
+import PageHero from "../../PageHero.js";
+import { Stagger, Reveal } from "../../motion/Reveal.js";
 import Siddh from "./pictures/siddhPhoto.jpeg";
 import Madhavan from "./pictures/madhavanPhoto.jpg";
 import Krish from "./pictures/krishPhoto.jpg";
@@ -11,7 +12,7 @@ import Aahish from "./pictures/aahishPhoto.jpg";
 import Aadi from "./pictures/aadiPhoto.jpg";
 import Adam from "./pictures/adamPhoto.jpg";
 import Adi from "./pictures/adiPhoto.png";
-import Arnav from "./pictures/arnavPhoto.jpg";
+import Kabir from "./pictures/kabirPhoto.jpg";
 import Ayur from "./pictures/ayurPhoto.jpg";
 import Advith from "./pictures/advithPhoto.jpg";
 import Brian from "./pictures/brianPhoto.jpg";
@@ -48,29 +49,49 @@ import { FaLinkedin } from "react-icons/fa";
 
 function TeamCard({image, name, position, bio, linkedIn}) {
     return (
-        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
-            <motion.div className="card"
-                whileHover={{scale: 1.03}}
-                whileTap={{scale: 0.97}}
-            >
-                <div className="team-image-wrapper">
-                    <img className="team-member-image" src={image} alt={"Photo of " + name} />
+        <Reveal className="aw-card aw-card--hover teamCard">
+            <div className="teamCard__photo">
+                <img src={image} alt={"Photo of " + name} loading="lazy" />
+            </div>
+
+            <div className="teamCard__body">
+                <div className="teamCard__head">
+                    <p className="teamCard__name">{name}</p>
+                    {linkedIn && (
+                        <a
+                            href={linkedIn}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="teamCard__linkedin"
+                            aria-label={name + " on LinkedIn"}
+                        >
+                            <FaLinkedin size={20} />
+                        </a>
+                    )}
                 </div>
-                {linkedIn && (
-                    <a
-                        href={linkedIn}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="linkedin"
-                    >
-                        <FaLinkedin size={24} color="#0A66C2" />
-                    </a>
-                )}
-                <p className="text-blk name"> {name} </p>
-                <p className="text-blk position"> {position} </p>
-                <p className="text-blk feature-text"> {bio} </p>
-            </motion.div>
-        </div>
+                {position && <p className="teamCard__role">{position}</p>}
+                <p className="teamCard__bio">{bio}</p>
+            </div>
+        </Reveal>
+    );
+}
+
+function TeamGroup({title, members}) {
+    return (
+        <section className="aw-section aw-section--tight teamGroup">
+            <Stagger className="aw-container" gap={0.06} amount={0.05}>
+                <Reveal className="teamGroup__head">
+                    <h2 className="aw-display aw-h2 teamGroup__title">{title}</h2>
+                    <hr className="aw-rule" />
+                </Reveal>
+
+                <div className="teamGroup__grid">
+                    {members.map((member, index) => (
+                        <TeamCard key={index} {...member} />
+                    ))}
+                </div>
+            </Stagger>
+        </section>
     );
 }
 const boardOfDirectors = [
@@ -134,11 +155,11 @@ const ourTeam = [
         linkedIn: "https://www.linkedin.com/in/brian-olsen-9195b7388/",
     },
     {
-        image: Arnav,
-        name: "Arnav Sharma",
+        image: Kabir,
+        name: "Kabir Tiwari",
         position: "Head of Technology",
-        bio: "I'm Arnav, a sophomore in college who enjoys coding, calisthenics and giving back to the community.",
-        linkedIn: "https://www.linkedin.com/in/arnav-sharma-26252622a"
+        bio: "I'm Kabir, a student and passionate programmer with a strong foundation in Python, Swift, and Flutter who loves building technology that helps others.",
+        linkedIn: "https://www.linkedin.com/in/kabir-tiwari-86685b378"
     },
     {
         image: Pratap,
@@ -357,52 +378,21 @@ const pastMembers = [
 
 ]
 
-
-
-
 function OurTeam() {
     return (
-        <div className="mainTeamParent">
-            <div className="navBarCover"></div>
-            <div className="teamParent">
+        <div className="teamPage">
+            <PageHero
+                eyebrow="Who We Are"
+                title="Our"
+                accent="Team"
+                lead="We are a group of passionate and dedicated high schoolers and college students committed to making a positive impact in our community. Through our collective efforts, we aim to lend a helping hand to those in need, foster connections, and create a better environment for everyone."
+            />
 
-                <div className="responsive-iner-block teamContainer">
-                <p className="text-blk team-head-text">
-                    Our Team
-                </p>
-                <div className="responsive-container-block">
-                    {ourTeam.map((member, index) => (
-                        <TeamCard key={index} {...member} />
-                    ))}
-                </div>
-
-                <p className="text-blk team-head-text">
-                    Board of Directors
-                </p>
-                <div className="responsive-container-block">
-                    {boardOfDirectors.map((member, index) => (
-                        <TeamCard key={index} {...member} />
-                    ))}
-                </div>
-
-
-                <p className="text-blk team-head-text">
-                    Our Alumni
-                </p>
-                <div className="responsive-container-block">
-                    {pastMembers.map((member, index) => (
-                        <TeamCard key={index} {...member} />
-                    ))}
-                </div>
-
-            
-            </div>
-              
-        </div>
+            <TeamGroup title="Our Team" members={ourTeam} />
+            <TeamGroup title="Board of Directors" members={boardOfDirectors} />
+            <TeamGroup title="Our Alumni" members={pastMembers} />
         </div>
     );
-
-    
 }
 
 export default OurTeam;

@@ -1,190 +1,303 @@
 import React, { useState } from "react";
 import "./contact.css";
-import ReCAPTCHA from "react-google-recaptcha";
-import { TailSpin } from 'react-loader-spinner';
-import { TypeAnimation } from 'react-type-animation';
+import { TailSpin } from "react-loader-spinner";
+import { TypeAnimation } from "react-type-animation";
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import PageHero from "../../PageHero.js";
+import { Stagger, Reveal } from "../../motion/Reveal.js";
 
-
+const socials = [
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61561200076591&mibextid=JRoKGi",
+    icon: <FaFacebookF />,
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/company/aidworks-foundation/",
+    icon: <FaLinkedinIn />,
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/aidworksfoundation/",
+    icon: <FaInstagram />,
+  },
+];
 
 function Contact() {
-    // let captchaValue = false;
-    // const captchaRef = useRef();
-    const [emailReceipt, setEmailReceipt] = useState(false);
+  const [emailReceipt, setEmailReceipt] = useState(false);
 
-    function reload() {
-        window.location.reload();       
+  function reload() {
+    window.location.reload();
+  }
+
+  function emailReceiptChange() {
+    setEmailReceipt(!emailReceipt);
+  }
+
+  /* Marks a field as invalid and focuses it. */
+  function flagError(field, errorId) {
+    document.getElementById(errorId).hidden = false;
+    field.focus();
+    field.classList.add("field--invalid");
+  }
+
+  function clearError(field, errorId) {
+    document.getElementById(errorId).hidden = true;
+    field.classList.remove("field--invalid");
+  }
+
+  async function onclickSubmit(e) {
+    e.preventDefault();
+
+    var firstName = document.getElementById("firstName");
+    var lastName = document.getElementById("lastName");
+    var email = document.getElementById("email");
+    var category = document.getElementById("category");
+    var desc = document.getElementById("desc");
+
+    if (firstName.value === "") {
+      flagError(firstName, "firstNameErr");
+      return;
     }
+    clearError(firstName, "firstNameErr");
 
-    function emailReceiptChange () {
-        setEmailReceipt(!emailReceipt);
+    if (lastName.value === "") {
+      flagError(lastName, "lastNameErr");
+      return;
     }
+    clearError(lastName, "lastNameErr");
 
-    async function onclickSubmit(e) {
-        e.preventDefault()  
-        // const token = captchaRef.current.getValue();
-        // captchaRef.current.reset();
+    if (email.value === "") {
+      flagError(email, "emailErr");
+      return;
+    }
+    clearError(email, "emailErr");
 
-        var firstName = document.getElementById("firstName");
-        var lastName = document.getElementById("lastName");
-        var email = document.getElementById("email");
-        var category = document.getElementById("category");
-        var desc = document.getElementById("desc");
+    if (category.value === "0") {
+      flagError(category, "categoryErr");
+      return;
+    }
+    clearError(category, "categoryErr");
 
-        if (firstName.value === ""){
-            document.getElementById("firstNameErr").hidden = false;
-            firstName.focus();
-            firstName.style.borderColor = "red";
-            firstName.style.borderWidth = "3px";    
-            return
-        } else{document.getElementById("firstNameErr").hidden = true;}
-        if (lastName.value === ""){
-            document.getElementById("lastNameErr").hidden = false;
-            lastName.focus();
-            lastName.style.borderColor = "red";
-            lastName.style.borderWidth = "3px";    
-            return
-        } else{document.getElementById("lastNameErr").hidden = true;}
-        if (email.value === ""){
-            document.getElementById("emailErr").hidden = false;
-            email.focus();
-            email.style.borderColor = "red";
-            email.style.borderWidth = "3px";    
-            return
-        } else{document.getElementById("emailErr").hidden = true;}
-        if (category.value === "0"){
-            document.getElementById("categoryErr").hidden = false;
-            category.focus();
-            category.style.borderColor = "red";
-            category.style.borderWidth = "3px";    
-            return
-        } else{document.getElementById("categoryErr").hidden = true;}
-        if (desc.value === ""){
-            document.getElementById("descErr").hidden = false;
-            desc.focus();
-            desc.style.borderColor = "red";
-            desc.style.borderWidth = "3px";
-            return
-        } else{document.getElementById("descErr").hidden = true;
-        // if (captchaValue === false){
-        //     document.getElementById("captchaErr").hidden = false;
-        //     return
-        // } else{
-        //    document.getElementById("captchaErr").hidden = true;        
-            // document.getElementById("emailConf").innerHTML = email.value;
-            document.getElementById("nameConf").innerHTML = firstName.value;
-            document.getElementById("loader").hidden = false;
-            setTimeout(function(){
-                document.getElementById("loader").hidden = true;
-                document.getElementById("thanksBox").hidden = false;
-                document.getElementById("formParent").hidden = true; 
-            }, 2000);
-            
-            try {        
-                const response = await fetch("https://fancy-butterfly-7762.officialaidworksfoundation.workers.dev/", { 
-                    method: "POST",
-                    headers: {  
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({
-                        "firstName": firstName.value,
-                        "lastName": lastName.value,
-                        "email": email.value,
-                        "category": category.value,
-                        "desc": desc.value,
-                        "emailReceipt": emailReceipt,
+    if (desc.value === "") {
+      flagError(desc, "descErr");
+      return;
+    }
+    clearError(desc, "descErr");
 
-                    })
-                });      
-                
-            } catch (error) {
-                console.error(error)
-            }
+    // textContent, not innerHTML — this value comes straight from the user.
+    document.getElementById("nameConf").textContent = firstName.value;
+    document.getElementById("loader").hidden = false;
+    setTimeout(function () {
+      document.getElementById("loader").hidden = true;
+      document.getElementById("thanksBox").hidden = false;
+      document.getElementById("formParent").hidden = true;
+    }, 2000);
+
+    try {
+      await fetch(
+        "https://fancy-butterfly-7762.officialaidworksfoundation.workers.dev/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            firstName: firstName.value,
+            lastName: lastName.value,
+            email: email.value,
+            category: category.value,
+            desc: desc.value,
+            emailReceipt: emailReceipt,
+          }),
         }
+      );
+    } catch (error) {
+      console.error(error);
     }
+  }
 
-    return ( 
-        <div className="contactParent">
-            <div className="navBarBg"></div>
-            <div id="loader" className="loader" hidden={true}><TailSpin color="#DD6C73"/></div>
+  return (
+    <div className="contactPage">
+      <PageHero
+        eyebrow="Get in touch"
+        title="Contact"
+        accent="Us"
+        lead="Have any questions? We'd love to hear from you!"
+      />
 
-            <div id="formParent" hidden={false}>
-                <div className="container">
-                    <h2 className="contactDescription">
-                            Have any questions? <br /> We'd love to hear from you! <br />
+      <div id="loader" className="loader" hidden={true}>
+        <TailSpin color="#2C66EE" />
+      </div>
+
+      <section className="aw-section contact">
+        <div className="aw-container">
+          <div id="formParent" hidden={false}>
+            <Stagger className="contact__grid" gap={0.1}>
+              <div className="contact__aside">
+                <Reveal as="h2" className="aw-display aw-h2 contact__heading">
+                  We'd love to <em>hear from you</em>
+                </Reveal>
+
+                <Reveal>
+                  <p className="contact__type">
                     <TypeAnimation
-                        sequence={[
-                            // Same substring at the start will only be typed out once, initially
-                            'Partnership Information?',
-                            3000, // wait 3s 
-                            'Volunteer Opportunities?',
-                            3000,
-                            'Website Malfunction?',
-                            3000
-                        ]}
-                        wrapper="span"
-                        speed={50}
-                        style={{color: '#2C66EE' }}
-                        repeat={Infinity}
+                      sequence={[
+                        "Partnership Information?",
+                        3000,
+                        "Volunteer Opportunities?",
+                        3000,
+                        "Website Malfunction?",
+                        3000,
+                      ]}
+                      wrapper="span"
+                      speed={50}
+                      repeat={Infinity}
                     />
-                    </h2>
-                    <form id="contactForm" className="box" onSubmit={(e) => onclickSubmit(e)}><b>
-                        <label for="firstName" className="label">First Name</label>
-                        <input id="firstName"  placeholder="" />
-                        <label id="firstNameErr" className="err" hidden={true}>First Name Required</label>
+                  </p>
+                </Reveal>
 
-                        <label for="lastName" className="label">Last Name</label>
-                        <input id="lastName"  placeholder="" />
-                        <label id="lastNameErr" className="err" hidden={true}>Last Name Required</label>
+                <Reveal>
+                  <p className="aw-lead contact__asideText">
+                    Fill out the form and a member of the AidWorks Foundation
+                    team will get back to you. You can also find us on social.
+                  </p>
+                </Reveal>
 
-                        <label for="email" className="label">Your Email</label>
-                        <input id="email"  placeholder="" />
-                        <label id="emailErr" className="err" hidden={true}>Email Required</label>
+                <Reveal className="contact__socials">
+                  {socials.map((social) => (
+                    <a
+                      key={social.label}
+                      className="contact__social"
+                      href={social.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={social.label}
+                    >
+                      {social.icon}
+                    </a>
+                  ))}
+                </Reveal>
+              </div>
 
-                        <label for="category" className="label">What can we help you with?</label>
-                        <select id="category" className="select">
-                            <option value="0">- Select -</option>
-                            <option value="General Inquiry">General Inquiry</option>
-                            <option value="Partnership Information">Partnership Information</option>
-                            <option value="Website Malfunction/Feedback">Website Malfunction/Feedback</option>
-                            <option value="Other">Other</option>
-                            </select>
-                        <label id="categoryErr" className="err" hidden={true}>Please select an option</label>
-                        
-                        <textarea id="desc" className="textarea" rows={4} maxlength="300" placeholder="Type here. . ."></textarea>
-                        <label id="descErr" className="err" hidden={true}>Description Required</label>
-                                                
-                        {/* <ReCAPTCHA
-                            id=""
-                            sitekey={""}
-                            class="g-recaptcha"
-                            ref={captchaRef}
-                        />
-                        <label id="captchaErr" className="err" hidden={true}>reCAPTCHA Required</label> */}
+              <Reveal scale className="aw-card contact__card">
+                <form id="contactForm" onSubmit={(e) => onclickSubmit(e)}>
+                  <div className="contact__row">
+                    <div className="contact__field">
+                      <label htmlFor="firstName" className="contact__label">
+                        First Name
+                      </label>
+                      <input id="firstName" className="contact__input" />
+                      <label id="firstNameErr" className="contact__err" hidden={true}>
+                        First Name Required
+                      </label>
+                    </div>
 
-                        <div style={{"display":"flexbox", "margin-top":"10px"}}>
-                            <input style={{"transform":"scale(1.5)", "margin-right": "15px", "width": "15px"}} type="checkbox" checked={emailReceipt} value={emailReceipt} onChange={emailReceiptChange} />
-                            <label className="label" style={{"margin-top":"0", "color":""}} for="link-checkbox">Email me my receipt</label>
-                        </div>
+                    <div className="contact__field">
+                      <label htmlFor="lastName" className="contact__label">
+                        Last Name
+                      </label>
+                      <input id="lastName" className="contact__input" />
+                      <label id="lastNameErr" className="contact__err" hidden={true}>
+                        Last Name Required
+                      </label>
+                    </div>
+                  </div>
 
-                        <button type="submit" onClick={onclickSubmit} className="submit">SUBMIT</button>
-                    </b></form>
-                </div>
+                  <div className="contact__field">
+                    <label htmlFor="email" className="contact__label">
+                      Your Email
+                    </label>
+                    <input id="email" className="contact__input" />
+                    <label id="emailErr" className="contact__err" hidden={true}>
+                      Email Required
+                    </label>
+                  </div>
+
+                  <div className="contact__field">
+                    <label htmlFor="category" className="contact__label">
+                      What can we help you with?
+                    </label>
+                    <select id="category" className="contact__input contact__select">
+                      <option value="0">- Select -</option>
+                      <option value="General Inquiry">General Inquiry</option>
+                      <option value="Partnership Information">
+                        Partnership Information
+                      </option>
+                      <option value="Website Malfunction/Feedback">
+                        Website Malfunction/Feedback
+                      </option>
+                      <option value="Other">Other</option>
+                    </select>
+                    <label id="categoryErr" className="contact__err" hidden={true}>
+                      Please select an option
+                    </label>
+                  </div>
+
+                  <div className="contact__field">
+                    <textarea
+                      id="desc"
+                      className="contact__input contact__textarea"
+                      rows={5}
+                      maxLength="300"
+                      placeholder="Type here. . ."
+                    ></textarea>
+                    <label id="descErr" className="contact__err" hidden={true}>
+                      Description Required
+                    </label>
+                  </div>
+
+                  <label className="contact__check">
+                    <input
+                      type="checkbox"
+                      checked={emailReceipt}
+                      value={emailReceipt}
+                      onChange={emailReceiptChange}
+                    />
+                    <span>Email me my receipt</span>
+                  </label>
+
+                  <button
+                    type="submit"
+                    onClick={onclickSubmit}
+                    className="aw-btn aw-btn--primary aw-btn--lg contact__submit"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </Reveal>
+            </Stagger>
+          </div>
+
+          <div id="thanksBox" className="aw-card contact__thanks" hidden={true}>
+            <div className="contact__thanksTitle">Contact Form</div>
+            <div className="contact__thanksText">
+              Thank you{" "}
+              <b>
+                <span id="nameConf"></span>
+              </b>{" "}
+              for filling out our form! Your input is valuable and will help us
+              serve you better!
             </div>
 
-            <div id="thanksBox" className="thanksBox" hidden={true}>
-                <div className="thanksTitle">Contact Form</div>
-                <div className="thanksText">Thank you <b><span id="nameConf"></span></b> for filling out our form! Your input is valuable and will help us serve you better!</div>
-        
-                <button className="thanksButton" onClick={reload}>Submit Another Form</button>
-                <button className="thanksButton"><a href="/home">Return to Homepage</a></button>
+            <div className="contact__thanksActions">
+              <button
+                className="aw-btn aw-btn--primary"
+                onClick={reload}
+                type="button"
+              >
+                Submit Another Form
+              </button>
+              <a className="aw-btn aw-btn--ghost" href="/">
+                Return to Homepage
+              </a>
             </div>
-
-        </div> 
-
-
-    );
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }
 
-
 export default Contact;
-

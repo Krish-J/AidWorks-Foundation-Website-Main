@@ -1,90 +1,136 @@
 import "./Navbar.css";
-import {Link} from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "./aidworksLogo.png";
-import React, {useState} from "react";
+import React, { useEffect, useState } from "react";
+import { motion } from "motion/react";
 
-function Navbar(){
-    
+const links = [
+  { label: "Home", to: "/" },
+  {
+    label: "Our Blog",
+    href: "https://aidworksdailyorg.wordpress.com/",
+    external: true,
+  },
+  { label: "Our Team", to: "/ourteam" },
+  { label: "Past Events", to: "/events" },
+  { label: "Donate", to: "/donate" },
+];
 
-    const [color, setColor] = useState(false)
-    const changeColor = () => {
-        if (window.scrollY >= 90) {
-            setColor(true)
-        } else {
-            setColor(false)
-        }
-    }
+function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
+  const location = useLocation();
 
-    window.addEventListener('scroll', changeColor)
-    return(
-        <>
-        <nav className="navbar">
-            <div className={color ? "navbar-container navbar-container-bg" : "navbar-container"}>
-                
-                <Link to="/" className="navbar-logo">
-                <img className="logoImage" title="logo" alt = "logoImage" src={logo}/>
-                <p className="logoText">AidWorks Foundation</p>
-                    
-                </Link>
-                <div className="navlink-container">
-                    {/* <Link to="/home" className="nav-item">
-                        Home
-                    </Link> */}
-                    <a href="https://aidworksdailyorg.wordpress.com/" className="nav-item">
-                        Our Blog
-                    </a>
-                    <Link to="/donate" className="nav-item">
-                        Donate
-                    </Link>
-                    <Link to="/ourteam" className="nav-item">
-                        Our Team
-                    </Link>
-                    <Link to="/events" className="nav-item">
-                        Past Events
-                    </Link>
-                    <Link to="/contact" className="nav-item">
-                        Contact Us
-                    </Link>
-                    
-            </div>
-            <div className="dropdown">
-                <label for="checkbox" className="hamburger">
-                    <input type="checkbox" id="checkbox"></input>
-                    <span className="line line--top"></span>
-                    <span className="line line--middle"></span>
-                    <span className="line line--bottom"></span>
-                    <div className="dropdownMenu" onClick={hideMobileMenu}> 
-                        {/* <Link to="/home" className="nav-itemDrop">
-                            Home
-                        </Link> */}
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY >= 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
-                        <a href="https://aidworksdailyorg.wordpress.com/" className="nav-itemDrop">
-                            Our Blog
-                        </a>
-                        
-                        <Link to="/donate" className="nav-itemDrop">
-                            Donate
-                        </Link>
-                        <Link to="/ourteam" className="nav-itemDrop">
-                            Our Team
-                        </Link>
-                        <Link to="/events" className="nav-itemDrop">
-                            Past Events
-                        </Link>
-                        <Link to="/contact" className="nav-itemDrop">
-                            Contact Us
-                        </Link>
-                    </div>
-                </label> 
-                
-            </div>
-            </div>
-        </nav>
-        </>
-    );
-}
-function hideMobileMenu() {
-    document.getElementById("checkbox").checked = false;
+  // Close the mobile sheet whenever the route changes.
+  useEffect(() => setOpen(false), [location.pathname]);
+
+  return (
+    <motion.nav
+      className={`awNav ${scrolled ? "awNav--scrolled" : ""}`}
+      initial={{ opacity: 0, y: -18, filter: "blur(12px)" }}
+      animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+      transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.05 }}
+    >
+      <div className={`awNav__pill ${open ? "awNav__pill--open" : ""}`}>
+        <Link to="/" className="awNav__brand" aria-label="AidWorks Foundation — home">
+          <img
+            className="awNav__logo"
+            src={logo}
+            alt="AidWorks Foundation logo"
+          />
+        </Link>
+
+        <div className="awNav__links">
+          {links.map((link) =>
+            link.external ? (
+              <a
+                key={link.label}
+                className="awNav__link"
+                href={link.href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.label}
+                className={`awNav__link ${
+                  location.pathname === link.to ? "awNav__link--active" : ""
+                }`}
+                to={link.to}
+              >
+                {link.label}
+              </Link>
+            )
+          )}
+        </div>
+
+        <div className="awNav__actions">
+          <Link to="/contact" className="aw-btn aw-btn--primary awNav__cta">
+            Contact Us
+          </Link>
+
+          <button
+            className={`awNav__burger ${open ? "awNav__burger--open" : ""}`}
+            aria-label="Toggle navigation menu"
+            aria-expanded={open}
+            aria-controls="aw-mobile-nav"
+            onClick={() => setOpen((v) => !v)}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="aw-mobile-nav"
+        className={`awNav__sheet ${open ? "awNav__sheet--open" : ""}`}
+        aria-hidden={!open}
+        hidden={!open}
+      >
+        {links.map((link) =>
+          link.external ? (
+            <a
+              key={link.label}
+              className="awNav__sheetLink"
+              href={link.href}
+              target="_blank"
+              rel="noreferrer"
+              onClick={() => setOpen(false)}
+            >
+              {link.label}
+            </a>
+          ) : (
+            <Link
+              key={link.label}
+              className="awNav__sheetLink"
+              to={link.to}
+              onClick={() => setOpen(false)}
+            >
+              {link.label}
+            </Link>
+          )
+        )}
+        <Link
+          to="/contact"
+          className="aw-btn aw-btn--primary awNav__sheetCta"
+          onClick={() => setOpen(false)}
+        >
+          Contact Us
+        </Link>
+      </div>
+    </motion.nav>
+  );
 }
 
 export default Navbar;

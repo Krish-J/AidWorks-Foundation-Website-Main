@@ -1,0 +1,54 @@
+.cta {
+  background: var(--aw-surface);
+}
+
+.cta__panel {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: clamp(52px, 7vw, 92px) clamp(24px, 5vw, 72px);
+  border-radius: var(--aw-r-xl);
+  color: #fff;
+  background: linear-gradient(140deg, #2447d8 0%, #2c66ee 48%, #5a90f7 100%);
+  box-shadow: 0 30px 70px rgba(6, 28, 110, 0.28);
+}
+
+.cta__glow {
+  position: absolute;
+  top: -60%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 720px;
+  height: 720px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0) 62%
+  );
+  pointer-events: none;
+}
+
+.cta__title {
+  position: relative;
+  margin: 0;
+}
+
+.cta__title em {
+  color: #d9e6ff;
+}
+
+.cta__lead {
+  position: relative;
+  margin: 20px auto 0;
+  max-width: 46ch;
+}
+
+.cta__actions {
+  position: relative;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}

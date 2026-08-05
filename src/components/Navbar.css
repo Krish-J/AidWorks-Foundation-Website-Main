@@ -1,217 +1,233 @@
-.navbar{
-    position: fixed;
-    z-index: 999;
-    top: 0px;
-    justify-content: center;
-    height: 80px;
-    width: 100%;
+/* Compact white pill navigation, floating over the hero. */
+
+.awNav {
+  position: fixed;
+  top: 16px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  pointer-events: none;
 }
 
-.navbar-container{
-    background-color:rgba(0, 0, 0, 0);
-    font-size: 25px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 100;
+.awNav__pill {
+  pointer-events: auto;
+  width: min(800px, calc(100vw - 40px));
+  height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 8px 8px 8px 18px;
+  border-radius: var(--aw-r-pill);
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(10, 19, 48, 0.06), 0 10px 30px rgba(6, 28, 110, 0.14);
+  transition: box-shadow 0.4s var(--aw-ease);
 }
 
-.navbar-container-bg {
-    background-color: #0b42c1;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
-    padding-bottom: 20px;
-    height: 80px
+.awNav--scrolled .awNav__pill {
+  box-shadow: 0 1px 2px rgba(10, 19, 48, 0.08),
+    0 16px 44px rgba(6, 28, 110, 0.2);
 }
 
+/* Brand ------------------------------------------------------------------ */
 
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-.navbar-logo{
-    text-decoration: none;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    margin: 20px;
-    flex-direction: row;
-    display: flex;
+.awNav__brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
-.nav-item{
-    border-top: 4px solid rgba(0, 0, 0, 0);
-    padding-top: 25px;
-    padding-bottom: 4px; 
-    text-decoration: none;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    margin: 20px;
-    font-size: 25px;
-    border-bottom: 3px solid rgba(0, 0, 0, 0);
-    font-weight: 100;
+.awNav__logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.nav-item:hover{
-    border-bottom: 3px solid white;
-    transition: all 0.2s ease-out;
+/* Links ------------------------------------------------------------------ */
+
+.awNav__links {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
-.navlink-container{
-    align-items: center;
-    max-width: 1200px;
-    width: fit-content;
-    flex-direction: row;
-    display: flex;
-    margin-right: 2%;
-    margin-left: auto;
+.awNav__link {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: #97a0b3;
+  padding: 8px 12px;
+  white-space: nowrap;
+  transition: color 0.25s var(--aw-ease);
 }
 
-#checkbox {
-    display: none;
-    visibility: hidden;
-    pointer-events: none;
+.awNav__link:hover,
+.awNav__link--active {
+  color: var(--aw-ink);
 }
 
-
-.logoImage {
-    position: relative;
-    width: 50px;
-    border-radius: 100%;
-    height: auto;
-    margin-top: 15px;
-    margin-left: 2%;
+.awNav__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
 }
-.logoText {
-    position: absolute;
-    margin-left: 70px;
+
+.awNav__cta {
+  height: 52px;
+  min-width: 132px;
+  padding: 0 24px;
+  font-size: 15.5px;
 }
-.dropdown {
-    display: none;
+
+/* Mobile ----------------------------------------------------------------- */
+
+.awNav__burger {
+  display: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--aw-line);
+  background: #fff;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
 }
-@media (max-width: 1200px) {
-    .hamburger{
-        margin-left: 28px;
-        position: relative;
-        padding: 20px;
-        padding-right: 0;
-        display: flex;
-        align-items:stretch;
-        justify-content: right;
-        cursor: pointer;
-        width: 21px;
-        padding-top: 40px;
-        pointer-events: all;
-    }
-    
-    .line{
-        position: absolute;
-        width: 21px;
-        height: 2px;
-        background-color: white;
-        color: white;
-        border-radius: 3px;
-        transition: transform .25s, opacity .35s;
-        
-    }
-    
-    .line--top{
-        transform: translateY(-7px);
-    }
-    .line--bottom{
-        transform: translateY(7px);
-    }
-    
-    #checkbox:checked~.line--top{
-        transform: rotate(45deg);
-    }
-    
-    #checkbox:checked~.line--middle{
-        opacity: 0;
-    }
-    #checkbox:checked~.line--bottom{
-        transform: rotate(-45deg);
-    }
-    .navbar {
-        width: 100%;
-        max-width: 100%;
-    }
-    .nav-item {
-        visibility: hidden;
-        display: none;
-        pointer-events: none;
-       
-    }
-    .logoText {
-        font-size: 20px;
-        margin-top: 25px;
-    }
-    .hamburger {
-        float: right;
-        padding: 0;
-        margin: 0;
-        margin-top: 15px;
-        width: 100%;
 
-    }
-    .navbar-container {
-        width: 100%;
-        max-width: 100%;
-        
-    }
-    .navlink-container {
-        width: auto;
-        margin-right: 10%;
-    }
-    .dropdown {
-        position: absolute;
-        height: 110px;
-        width: 90%;
-        top: 23px;
-        pointer-events: none;
-        display: inline;
-    }
-    .dropdownMenu {
-        position: absolute;
-        width: 100%;
-        left: 0px;
-        background-color: #0b42c1;
-        z-index: 998;
-        border-radius: 15px;
-        box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
-        opacity: 0;
-        top: 40px;
-        transform: translateY(-20px);
-        transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 5px;
-        pointer-events: none;
-    }
+.awNav__burger span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 17px;
+  height: 1.8px;
+  margin-left: -8.5px;
+  border-radius: 2px;
+  background: var(--aw-ink);
+  transition: transform 0.3s var(--aw-ease), opacity 0.2s var(--aw-ease);
+}
 
+.awNav__burger span:nth-child(1) {
+  transform: translateY(-6px);
+}
+.awNav__burger span:nth-child(3) {
+  transform: translateY(6px);
+}
 
-    #checkbox:checked~.dropdownMenu {
-        opacity: 1;
-        transform: translateY(0px);
-        pointer-events: all;
-    }
-    .nav-itemDrop{
+.awNav__burger--open span:nth-child(1) {
+  transform: rotate(45deg);
+}
+.awNav__burger--open span:nth-child(2) {
+  opacity: 0;
+}
+.awNav__burger--open span:nth-child(3) {
+  transform: rotate(-45deg);
+}
 
-        text-decoration: none;
-        color: white;
-        font-family: "Poppins", sans-serif;
-        font-size: 25px;
-        
-        font-weight: 100;
-        display: block;
-        text-align: center;
-        width: fit-content;
-        margin-left: 50%;
-        transform: translateX(-50%);
-    }
-    
-    .nav-itemDrop:hover{
-        border-bottom: 3px solid white;
-        transition: all 0.2s ease-out;
-    }
+.awNav__sheet {
+  pointer-events: none;
+  width: 100%;
+  max-width: 460px;
+  margin-top: 10px;
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px;
+  border-radius: var(--aw-r-lg);
+  background: #fff;
+  box-shadow: 0 20px 50px rgba(6, 28, 110, 0.22);
+  opacity: 0;
+  transform: translateY(-12px) scale(0.98);
+  transition: opacity 0.3s var(--aw-ease), transform 0.3s var(--aw-ease);
+}
+
+.awNav__sheet--open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.awNav__sheet[hidden] {
+  display: none;
+}
+
+.awNav__sheetLink {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--aw-ink);
+  padding: 13px 16px;
+  border-radius: var(--aw-r-md);
+  transition: background 0.2s var(--aw-ease);
+}
+
+.awNav__sheetLink:hover {
+  background: var(--aw-blue-100);
+}
+
+.awNav__sheetCta {
+  margin-top: 8px;
+  width: 100%;
+}
+
+/* Scale the desktop pill with viewport height so it retains the reference
+   proportions on laptop screens instead of dominating the first viewport. */
+@media (min-width: 941px) {
+  .awNav {
+    top: clamp(10px, 1.17vh, 16px);
   }
+
+  .awNav__pill {
+    width: min(calc(100vw - 40px), clamp(680px, 58.44vh, 800px));
+    height: clamp(60px, 5.26vh, 72px);
+    padding: clamp(6px, 0.58vh, 8px) clamp(6px, 0.58vh, 8px)
+      clamp(6px, 0.58vh, 8px) clamp(13px, 1.31vh, 18px);
+  }
+
+  .awNav__logo {
+    width: clamp(36px, 3.07vh, 42px);
+    height: clamp(36px, 3.07vh, 42px);
+  }
+
+  .awNav__links {
+    padding: 0 clamp(14px, 1.75vh, 24px);
+  }
+
+  .awNav__link {
+    font-size: clamp(13.5px, 1.1vh, 15px);
+    padding: clamp(7px, 0.58vh, 8px) clamp(8px, 0.88vh, 12px);
+  }
+
+  .awNav__cta {
+    height: clamp(44px, 3.8vh, 52px);
+    min-width: clamp(112px, 9.64vh, 132px);
+    padding: 0 clamp(18px, 1.75vh, 24px);
+    font-size: clamp(13.5px, 1.13vh, 15.5px);
+  }
+}
+
+@media (max-width: 940px) {
+  .awNav__links,
+  .awNav__cta {
+    display: none;
+  }
+
+  .awNav__pill {
+    width: 100%;
+    max-width: 460px;
+    justify-content: space-between;
+    height: 62px;
+  }
+
+  .awNav__burger {
+    display: block;
+  }
+
+  .awNav__sheet {
+    display: flex;
+  }
+}

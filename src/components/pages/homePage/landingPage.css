@@ -1,99 +1,635 @@
-.landingParent {
-    background-image: url(landingPageBg.jpg);
-    background-size:cover;
-    width: 100%;
-    height: 1080px;
-    background-repeat: no-repeat;
-    padding: 0;
-    margin: 0;
-    display:flex;
-    top: 0px;
-}
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-.landingContent {
-    position: relative;
-    top: 100px;
-    font-size: 60px;
-    margin-right: 40%;
-    margin-left: 3%;
-    font-family: "Poppins";
-    background-image: linear-gradient(90deg, #e7effb, #00bbff);
-    color: transparent;
-    background-clip: text;
+/* ==========================================================================
+   Hero — a deep blue sky falling away into a pale blue haze, with the photo
+   collage rising into it and dissolving behind a progressive blur.
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  padding: calc(var(--aw-nav-h) + 126px) 0 0;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    var(--aw-hero-0) 0%,
+    var(--aw-hero-1) 10%,
+    var(--aw-hero-2) 26%,
+    var(--aw-hero-3) 41%,
+    var(--aw-hero-4) 53%,
+    var(--aw-hero-5) 80%,
+    var(--aw-haze) 100%
+  );
 }
 
-.landingTitle {
-    -webkit-text-fill-color: transparent; 
-    background-image: linear-gradient(90deg, #e7effb, #00bbff);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    animation: textclip 4s linear ;
+/* Light blooming out of the horizon, as in the reference. */
+.hero__sky {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    120% 62% at 50% 104%,
+    rgba(255, 255, 255, 0.72) 0%,
+    rgba(255, 255, 255, 0.28) 34%,
+    rgba(255, 255, 255, 0) 68%
+  );
 }
 
-@keyframes textclip {
+.hero__heart {
+  position: absolute;
+  top: 37%;
+  width: clamp(220px, 18vw, 340px);
+  height: auto;
+  filter: blur(0.35px);
+}
+
+.hero__heart--one {
+  left: 7%;
+  transform: rotate(-5deg);
+}
+
+.hero__heart--two {
+  right: 6%;
+  transform: rotate(5deg) scale(1.08);
+}
+
+.hero__mark {
+  fill: rgba(255, 255, 255, 0.1);
+}
+
+.hero__mark--two {
+  fill: rgba(255, 255, 255, 0.08);
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__title {
+  font-size: clamp(3.2rem, 5vw, 4.85rem);
+  line-height: 1.02;
+  color: #fff;
+  text-shadow: 0 2px 34px rgba(6, 28, 110, 0.22);
+  margin: 0;
+}
+
+.hero__title em {
+  color: #f2f6ff;
+}
+
+.hero__lead {
+  font-size: clamp(1rem, 1.2vw, 1.08rem);
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.84);
+  max-width: 58ch;
+  margin: 24px auto 0;
+}
+
+.hero__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Glass CTA, matching the reference's raised blue button. */
+.hero__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--aw-sans);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #fff;
+  padding: 18px 28px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.34) 0%,
+    rgba(255, 255, 255, 0.12) 48%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 12px 30px rgba(6, 28, 110, 0.26);
+  transition: transform 0.28s var(--aw-ease), box-shadow 0.28s var(--aw-ease),
+    background 0.28s var(--aw-ease);
+}
+
+.hero__cta:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.46) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 18px 40px rgba(6, 28, 110, 0.32);
+}
+
+/* Partner logo strip ------------------------------------------------------ */
+
+.hero__logos {
+  position: relative;
+  width: min(100%, 860px);
+  overflow: hidden;
+  margin-top: 42px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    #000 12%,
+    #000 88%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    #000 12%,
+    #000 88%,
+    transparent 100%
+  );
+}
+
+.hero__logosTrack {
+  display: flex;
+  width: max-content;
+  animation: partner-marquee 28s linear infinite;
+  will-change: transform;
+}
+
+.hero__logos:hover .hero__logosTrack,
+.hero__logos:focus-within .hero__logosTrack {
+  animation-play-state: paused;
+}
+
+.hero__logosGroup {
+  display: flex;
+  align-items: center;
+  gap: clamp(28px, 3.1vw, 54px);
+  flex-shrink: 0;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: clamp(28px, 3.1vw, 54px);
+  list-style: none;
+}
+
+.hero__logoChip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  min-width: 128px;
+  padding: 0;
+  opacity: 0.72;
+  transition: transform 0.3s var(--aw-ease), opacity 0.3s var(--aw-ease);
+}
+
+.hero__logoChip:hover {
+  transform: translateY(-3px);
+  opacity: 1;
+}
+
+.hero__partnerName {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  text-shadow: 0 1px 14px rgba(6, 28, 110, 0.12);
+}
+
+.hero__partnerName--smoc {
+  letter-spacing: 0.18em;
+}
+
+.hero__partnerName--united {
+  font-weight: 700;
+}
+
+.hero__partnerName--labl {
+  font-family: var(--aw-display);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.hero__partnerName--wegmans {
+  font-family: var(--aw-display);
+  font-style: italic;
+  font-weight: 600;
+}
+
+@keyframes partner-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
   to {
-    background-position: -200% center;
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
+/* Collage panel ----------------------------------------------------------- */
 
-.landDonate{
-    text-decoration: none;
-    width: 300px;
-    height: 75px;
-    margin-top: 40px;
-    background-color: #fdc500;
-    border: none;
-    transform: translateX(100%);
-    border-radius: 15px;
-    animation: right-slide 0.7s ease-out 0.1s;
-    animation-fill-mode: forwards;
-    box-shadow: 0px 0px 40px 0px #fdc500;
-    transition: all 0.2s ease-out;
-    margin-right: 100px;
-    transform: translateX(40%);
+.hero__panelWrap {
+  position: relative;
+  z-index: 1;
+  margin: clamp(56px, 4vw, 76px) auto 0;
+  width: min(var(--aw-hero-panel), calc(100% - 48px));
 }
 
-.landingButton{
-    width: 300px;
-    height: 75px;
-    margin-top: 40px;
-    border: none;
-    background-color: #fdc500;
-    text-decoration: none;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    transition: all 0.2s ease-out;
-    padding: 15px 10px 15px 10px;
+.hero__panel {
+  position: relative;
+  padding: 22px 22px 0;
+  border-radius: 16px 16px 0 0;
+  background: rgba(255, 255, 255, 0.32);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.4),
+    0 40px 90px rgba(6, 28, 110, 0.24);
 }
-.landingButton:hover{
-    color: black;
-    transition: all 0.2s ease-out;
+
+.hero__mosaic {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: clamp(96px, 10.4vw, 148px);
+  gap: 10px;
+  padding: 12px;
+  height: clamp(430px, 42vw, 700px);
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  background: #fff;
 }
-@media (max-width: 1000px) {
-    .landDonate {
-        margin: 0px;
-        padding: 0px;
-        justify-content: center;
-        align-items: center;
-        margin-left: 50%;
-        transform: translateX(-50%);
-    }
-    .landingButton{
-        margin: 0px;
-        padding: 0px;
-    }
-    .landingContent {
-        margin: 0px;
-        padding: 0px;
-        font-size: 22px;
-        line-height: 3;
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .landingTitle {
-        text-align: center;
-    }
+
+.hero__tile {
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--aw-blue-100);
+}
+
+.hero__tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.2s var(--aw-ease);
+}
+
+.hero__tile:hover img {
+  transform: scale(1.06);
+}
+
+.m-lead {
+  grid-column: span 6;
+  grid-row: span 2;
+}
+.m-a,
+.m-b,
+.m-c,
+.m-d,
+.m-e,
+.m-f,
+.m-g,
+.m-h {
+  grid-column: span 3;
+}
+
+/* Floating glass stats, sitting on the collage. */
+.hero__chip {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 22px;
+  border-radius: var(--aw-r-md);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  backdrop-filter: blur(16px) saturate(160%);
+  box-shadow: 0 14px 40px rgba(6, 28, 110, 0.22);
+}
+
+.hero__chip--one {
+  left: 34px;
+  top: 30px;
+}
+
+.hero__chip--two {
+  right: 34px;
+  top: 30px;
+}
+
+.hero__chipValue {
+  font-family: var(--aw-display);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--aw-blue-700);
+}
+
+.hero__chipLabel {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--aw-muted);
+  margin-top: 2px;
+}
+
+/* Haze ------------------------------------------------------------------- */
+
+/* Three stacked bands: a light blur, a heavier blur, then the blue tint.
+   Together they read as one progressive blur that swallows the collage. */
+.hero__haze {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.hero__haze--soft {
+  height: clamp(230px, 27vw, 380px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 55%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 55%);
+}
+
+.hero__haze--deep {
+  height: clamp(150px, 18vw, 250px);
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 62%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 62%);
+}
+
+.hero__haze--tint {
+  height: clamp(240px, 28vw, 400px);
+  background: linear-gradient(
+    180deg,
+    rgba(134, 180, 239, 0) 0%,
+    rgba(143, 188, 241, 0.38) 46%,
+    rgba(157, 201, 244, 0.72) 74%,
+    var(--aw-haze) 100%
+  );
+}
+
+/* Responsive -------------------------------------------------------------- */
+
+/* Keep the full desktop hero proportional to the 1920 × 1369 reference.
+   Width-only sizing made laptop viewports crop the collage before the haze
+   became visible, so the composition scales from the available height too. */
+@media (min-width: 941px) {
+  .hero {
+    padding-top: calc(
+      clamp(60px, 5.26vh, 72px) + clamp(66px, 9.2vh, 126px)
+    );
+  }
+
+  .hero__heart {
+    width: clamp(220px, 24.84vh, 340px);
+  }
+
+  .hero__title {
+    font-size: clamp(3.2rem, 5.67vh, 4.85rem);
+  }
+
+  .hero__lead {
+    font-size: clamp(0.95rem, 1.26vh, 1.08rem);
+    margin-top: clamp(16px, 1.75vh, 24px);
+  }
+
+  .hero__actions {
+    margin-top: clamp(20px, 2.2vh, 30px);
+  }
+
+  .hero__cta {
+    font-size: clamp(14px, 1.17vh, 16px);
+    padding: clamp(14px, 1.31vh, 18px) clamp(22px, 2.05vh, 28px);
+    border-radius: clamp(11px, 1.02vh, 14px);
+  }
+
+  .hero__logos {
+    width: min(100%, 860px);
+    margin-top: clamp(26px, 3.07vh, 42px);
+  }
+
+  .hero__logosGroup {
+    gap: clamp(28px, 3.95vh, 54px);
+    padding-right: clamp(28px, 3.95vh, 54px);
+  }
+
+  .hero__logoChip {
+    min-height: clamp(38px, 3.51vh, 48px);
+    min-width: clamp(108px, 9.35vh, 128px);
+  }
+
+  .hero__partnerName {
+    font-size: clamp(15px, 1.31vh, 18px);
+  }
+
+  .hero__partnerName--labl {
+    font-size: clamp(14px, 1.24vh, 17px);
+  }
+
+  .hero__panelWrap {
+    margin-top: clamp(36px, 5.55vh, 76px);
+    width: min(
+      calc(100% - 48px),
+      clamp(880px, 98.17vh, var(--aw-hero-panel))
+    );
+  }
+
+  .hero__panel {
+    padding: clamp(16px, 1.61vh, 22px) clamp(16px, 1.61vh, 22px) 0;
+    border-radius: clamp(12px, 1.17vh, 16px) clamp(12px, 1.17vh, 16px) 0 0;
+  }
+
+  .hero__mosaic {
+    grid-auto-rows: clamp(76px, 10.81vh, 148px);
+    gap: clamp(8px, 0.73vh, 10px);
+    padding: clamp(9px, 0.88vh, 12px);
+    height: clamp(360px, 51.13vh, 700px);
+  }
+
+  .hero__chip {
+    padding: clamp(11px, 1.02vh, 14px) clamp(17px, 1.61vh, 22px);
+  }
+
+  .hero__chip--one {
+    left: clamp(24px, 2.48vh, 34px);
+    top: clamp(22px, 2.19vh, 30px);
+  }
+
+  .hero__chip--two {
+    right: clamp(24px, 2.48vh, 34px);
+    top: clamp(22px, 2.19vh, 30px);
+  }
+
+  .hero__chipValue {
+    font-size: clamp(1.3rem, 1.87vh, 1.6rem);
+  }
+
+  .hero__haze--soft {
+    height: clamp(230px, 27.76vh, 380px);
+  }
+
+  .hero__haze--deep {
+    height: clamp(150px, 18.26vh, 250px);
+  }
+
+  .hero__haze--tint {
+    height: clamp(240px, 29.22vh, 400px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero__chip {
+    padding: 12px 18px;
+  }
+
+  .hero__chipValue {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .hero {
+    padding-top: calc(var(--aw-nav-h) + 72px);
+  }
+
+  .hero__title {
+    font-size: clamp(2.8rem, 12vw, 4rem);
+  }
+
+  .hero__heart {
+    top: 43%;
+    width: 210px;
+  }
+
+  .hero__heart--one {
+    left: -72px;
+  }
+
+  .hero__heart--two {
+    right: -82px;
+  }
+
+  .hero__lead {
+    margin-top: 22px;
+  }
+
+  .hero__logos {
+    margin-top: 44px;
+  }
+
+  .hero__logosGroup {
+    gap: 12px;
+    padding-right: 12px;
+  }
+
+  .hero__logoChip {
+    height: 44px;
+    min-width: 92px;
+  }
+
+  .hero__partnerName {
+    font-size: 15px;
+  }
+
+  .hero__partnerName--labl {
+    font-size: 14px;
+  }
+
+  .hero__panel {
+    padding: 12px 12px 0;
+  }
+
+  .hero__mosaic {
+    grid-auto-rows: 84px;
+    height: 330px;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .m-lead {
+    grid-column: span 12;
+    grid-row: span 2;
+  }
+  .m-a,
+  .m-b,
+  .m-c,
+  .m-d,
+  .m-e,
+  .m-f,
+  .m-g,
+  .m-h {
+    grid-column: span 4;
+  }
+
+  .hero__chip--one {
+    left: 18px;
+    top: 18px;
+  }
+
+  .hero__chip--two {
+    right: 18px;
+    top: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__logos {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+  }
+
+  .hero__logosGroup {
+    gap: 10px;
+    padding-right: 10px;
+  }
+
+  .hero__logoChip {
+    min-width: 104px;
+  }
+
+  .hero__partnerName--labl {
+    font-size: 13px;
+  }
+
+  .hero__chip {
+    padding: 10px 14px;
+  }
+
+  .hero__chipValue {
+    font-size: 1.15rem;
+  }
+
+  .hero__chipLabel {
+    font-size: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__logosTrack {
+    animation: none;
+    transform: none;
+  }
+
+  .hero__logosGroup[aria-hidden="true"] {
+    display: none;
+  }
 }

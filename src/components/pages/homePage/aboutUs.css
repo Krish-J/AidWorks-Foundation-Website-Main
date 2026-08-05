@@ -1,96 +1,70 @@
-.aboutParent {
-    width: 100%;
-    background-color: #f4fdff;
-    height: fit-content;
-    min-height: 600px;
-    background-image: linear-gradient(180deg, #f4fdff, #ffffff);
+.about {
+  position: relative;
+  overflow: hidden;
 }
-.aboutContent {
-    width: 38%;
-    height: fit-content;
-    float: right;
-    margin-right: 2%;
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  align-items: center;
+  gap: clamp(40px, 6vw, 84px);
 }
-.teamImageMobile {
+
+.about__copy .aw-h2 em {
+  color: var(--aw-blue-600);
+}
+
+.about__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+/* Media stack ------------------------------------------------------------- */
+
+.about__media {
+  position: relative;
+  padding-bottom: 46px;
+  padding-left: 46px;
+}
+
+.about__photo {
+  border-radius: var(--aw-r-lg);
+  object-fit: cover;
+  background: var(--aw-blue-100);
+}
+
+.about__photo--main {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  box-shadow: var(--aw-shadow-lg);
+  border: 8px solid #fff;
+}
+
+.about__photo--inset {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 42%;
+  aspect-ratio: 3 / 4;
+  border: 8px solid #fff;
+  border-radius: var(--aw-r-lg);
+  box-shadow: var(--aw-shadow-lg);
+}
+
+@media (max-width: 900px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about__media {
+    order: -1;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+
+  .about__photo--inset {
     display: none;
-    visibility: hidden;
-}
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
-.aboutTitle {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 65px;
-    text-align: center;
-    letter-spacing: 1rem;
-    background-image: linear-gradient(90deg, #6795ff,blue);
-    color: transparent;
-    background-clip: text;
-    margin: 0;
-    padding-top: 50px;
-}
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-.aboutText {
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-    line-height: 2.5em;
-}
-.aboutImage {
-    width: 60%;
-    float: left;
-    height: fit-content;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-    
-}
-.teamImage {
-    width: 65%;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-    border-radius: 5%;
-}
-@media (max-width: 1000px) {
-    .aboutParent {
-        display: flex;
-        flex-flow: column;
-    }
-    .aboutTitle {
-        font-size: 35px;
-        letter-spacing: normal;
-        order: 1;
-    }
-    .aboutImage {
-        display: none;
-        visibility: none;
-    }
-    .aboutText {
-        font-size: 20px;
-    }
-    .aboutContent {
-        width: 100%;
-        height: fit-content;
-        float: left;
-        order: 3;
-    }
-    .aboutImageMobile {
-        display: flex;
-        visibility: visible;
-        height: fit-content;
-        justify-content: center;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        
-    }
-    .teamImageMobile {
-        display: flex;
-        visibility: visible;
-        width: 90%;
-        justify-content: center;
-        text-align: center;
-        border-radius: 5%;
-    }
+  }
 }
