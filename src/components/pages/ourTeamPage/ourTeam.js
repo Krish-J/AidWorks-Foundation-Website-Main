@@ -12,6 +12,7 @@ import Aahish from "./pictures/aahishPhoto.jpg";
 import Aadi from "./pictures/aadiPhoto.jpg";
 import Adam from "./pictures/adamPhoto.jpg";
 import Adi from "./pictures/adiPhoto.png";
+import Arnav from "./pictures/arnavPhoto.jpg";
 import Kabir from "./pictures/kabirPhoto.jpg";
 import Ayur from "./pictures/ayurPhoto.jpg";
 import Advith from "./pictures/advithPhoto.jpg";
@@ -282,6 +283,13 @@ const pastMembers = [
         position: "Former Chief Human Resources Officer",
         bio: "I'm Siddh, a sophomore in college who enjoys outdoor activities, talking, and helping out my community.",
         linkedIn: "https://www.linkedin.com/in/siddh-patel-80a029279/",
+    },
+    {
+        image: Arnav,
+        name: "Arnav Sharma",
+        position: "Former Head of Technology",
+        bio: "I'm Arnav, a sophomore in college who enjoys coding, calisthenics and giving back to the community.",
+        linkedIn: "https://www.linkedin.com/in/arnav-sharma-26252622a"
     },
     {
         image: Ishan,
