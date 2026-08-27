@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9276415c.css",
-    "main.js": "/static/js/main.49cfb079.js",
+    "main.js": "/static/js/main.2a2f16f3.js",
     "static/js/453.42020f87.chunk.js": "/static/js/453.42020f87.chunk.js",
     "static/media/garba.jpg": "/static/media/garba.8166fcd0c82948daba5f.jpg",
     "static/media/vedanthPhoto.png": "/static/media/vedanthPhoto.85cbf87182dcb5e14042.png",
@@ -41,6 +41,7 @@
     "static/media/brianPhoto.jpg": "/static/media/brianPhoto.c8bc6103561187177e73.jpg",
     "static/media/trungPhoto.png": "/static/media/trungPhoto.123e5c6df3255b0db773.png",
     "static/media/teamPhoto.jpg": "/static/media/teamPhoto.b5b18b637d4223263b9e.jpg",
+    "static/media/arnavPhoto.jpg": "/static/media/arnavPhoto.244ed8f0236826335a59.jpg",
     "static/media/turkey_trot.jpg": "/static/media/turkey_trot.bab7ee417cf20034b9bb.jpg",
     "static/media/shreyaPhoto.jpg": "/static/media/shreyaPhoto.1d54e416cf83c7b428fc.jpg",
     "static/media/emadPhoto.png": "/static/media/emadPhoto.e152ba61fe669965f0b8.png",
@@ -58,11 +59,11 @@
     "static/media/kabirPhoto.jpg": "/static/media/kabirPhoto.d98a401343a099a49edb.jpg",
     "index.html": "/index.html",
     "main.9276415c.css.map": "/static/css/main.9276415c.css.map",
-    "main.49cfb079.js.map": "/static/js/main.49cfb079.js.map",
+    "main.2a2f16f3.js.map": "/static/js/main.2a2f16f3.js.map",
     "453.42020f87.chunk.js.map": "/static/js/453.42020f87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9276415c.css",
-    "static/js/main.49cfb079.js"
+    "static/js/main.2a2f16f3.js"
   ]
 }
